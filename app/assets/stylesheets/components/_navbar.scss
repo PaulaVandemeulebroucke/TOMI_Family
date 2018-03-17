@@ -78,4 +78,31 @@
   color: $red;
 }
 
-
+/* Main navbar */
+.navbar-onglet {
+  margin-top: 70px;
+  background: transparent;
+  transition: all 0.3s ease;
+  height: 120px;
+  padding: 0px 30px;
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+  a {
+    color: $grey;
+    font-size: 25px;
+    border-bottom: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    box-shadow: inset 0px -5px $red;
+    text-decoration: none;
+  }
+}
