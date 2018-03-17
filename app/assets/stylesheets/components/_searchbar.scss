@@ -1,0 +1,26 @@
+form.searchbar {
+  input[type=text] {
+    float: left;
+    width: calc(100% - 80px);
+    padding: 6px;
+    border: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 0;
+    }
+  button[type=submit] {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    float: left;
+    color: rgb(220, 220, 220);
+    font-size: 33px;
+    width: 1%;
+    margin-top: 2px;
+  }
+}
