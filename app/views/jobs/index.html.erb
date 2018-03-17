@@ -23,3 +23,21 @@
 <a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Toutes les études</a>
 
 <!-- 3 Les cards des métiers -->
+<div>
+  <ul class="cards">
+    <li class="cards__item">
+      <div class="card">
+        <% @jobs.each do |job| %>
+          <div class="col-xs-6 col-sm-3">
+            <div><img src="https://images.unsplash.com/photo-1491960693564-421771d727d6?ixlib=rb-0.3.5&s=be6e4f296eaa332dc15fec458bc5a4fe&auto=format&fit=crop&w=999&q=80" alt="pic" class="card__image"></div>
+            <div class="card__content">
+              <div class="card__title"><h2><%= link_to job.name, job_path(job) %></h2></div>
+              <p class="card__text"><%= link_to job.short_description, job_path(job) %></p>
+              <button class="btn btn--block card__btn">Button</button>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </li>
+  </ul>
+</div>
