@@ -1,43 +1,41 @@
-<form class="searchbar">
-  <input type="text" placeholder="Rechercher un métier ou une école.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
+<div class="container">
+  <form class="searchbar">
+    <input type="text" placeholder="Rechercher un métier ou une école.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 
-<!-- Comment séparer ces 3 pages qui ne sont pas encore la show? -->
+  <!-- Comment séparer ces 3 pages qui ne sont pas encore la show? -->
 
-<!-- 1. Mettre le surlignement sur l'onglet actif et rendre "Métiers" actif par défaut -->
-<div class="navbar-onglet">
-      <div class="navbar-onglet-item row">
-        <a class="col-xs-4 col-xs-offset-2 col-md-3 col-md-offset-3" href="#">Métiers</a>
-        <a class="col-xs-4 col-md-3" href="#">Etudes</a>
-      </div>
-</div>
+  <!-- 1. Mettre le surlignement sur l'onglet actif et rendre "Métiers" actif par défaut -->
+  <div class="navbar-onglet">
+        <div class="navbar-onglet-item row">
+          <a class="col-xs-4 col-xs-offset-2 col-md-3 col-md-offset-3" href="#">Métiers</a>
+          <a class="col-xs-4 col-md-3" href="#">Etudes</a>
+        </div>
+  </div>
 
-<!-- 2.1. Afficher ces boutons pour Métiers -->
-<a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Métiers suggérés</a>
-<a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Mes favoris</a>
-<a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Tous les métiers</a>
+  <!-- 2.1. Afficher ces boutons pour Métiers -->
+  <!-- <a href="#" class="btneffect col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Métiers suggérés</a>
+  <a href="#" class="btneffect col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Mes favoris</a>
+  <a href="#" class="btneffect col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Tous les métiers</a> -->
 
-<!-- 2.2. Afficher ces boutons pour Etudes -->
-<a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Mes favoris</a>
-<a href="#" class="btn col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Toutes les études</a>
+  <!-- 2.2. Afficher ces boutons pour Etudes -->
+  <!-- <a href="#" class="btneffect col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Mes favoris</a>
+  <a href="#" class="btneffect col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">Toutes les études</a> -->
 
-<!-- 3 Les cards des métiers -->
-<div>
-  <ul class="cards">
-    <li class="cards__item">
-      <div class="card">
-        <% @jobs.each do |job| %>
-          <div class="col-xs-6 col-sm-3">
-            <div><img src="https://images.unsplash.com/photo-1491960693564-421771d727d6?ixlib=rb-0.3.5&s=be6e4f296eaa332dc15fec458bc5a4fe&auto=format&fit=crop&w=999&q=80" alt="pic" class="card__image"></div>
-            <div class="card__content">
-              <div class="card__title"><h2><%= link_to job.name, job_path(job) %></h2></div>
-              <p class="card__text"><%= link_to job.short_description, job_path(job) %></p>
-              <button class="btn btn--block card__btn">Button</button>
-            </div>
+  <!-- 3 Les cards des métiers -->
+  <div class="cards">
+    <div class="row">
+      <% @jobs.each do |job| %>
+        <div class="col-xs-5 col-md-3">
+          <!-- J'aimerai importer une image de cloudinary: http://res.cloudinary.com/dozkmkl7p/image/upload/v1520785754/T O M I - Family/acheteur_d_espace_publicitaire.jpg -->
+          <div><img href="#" src="https://images.unsplash.com/photo-1491960693564-421771d727d6?ixlib=rb-0.3.5&s=be6e4f296eaa332dc15fec458bc5a4fe&auto=format&fit=crop&w=999&q=80" alt="pic" class="card__image"></div>
+          <div class="card__content">
+            <div class="card__title"><h2><%= link_to job.name, job_path(job) %></h2></div>
+            <p class="card__text"><%= link_to job.short_description.first(95), job_path(job) %>...</p>
           </div>
-        <% end %>
-      </div>
-    </li>
-  </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>

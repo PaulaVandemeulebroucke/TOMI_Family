@@ -1,7 +1,7 @@
 /* Main navbar */
 .navbar-up {
   box-shadow: 1px 0px 3px 3px rgba(130,130,130,0.04),1px 0px 3px 3px rgba(130,130,130,0.04);
-  background: transparent;
+  background: white;
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
@@ -26,48 +26,41 @@
 /* Main navbar */
 .navbar-down {
   box-shadow: 1px 0px 3px 3px rgba(130,130,130,0.04),1px 0px 3px 3px rgba(130,130,130,0.04);
-  background: transparent;
+  background: white;
   transition: all 0.3s ease;
   height: 70px;
-  padding: 0px 30px;
+  width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position:fixed;
   bottom: 0;
-  width: 100vw;
   margin-left: 0;
   padding-left: 0;
-  .profile {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    position:fixed;
-    right:15px;
-    bottom: 6px;
-    z-index:0;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
 }
 
 /* Basic navbar item */
 .navbar-down-item {
   cursor: pointer;
-  padding: 0 20px;
-  width: 75vw;
+  width: 100vw;
   display: flex;
-  margin-left: 0;
-  padding-left: 0;
-  justify-content: space-between;
-  padding: 5px;
-  padding: 14px 16px;
+  justify-content: center;
+  padding-right: 70px;
+  padding-left: 70px;
   text-decoration: none;
-  font-size: 35px;
+  z-index:0;
+    .profile {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 }
 .navbar-down-item a {
   color: $grey;
+    font-size: 30px;
 }
 .navbar-down-item a:hover {
   color: $red;
@@ -81,7 +74,7 @@
 /* Main navbar */
 .navbar-onglet {
   margin-top: 15px;
-  background: transparent;
+  background: white;
   transition: all 0.3s ease;
   height: 120px;
   padding: 0px 30px;
@@ -89,6 +82,9 @@
   margin-left: 0;
   padding-left: 0;
   text-align: center;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   a {
     color: $grey;
     font-size: 25px;
