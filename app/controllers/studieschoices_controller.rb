@@ -1,0 +1,2 @@
+class StudieschoicesController < ApplicationController
+end
