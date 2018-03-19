@@ -1,0 +1,44 @@
+.namejobs {
+  font-size: 20px;
+  text-align: center;
+}
+
+.shortjobs {
+  font-size: 12px;
+  font-variant: normal;
+  color: #666666;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  white-space: pre-wrap;
+}
+
+.descjobs {
+  font-size: 12px;
+  font-weight: lighter;
+  font-variant: normal;
+  color: #666666;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  white-space: pre-wrap;
+}
+
+.btnjobs {
+  display: flex;
+  text-align: center;
+  border-radius: 14px;
+  background-color: white;
+  justify-content: center;
+}
+
+.btnjobs:hover {
+  color: $red;
+  border-color: $red;
+}

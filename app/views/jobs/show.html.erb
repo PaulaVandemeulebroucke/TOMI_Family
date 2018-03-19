@@ -1,1 +1,13 @@
   <%= render '/shared/banner' %>
+ <div class="col-xs-9">
+  <h1 class="namejobs"><%= @job.name %></h1>
+  <h3 class="shortjobs"><%= @job.short_description %></h3>
+  <p class="descjobs"><%= @job.description.first (300) %>...</p>
+  <button class="btnjobs">Voir +</button>
+</div>
+
+ <div class="col-xs-3 icon">
+  <a href=""><i class="fas fa-euro-sign"></i></a>
+  <a href=""><i class="fas fa-suitcase"></i></a>
+  <a href=""><i class="fas fa-graduation-cap"></i></a>
+</div>
