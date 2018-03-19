@@ -45,8 +45,6 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding-right: 70px;
-  padding-left: 70px;
   text-decoration: none;
   z-index:0;
     .profile {
@@ -60,7 +58,10 @@
 }
 .navbar-down-item a {
   color: $grey;
-    font-size: 30px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navbar-down-item a:hover {
   color: $red;

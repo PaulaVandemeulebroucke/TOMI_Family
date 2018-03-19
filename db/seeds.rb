@@ -7,6 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Cleaning database...'
 Job.destroy_all
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# ATTENTIONNNN A ENELEVER AVANT PROD !!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 puts 'Creating jobs...'
 jobs = [
