@@ -21,6 +21,15 @@
   .back:hover {
     color: $red;
   }
+  .navbar-up-link {
+    color: $grey;
+    border-color: rgb(220, 220, 220);
+    border-radius: 10px;
+  }
+  .navbar-up-link:hover {
+    color: $lightblue;
+    text-decoration: none;
+  }
 }
 
 /* Main navbar */
@@ -62,6 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 .navbar-down-item a:hover {
   color: $red;
