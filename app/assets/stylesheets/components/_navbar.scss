@@ -101,5 +101,9 @@
   a:hover {
     box-shadow: inset 0px -5px $red;
     text-decoration: none;
+    color: $grey;
+  }
+  .active {
+    box-shadow: inset 0px -5px $red;
   }
 }

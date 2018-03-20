@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+.home {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+  color: white;
+  box-shadow: inset 0px -18px $red;
+}
+
+#banner-typed-text {
+  font-size: 40px;
+  color: white;
+}
