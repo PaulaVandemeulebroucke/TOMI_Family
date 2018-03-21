@@ -1,0 +1,21 @@
+<div>
+  <% if @jobs.empty? %>
+    <p class="text-whishlist-banner">You don't have any items in favorites...</p>
+  <% else %>
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <% @jobs.each do |job| %>
+          <div class="col-sm-4">
+            <div class="wishlist card">
+              <div class="title"><%=job.name %></div>
+              <div><%= link_to 'See more', job_path(job), :class => "btn btn-success" %></div>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

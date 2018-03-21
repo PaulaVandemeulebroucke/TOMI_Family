@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get 'chooseastudy', to: 'studieschoices#index', as: :studieschoices
   patch "jobs/:id/like", to: "jobs#like", as: :like
   patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
+  get 'favorites', to: 'pages#favorites'
 end
