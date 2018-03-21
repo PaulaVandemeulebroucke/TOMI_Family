@@ -1,21 +1,37 @@
-<div>
+<div class="container">
   <% if @jobs.empty? %>
     <p class="text-whishlist-banner">You don't have any items in favorites...</p>
   <% else %>
+  <div class="cards">
     <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <div class="row">
-          <% @jobs.each do |job| %>
-          <div class="col-sm-4">
-            <div class="wishlist card">
-              <div class="title"><%=job.name %></div>
-              <div><%= link_to 'See more', job_path(job), :class => "btn btn-success" %></div>
-              <i class="fas fa-heart"></i>
+      <% @jobs.each do |job| %>
+        <div class="col-xs-6 col-md-3">
+          <div class="card">
+            <!-- J'aimerai importer une image de cloudinary: http://res.cloudinary.com/dozkmkl7p/image/upload/v1520785754/T O M I - Family/acheteur_d_espace_publicitaire.jpg -->
+            <div><img href="#" src="https://images.unsplash.com/photo-1491960693564-421771d727d6?ixlib=rb-0.3.5&s=be6e4f296eaa332dc15fec458bc5a4fe&auto=format&fit=crop&w=999&q=80" alt="pic" class="card__image">
+            </div>
+            <div class="card__content">
+              <div class="card__title">
+                <h2><%= link_to job.name, job_path(job) %></h2>
+                <%= link_to "", job_path(job), class: "card-link"%>
+                <% if job.get_likes.where(voter_id: current_user).count == 0 %>
+                  <%= link_to like_path(job), method: :patch, class: "card-like-link" do%>
+                    <i class="far fa-heart"></i>
+                  <% end %>
+                <% else %>
+                  <%= link_to dislike_path(job), method: :patch, class: "card-like-link" do %>
+                    <i class="fas fa-heart"></i>
+                  <% end %>
+                <% end %>
+              </div>
+              <div class="card__text">
+                <p><%= link_to job.short_description.first(95), job_path(job) %>...</p>
+              </div>
             </div>
           </div>
-          <% end %>
         </div>
-      </div>
+      <% end %>
     </div>
+  </div>
   <% end %>
 </div>

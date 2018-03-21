@@ -7,7 +7,9 @@
 </div>
 
  <div class="col-xs-3 icon">
-  <a href=""><i class="fas fa-euro-sign"></i></a>
-  <a href=""><i class="fas fa-suitcase"></i></a>
-  <a href=""><i class="fas fa-graduation-cap"></i></a>
+  <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.salary %>"><i class="fas fa-euro-sign"></i></a>
+  <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.career %>"><i class="fas fa-suitcase"></i></a>
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.study %>"><i class="fas fa-graduation-cap"></i></a>
 </div>
+
+<!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."><i class="fas fa-euro-sign"></i></button> -->
