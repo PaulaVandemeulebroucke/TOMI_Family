@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :jobs, only: [ :index, :show ]
   get 'chooseajob', to: 'jobschoices#index', as: :jobschoices
   get 'chooseastudy', to: 'studieschoices#index', as: :studieschoices
+  patch "jobs/:id/like", to: "jobs#like", as: :like
+  patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
 end
