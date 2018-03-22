@@ -1,14 +1,9 @@
 class JobsController < ApplicationController
   def index
     if params[:query].present?
-      sql_query = " \
-        jobs.name ILIKE :query \
-        OR jobs.description ILIKE :query \
-        OR jobs.short_descrition ILIKE :query \
-      "
-      @jobs = Job.where(sql_query, query: "%#{params[:query]}%")
+      @jobs = params[:query].map { |query| Job.global_search("%#{query}%")}.inject(:&)
     else
-    @jobs = Job.all
+      @jobs = Job.all
     end
   end
 
