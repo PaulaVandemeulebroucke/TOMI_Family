@@ -19,6 +19,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'acts_as_votable', '~> 0.11.1'
+gem 'pg_search'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
