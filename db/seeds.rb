@@ -15,7 +15,7 @@ puts 'Creating jobs...'
 jobs = [
   {
     name:         "ACHETEUR D'ESPACES PUBLICITAIRES",
-    photo:        "acheteur_d_espace_publicitaire",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744139/acheteur_d_espace_publicitaire.jpg",
     synonym:      "",
     sector:       ["COMMERCE", "IMMOBILIER", "COMMUNICATION", "INFORMATION"],
     short_description:  "L’acheteur d’espaces publicitaires travaille pour une marque. Il négocie les meilleurs lieux aux meilleurs prix pour ses clients annonceurs. Autres missions : optimiser un budget de campagne de pub et offrir l'impact maximum à ses annonceurs.",
@@ -50,7 +50,7 @@ Par ailleurs, des écoles de commerce et de gestion ou des organismes spécialis
   },
   {
     name:         "AGENT DE STÉRILISATION",
-    photo:        "agent_de_stérilisation",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744141/agent_de_ste%CC%81rilisation.jpg",
     synonym:      "",
     sector:       ["BIOLOGIE", "CHIMIE", "ENVIRONNEMENT", "NATURE", "NETTOYAGE", "SANTÉ"],
     short_description: "Récupérer, laver, stériliser, décontaminer, désinfecter tous les instruments et linges utilisés dans les établissements de soins (hôpitaux, cliniques, blocs opératoires, maisons de retraites, de cure) telles sont les missions d’un agent de stérilisation.",
@@ -76,5 +76,9 @@ A plus longue échéance, les IFSI proposent des stages de perfectionnement et d
     statut: ""
   }
 ]
-Job.create!(jobs)
+jobs.each do |job|
+  new_job = Job.new(job)
+  new_job.remote_photo_url = job[:photo]
+  new_job.save
+end
 puts 'Finished!'
