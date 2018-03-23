@@ -1,0 +1,25 @@
+<div>
+  <div class="row">
+    <% @interests.each do |interest| %>
+      <div class="col-xs-12">
+        <div class="card">
+          <div class="card__content">
+            <div class="card__title">
+              <h2><%= link_to interest.name, interest_path(interest) %></h2>
+              <%= link_to "", interest_path(interest), class: "card-link"%>
+              <% if job.get_likes.where(voter_id: current_user).count == 0 %>
+                <%= link_to like_path(job), method: :patch, class: "card-like-link" do%>
+                  <i class="far fa-heart"></i>
+                <% end %>
+              <% else %>
+                <%= link_to dislike_path(job), method: :patch, class: "card-like-link" do %>
+                  <i class="fas fa-heart"></i>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

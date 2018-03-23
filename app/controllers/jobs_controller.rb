@@ -10,6 +10,7 @@ class JobsController < ApplicationController
   def show
     @job = Job.find(params[:id])
   end
+
   def like
     @job = Job.find(params[:id])
     @job.liked_by current_user
