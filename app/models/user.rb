@@ -7,4 +7,7 @@ class User < ApplicationRecord
   def likes
     self.votes.up.for_type(Job)
   end
+  def likes
+    self.votes.up.for_type(Interest)
+  end
 end

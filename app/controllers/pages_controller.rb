@@ -10,7 +10,7 @@ class PagesController < ApplicationController
     @jobs = current_user.likes.map { |like| Job.find(like.votable_id) }
   end
 
-   def suggestion
-    @interests = current_user.likes.map { |likeinterest| Interests.find(likeinterest.votable_id) }
+  def suggestion
+    @interests = current_user.likes.map { |like| Interests.find(like.votable_id) }
   end
 end
