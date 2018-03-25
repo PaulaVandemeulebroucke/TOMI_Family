@@ -81,4 +81,16 @@ jobs.each do |job|
   new_job.remote_photo_url = job[:photo]
   new_job.save
 end
+interests = [
+  {
+    name: "SOIGNER, SECOURIR"
+  },
+  {
+    name: "CONVAINCRE, COMMUNIQUER"
+  }
+]
+interests.each do |interest|
+  new_interest = Interest.new(interest)
+  new_interest.save
+end
 puts 'Finished!'

@@ -1,5 +1,8 @@
 <div class="container">
-  <div class="cards-interest">
+  <% if @interests.empty? %>
+    <p class="text-whishlist-banner">You don't have any items in favorites...</p>
+  <% else %>
+  <div class="cards">
     <div class="row">
       <% @interests.each do |interest| %>
         <div class="col-xs-12">
@@ -22,7 +25,7 @@
           </div>
         </div>
       <% end %>
-
     </div>
   </div>
+  <% end %>
 </div>
