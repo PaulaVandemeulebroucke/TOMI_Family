@@ -81,6 +81,9 @@ jobs.each do |job|
   new_job.remote_photo_url = job[:photo]
   new_job.save
 end
+
+######################################
+
 interests = [
   {
     name: "SOIGNER, SECOURIR"
@@ -93,4 +96,21 @@ interests.each do |interest|
   new_interest = Interest.new(interest)
   new_interest.save
 end
+
+#########################################
+
+jobinterests = [
+  {
+    job: "ACHETEUR D'ESPACES PUBLICITAIRES",
+    interest: "CONVAINCRE, COMMUNIQUER"
+  },
+  {
+    job: "AGENT DE STÉRILISATION",
+    interest: "SOIGNER, SECOURIR"
+  }
+]
+jobinterests.each do |jobinterest|
+  new_jobinterest = JobInterest.create(job: Job.find_by_name(jobinterest[:job]), interest: Interest.find_by_name(jobinterest[:interest]))
+end
+
 puts 'Finished!'

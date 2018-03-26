@@ -7,13 +7,13 @@ class InterestsController < ApplicationController
     @interest = Interest.find(params[:id])
   end
 
-  def likeinterest
+  def like
     @interest = Interest.find(params[:id])
     @interest.liked_by current_user
     redirect_to interests_path
   end
 
-  def dislikeinterest
+  def dislike
     @interest = Interest.find(params[:id])
     @interest.disliked_by current_user
     redirect_to interests_path
