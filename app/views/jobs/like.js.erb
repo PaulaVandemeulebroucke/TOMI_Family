@@ -1,0 +1,6 @@
+function refreshCard(outerHTML) {
+  const job = document.getElementById(<%= @job.id %>);
+  job.outerHTML = outerHTML;
+}
+
+refreshCard('<%= j render "jobs/card", job:@job %>');

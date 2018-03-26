@@ -13,13 +13,22 @@ class JobsController < ApplicationController
 
   def like
     @job = Job.find(params[:id])
-    @job.liked_by current_user
-    redirect_to jobs_path
+    if @job.liked_by current_user
+      respond_to do |format|
+        format.html { redirect_to jobs_path }
+        format.js
+      end
+    end
   end
 
   def dislike
     @job = Job.find(params[:id])
-    @job.disliked_by current_user
-    redirect_to jobs_path
+    if @job.disliked_by current_user
+      respond_to do |format|
+        format.html { redirect_to jobs_path }
+        format.js
+      end
+    end
   end
 end
+

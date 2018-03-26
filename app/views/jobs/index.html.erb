@@ -21,15 +21,15 @@
             <!-- J'aimerai importer une image de cloudinary: http://res.cloudinary.com/dozkmkl7p/image/upload/v1520785754/T O M I - Family/acheteur_d_espace_publicitaire.jpg -->
             <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
             <div class="card__content">
-              <div class="card__title">
+              <div class="card__title" id= <%= "#{job.id}" %>>
                 <h2><%= link_to job.name, job_path(job) %></h2>
                 <%= link_to "", job_path(job), class: "card-link"%>
                 <% if job.get_likes.where(voter_id: current_user).count == 0 %>
-                  <%= link_to like_path(job), method: :patch, class: "card-like-link" do%>
+                  <%= link_to like_path(job), remote: true, method: :patch, class: "card-like-link" do%>
                     <i class="far fa-heart"></i>
                   <% end %>
                 <% else %>
-                  <%= link_to dislike_path(job), method: :patch, class: "card-like-link" do %>
+                  <%= link_to dislike_path(job), remote: true, method: :patch, class: "card-like-link" do %>
                     <i class="fas fa-heart"></i>
                   <% end %>
                 <% end %>
