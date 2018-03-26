@@ -9,8 +9,8 @@
           <div class="card-interest">
             <div class="card__content-interest">
               <div class="card__title-interest">
-                <!-- link to job_path(job) -->
-                <h2><%= link_to interest.jobs.name, interest_path(interest) %></h2>
+                <!-- link to job_path(job) !!!!!!!!!!!!!!!!!!!! -->
+                <h2><%= link_to @interests.first.jobs.first.name, interest_path(interest) %></h2>
                 <%= link_to "", interest_path(interest), class: "card-link"%>
                 <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
                   <%= link_to likeinterest_path(interest), method: :patch, class: "card-like-link" do%>

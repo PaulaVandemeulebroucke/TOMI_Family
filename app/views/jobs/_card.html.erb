@@ -1,18 +1,23 @@
-<div class="card__content">
-  <div class="card__title" id= <%= "#{job.id}" %> >
-    <h2><%= link_to job.name, job_path(job) %></h2>
-    <%= link_to "", job_path(job), class: "card-link"%>
-    <% if job.get_likes.where(voter_id: current_user).count == 0 %>
-      <%= link_to like_path(job), remote: true, method: :patch, class: "card-like-link" do%>
-        <i class="far fa-heart"></i>
+<div class="card" id= <%= "#{job.id}" %>>
+  <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
+  <div class="card__content">
+    <div class="card__title">
+      <h2><%= link_to job.name, job_path(job) %></h2>
+      <%= link_to "", job_path(job), class: "card-link"%>
+      <% if job.get_likes.where(voter_id: current_user).count == 0 %>
+        <%= link_to like_path(job), remote: true, method: :patch, class: "card-like-link" do%>
+          <i class="far fa-heart"></i>
+        <% end %>
+      <% else %>
+        <%= link_to dislike_path(job), remote: true, method: :patch, class: "card-like-link" do %>
+          <i class="fas fa-heart"></i>
+        <% end %>
       <% end %>
-    <% else %>
-      <%= link_to dislike_path(job), remote: true, method: :patch, class: "card-like-link" do %>
-        <i class="fas fa-heart"></i>
-      <% end %>
-    <% end %>
-  </div>
-  <div class="card__text">
-    <p><%= link_to job.short_description.first(95), job_path(job) %>...</p>
+    </div>
+    <div class="card__text">
+      <p><%= link_to job.short_description.first(95), job_path(job) %>...</p>
+    </div>
   </div>
 </div>
+
+
