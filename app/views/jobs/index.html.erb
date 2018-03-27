@@ -12,13 +12,11 @@
       </p>
     </div>
   </div>
-  <!-- 3 Les cards des métiers -->
   <div class="cards">
     <div class="row">
       <% @jobs.each do |job| %>
         <div class="col-xs-6 col-md-3">
           <div class="card">
-            <!-- J'aimerai importer une image de cloudinary: http://res.cloudinary.com/dozkmkl7p/image/upload/v1520785754/T O M I - Family/acheteur_d_espace_publicitaire.jpg -->
             <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
             <div class="card__content">
               <div class="card__title" id= <%= "#{job.id}" %>>
