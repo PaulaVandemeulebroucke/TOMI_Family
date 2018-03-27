@@ -2,8 +2,10 @@
  <div class="col-xs-9">
   <h1 class="namejobs"><%= @job.name %></h1>
   <h3 class="shortjobs"><%= @job.short_description %></h3>
-  <p class="descjobs"><%= @job.description.first (300) %>...</p>
-  <button class="btnjobs">Voir +</button>
+  <div class="sidebar-box">
+    <p class="descjobs"><%= @job.description %></p>
+    <p class="read-more"><a href="#" class="button">Voir +</a></p>
+  </div>
 </div>
 
  <div class="col-xs-3 icon">
@@ -11,5 +13,3 @@
   <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.career %>"><i class="fas fa-suitcase"></i></a>
     <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.study %>"><i class="fas fa-graduation-cap"></i></a>
 </div>
-
-<!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."><i class="fas fa-euro-sign"></i></button> -->
