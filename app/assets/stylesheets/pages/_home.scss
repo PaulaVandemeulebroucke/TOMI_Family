@@ -11,6 +11,9 @@
   color: white;
   box-shadow: inset 0px -18px $red;
 }
-  .typed-cursor {
-    display: none;
-  }
+.typed-cursor {
+  display: none;
+}
+.content {
+  z-index: 10;
+}

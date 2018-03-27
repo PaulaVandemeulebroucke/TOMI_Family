@@ -1,13 +1,9 @@
-<%= render 'shared/search' %>
 <div class="container">
-  <form class="searchbar">
-    <input type="text" placeholder="Rechercher un métier ou une école.." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
-  </form>
+<%= render 'shared/search' %>
   <div class="row">
     <div class="col-xs-12">
       <p class="jobscount">
-      <%#= @jobs.count %>
+      <%= @jobs.count %>
        métiers
       </p>
     </div>
@@ -16,10 +12,10 @@
     <div class="row">
       <% @jobs.each do |job| %>
         <div class="col-xs-6 col-md-3">
-          <div class="card">
+          <div class="card" id= <%= "#{job.id}" %>>
             <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
             <div class="card__content">
-              <div class="card__title" id= <%= "#{job.id}" %>>
+              <div class="card__title">
                 <h2><%= link_to job.name, job_path(job) %></h2>
                 <%= link_to "", job_path(job), class: "card-link"%>
                 <% if job.get_likes.where(voter_id: current_user).count == 0 %>

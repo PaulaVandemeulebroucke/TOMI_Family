@@ -9,3 +9,4 @@ if (bannerTypedTextContainer) {
 
 import { popover } from '../packs/components/popover';
 popover();
+
