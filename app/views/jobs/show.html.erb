@@ -1,15 +1,20 @@
-  <%= render '/shared/banner' %>
- <div class="col-xs-9">
-  <h1 class="namejobs"><%= @job.name %></h1>
-  <h3 class="shortjobs"><%= @job.short_description %></h3>
-  <div class="sidebar-box">
-    <p class="descjobs"><%= @job.description %></p>
-    <p class="read-more"><a href="#" class="button">Voir +</a></p>
+<div ><%= cl_image_tag @job.photo, :class => "banner__image" %></div>
+<div class="container">
+   <div class="col-xs-10">
+    <h1 class="namejobs"><%= @job.name %></h1>
+    <h3 class="shortjobs"><%= @job.short_description %></h3>
+    <div class="sidebar-box">
+      <p class="descjobs"><%= @job.description %></p>
+      <p class="read-more"><a href="#" class="button">Voir +</a></p>
+    </div>
+  </div>
+
+   <div class="col-xs-2 icon">
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.salary %>"><i class="fas fa-euro-sign"></i></a>
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.career %>"><i class="fas fa-suitcase"></i></a>
+      <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.study %>"><i class="fas fa-graduation-cap"></i></a>
   </div>
 </div>
 
- <div class="col-xs-3 icon">
-  <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.salary %>"><i class="fas fa-euro-sign"></i></a>
-  <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.career %>"><i class="fas fa-suitcase"></i></a>
-    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.study %>"><i class="fas fa-graduation-cap"></i></a>
-</div>
+<!-- a ajouter en js:
+https://css-tricks.com/text-fade-read-more/ -->
