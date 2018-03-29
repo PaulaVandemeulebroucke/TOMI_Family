@@ -57,8 +57,8 @@
   text-decoration: none;
   z-index:0;
     .profile {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@
 }
 .navbar-down-item a {
   color: $grey;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,6 @@
 
 /* Main navbar */
 .navbar-onglet {
-  margin-top: 15px;
   background: white;
   transition: all 0.3s ease;
   height: 120px;
@@ -92,6 +91,7 @@
   width: 100%;
   margin-left: 0;
   padding-left: 0;
+  margin-bottom: 0;
   text-align: center;
   border-top: 0;
   border-right: 0;
@@ -117,3 +117,4 @@
     box-shadow: inset 0px -5px $red;
   }
 }
+
