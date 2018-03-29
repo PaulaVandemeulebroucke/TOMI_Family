@@ -13,7 +13,7 @@
       <% @jobs.each do |job| %>
         <div class="col-xs-6 col-md-3">
           <div class="card" id= <%= "#{job.id}" %>>
-            <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
+            <div ><%= link_to (cl_image_tag job.photo, :class => "card__image"), job_path(job) %></div>
             <div class="card__content">
               <div class="card__title">
                 <h2><%= link_to job.name, job_path(job) %></h2>

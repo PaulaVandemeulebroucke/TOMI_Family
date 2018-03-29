@@ -9,3 +9,6 @@ if (bannerTypedTextContainer) {
 
 import { popover } from '../packs/components/popover';
 popover();
+
+// import { swipe } from '../packs/components/swipe';
+// swipe();
