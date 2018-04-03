@@ -1,9 +1,24 @@
-  <%#= render '/shared/banner' %>
+
 <!-- <div class="videoContainer">
   <iframe src="https://browseplay.com/player/auto-muted/0e123230-f53f-4c17-a1bc-949f32fe815a?loader=1" frameborder="0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 70%; z-index: 0;"></iframe>
 </div> -->
-
+<!--
 <div class="content">
   <h1>Bienvenue dans la T O M I - Family</h1>
+</div> -->
+
+<div class="wrapper">
+  <div class="banner">
+    <%= render '/shared/banner' %>
+    <%= image_tag("logo.png", class: "logo")  %>
+  </div>
+  <div class="gradient">
+  </div>
+  <video autoplay loop class="fillWidth">
+    <source src='<%= asset_path "jeunes.mp4"%>' type="video/mp4"/>
+    Your browser does not support the video tag. I suggest you upgrade your browser.
+    <!-- <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser. -->
+  </video>
 </div>
+
 

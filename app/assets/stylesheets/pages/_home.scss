@@ -5,11 +5,19 @@
   font-size: 35px;
   color: white;
 }
+.logo {
+  background-size: 65px;
+  width: 159px;
+  position: absolute;
+  top: 106%;
+  left: 40%;
+}
 
 #banner-typed-text {
   font-size: 40px;
   color: white;
   box-shadow: inset 0px -18px $red;
+  z-index: 10;
 }
 .typed-cursor {
   display: none;
@@ -21,4 +29,30 @@
 #app-content {
   height: calc(100vh - 140px);
   overflow: scroll;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+}
+
+// .gradient {
+//   position: absolute;
+//   top: 0;
+//   background-image: radial-gradient( circle at 40% 60%, rgba(0, 0, 0, 0.5), rgba(11, 39, 65, 0.001) 150%, rgba(0, 0, 0, 0.01));
+//   width: 100%;
+//   height: calc(100vh - 300px);
+//   min-height: 300px;
+//   z-index: 2;
+// }
+
+video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(100vh - 300px);
+  min-height: 300px;
+  max-height: 200px;
+  object-fit: cover;
 }
