@@ -34,9 +34,24 @@ a {
 
 .students {
   position: absolute;
-  top: 588px;
+  top: 598px;
   left: 21%;
   width: 55%;
   border-radius: 4px;
   font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 2px;
 }
+.parents {
+  position: absolute;
+  top: 665px;
+  left: 21%;
+  width: 55%;
+  border-radius: 4px;
+  font-size: 25px;
+  margin-bottom: 40px;
+  border: 1px solid $red;
+  color: $red;
+  margin-top: 2px;
+}
+

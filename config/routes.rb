@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   patch "jobs/:id/like", to: "jobs#like", as: :like
   patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
   get 'favorites', to: 'pages#favorites'
+  get 'signupstudents', to: 'pages#signupstudents'
   get 'homepage', to: 'pages#homepage'
   get 'suggestion', to: 'pages#suggestion'
   resources :interests, only: [ :index, :show ]

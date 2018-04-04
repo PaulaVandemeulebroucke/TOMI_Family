@@ -29,8 +29,8 @@
 #app-content {
   height: 100vh;
   overflow: scroll;
+  margin-bottom: 40px;
 }
-
 .wrapper {
   position: absolute;
   width: 100%;
@@ -81,15 +81,23 @@ h2 {
 }
 .fa-arrow-right {
   position: absolute;
-  top: 549px;
+  top: 559px;
   font-size: 34px;
   transform: rotate(35deg);
   color: #333333;
 }
 .littlesubtitle {
   font-size: 14px;
-  top: 559px;
+  top: 569px;
   position: absolute;
   left: 52px;
   color: #333333;
+}
+.punchline {
+  font-size: 15px;
+  top: 599px;
+  position: absolute;
+  left: 83%;
+  color: #333333;
+  transform: rotate(-27deg);
 }

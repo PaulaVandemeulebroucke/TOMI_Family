@@ -13,4 +13,7 @@ class PagesController < ApplicationController
   def suggestion
     @interests = current_user.interest_likes.map { |like| Interest.find(like.votable_id) }
   end
+
+  def signupstudents
+  end
 end
