@@ -27,7 +27,7 @@
 }
 
 #app-content {
-  height: calc(100vh - 140px);
+  height: 100vh;
   overflow: scroll;
 }
 
@@ -57,6 +57,39 @@ video {
   object-fit: cover;
 }
 
-.container {
-
+.youtube {
+  position: absolute;
+  top: 420px;
+}
+h2 {
+  font-size: 19px;
+  top: 323px;
+  position: absolute;
+  color: #333333;
+}
+.subtitle {
+  font-size: 9px;
+  top: 384px;
+  position: absolute;
+  color: #333333;
+}
+.img-schema {
+  width: 63%;
+  position: absolute;
+  top: 413px;
+  right: 17px;
+}
+.fa-arrow-right {
+  position: absolute;
+  top: 549px;
+  font-size: 34px;
+  transform: rotate(35deg);
+  color: #333333;
+}
+.littlesubtitle {
+  font-size: 14px;
+  top: 559px;
+  position: absolute;
+  left: 52px;
+  color: #333333;
 }
