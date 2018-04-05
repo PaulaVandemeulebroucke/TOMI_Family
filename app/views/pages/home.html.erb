@@ -10,7 +10,15 @@
 <div class="wrapper">
   <div class="banner">
     <%= render '/shared/banner' %>
-    <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "sign-in" %>
+    <div class="sign-in">
+      <% if user_signed_in? %>
+        <!-- Links when logged in -->
+        <%= link_to "Voir ma session", homepage_path %>
+      <% else %>
+        <!-- Login link (when logged out) -->
+        <%= link_to t(".sign_in", default: "Login"), new_user_session_path %>
+      <% end %>
+    </div>
     <%= image_tag("logo.png", class: "logo")  %>
   </div>
   <div class="gradient">
