@@ -5,6 +5,16 @@
   font-size: 35px;
   color: white;
 }
+.sign-in {
+  border: 2px solid rgb(170, 170, 170);
+  background-color: white;
+  color: rgb(170, 170, 170);
+  border-radius: 10px;
+  padding: 5px;
+  position: absolute;
+  right: 11px;
+  top: 0;
+}
 .logo {
   background-size: 65px;
   width: 159px;
@@ -77,7 +87,7 @@ h2 {
   width: 63%;
   position: absolute;
   top: 413px;
-  right: 17px;
+  right: -173px;
 }
 .fa-arrow-right {
   position: absolute;

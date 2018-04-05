@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :signupstudents]
+  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupstudents2 ]
   def home
   end
 
@@ -15,5 +15,8 @@ class PagesController < ApplicationController
   end
 
   def signupstudents
+  end
+
+  def signupstudents2
   end
 end
