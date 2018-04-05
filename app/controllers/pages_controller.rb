@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def signupstudents2
   end
+
+  def myprofile
+  end
 end

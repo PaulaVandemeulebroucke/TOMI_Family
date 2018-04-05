@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'favorites', to: 'pages#favorites'
   get 'signupstudents', to: 'pages#signupstudents'
   get 'signupstudents2', to: 'pages#signupstudents2'
+  get 'myprofile', to: 'pages#myprofile'
   get 'homepage', to: 'pages#homepage'
   get 'suggestion', to: 'pages#suggestion'
   resources :interests, only: [ :index, :show ]
