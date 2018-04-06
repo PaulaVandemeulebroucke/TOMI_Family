@@ -76,6 +76,148 @@ A plus longue échéance, les IFSI proposent des stages de perfectionnement et d
     similar_job:  ["AGENT THERMAL", "AIDE-SOIGNANTE / AIDE-SOIGNANT", "BRANCARDIER / BRANCARDIÈRE", "PRÉPARATEUR EN PHARMACIE / PRÉPARATRICE EN PHARMACIE", "INFIRMIÈRE - INFIRMIER", "THANATOPRACTEUR"],
     interest:  ["PROTÉGER L'ENVIRONNEMENT", "SOIGNER, SECOURIR"],
     statut: ""
+  },
+  {
+    name:         "ACOUSTICIEN",
+    photo:        "acousticien",
+    synonym:      "technicien en acoustique",
+    sector:       ["BÂTIMENT", "TRAVAUX PUBLICS", "ENVIRONNEMENT", "NATURE", "NETTOYAGE"],
+    short_description: "L’acousticien est un spécialiste de la lutte contre les nuisances sonores, urbaines, industrielles, routières ou liées aux transports. Sa mission : rechercher des solutions contre ce type de pollution.",
+    description: "Le travail de l’acousticien membre d’un bureau d’études ou de contrôle porte sur plusieurs secteurs d’activité : bâtiment et travaux publics, transports aériens et terrestres, services, industrie métallurgique et énergétique, électroacoustique, sonorisation. Les problèmes soulevés sont chaque fois différents.
+L’acousticien se déplace obligatoirement sur le terrain (usine, immeuble, chantier d’autoroute, de chemin de fer, lieux culturels et musicaux…), où il définit comment construire en tenant compte du relief et des particularités du site.
+Il réalise des mesures acoustiques et vibratoires, réalise des simulations à l'aide de codes numériques d'acoustique et de vibrations puis analyse le résultats de ces dernières. À partir de ces analyses, l’acousticien conçoit des procédés techniques pour réduire le niveau sonore, voire le supprimer.
+Il préconise l’utilisation de tels ou tels matériaux en fonction de leurs propriétés isolantes, il jauge les distances et identifie précisément ce qui est ou deviendra source de bruit.
+Dans le bâtiment, il possède la haute main sur la partie acoustique, en relation avec l’architecte, pour faire respecter les normes et les règlements : cloisons, isolations, suspensions…
+Avant le démarrage du chantier, il effectue des mesures à proximité des riverains pour vérifier que le projet respectera la réglementation. Pour toutes ces opérations, il utilise, outre des appareils de mesure, l’informatique. Il doit par ailleurs savoir interpréter des résultats parfois contradictoires !
+En tant que professionnel du son, l’acousticien peut aussi être requis pour la construction de salles de spectacle dont il optimisera l’acoustique.
+La condition de travail la plus gênante est bien sûr le bruit des lieux que l’acousticien visite en permanence. Pour cette raison, la surdité le guette, et l’utilisation de protections spéciales est donc indispensable.",
+    study:  "Les formations vont de bac + 2 (niveau technicien) à bac + 5 (niveau ingénieur).
+niveau bac + 2 : BTS, DUT ou L2 dans les secteurs de la mesure, de la physique, de la mécanique, de la maintenance, du génie civil, de la thermique et de l'énergie (BTS MP, DUT GEII, DUT GMP, BTS audovisuel, BTS batiment, BTS FED...), CQPM technicien en acoustique et vibration (IUT Saint-Etienne).
+niveau bac + 3 :
+- licence pro mécanique acoustique et vibration (formation la plus spécialisée dans le domaine de l’acoustique) parcours acoustique environementale et bâtiment ou acoustique et vibrations industrielles : Université du Maine (http://sciences.univ-lemans.fr/), IUT de Saint-Etienne (http://www.iut.univ-st-etienne.fr)
+- licence en physique et en électronique
+niveau bac + 5
+- master acoustique spécialité acoustique et fluides parcours acoustique physique (Paris Diderot), ingénierie acoustique ou Traitement du signal, informatique et acoustique musicale (UPMC), Acoustique ATVE/Acoustique MR AC/Acoustique MR CAM (Le Mans), ingénierie acoustique (Paris Saclay), acoustique physique/capteurs et CND par ultrasons (ESPCI Paris tech), recherche acoustique (Marseille)...
+- master of science in acoustics (Université de Lyon / Ecole centrale de Lyon),
+- diplôme d'ingénieur : génie mécanique filière acoustique et vibrations industrielles (UTC).
+Pour contacter les Scuio : www.orientation-pour-tous.fr rubrique s'orienter dans l'information.",
+    salary:  "Salaire en début de carrière : entre  1 600 € et 2 300 € brut/ mois.",
+    career:  "Au sein d’un bureau d’études, l’acousticien peut prendre la direction d’une équipe d’intervention et de recherche. Il peut aussi se spécialiser dans le BTP ou dans un type de nuisance sonore : circulation ferroviaire, aéroportuaire ou autoroutière, par exemple.",
+    similar_job:  ["ELECTRICIEN DU BÂTIMENT", "PLAQUISTE", "CONTRÔLEUR EN ÉLECTRICITÉ ET ÉLECTRONIQUE", "DOMOTICIEN", "ARCHITECTE D'INTÉRIEUR", "ARCHITECTE", "PHYSICIEN"],
+    interest:  ["FAIRE UN TRAVAIL DE PRÉCISION", "PROTÉGER L'ENVIRONNEMENT", "TRAVAILLER DANS LA MUSIQUE", "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
+  },
+  {
+    name:         "",
+    photo:        "",
+    synonym:      "",
+    sector:       ["", "", "", "", "", ""],
+    short_description: "",
+    description: "",
+    study:  "",
+    salary:  "",
+    career:  "",
+    similar_job:  ["", "", "", "", "", ""],
+    interest:  ["", ""],
+    statut: ""
   }
 ]
 jobs.each do |job|
@@ -92,6 +234,30 @@ interests = [
   },
   {
     name: "CONVAINCRE, COMMUNIQUER"
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
+  },
+  {
+    name: ""
   }
 ]
 interests.each do |interest|
