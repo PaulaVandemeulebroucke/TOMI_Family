@@ -2,6 +2,11 @@
 <div class="container">
   <%#= render 'shared/search' %>
   <div class="row">
+    <div class="col-xs-12 icone-play">
+      <i class="far fa-play-circle"></i>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-xs-12">
       <p class="jobscount">
       <%= @jobs.count %>
@@ -36,6 +41,13 @@
           </div>
         </div>
       <% end %>
+    </div>
+  </div>
+</div>
+<div class="navbar-suggestion">
+  <div class="row">
+    <div class="col-xs-10">
+      <a type="student-btn" href="/favorites" class="btn btn-primary interests">Voir mes favoris</a>
     </div>
   </div>
 </div>

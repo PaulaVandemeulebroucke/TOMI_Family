@@ -6,50 +6,65 @@
 .button-triangle1 {
   position: absolute;
   top: 65%;
-  left: 15%;
+  left: 20%;
   background-color: $lightblue;
   border-radius: 50%;
   &:active {
+    text-decoration: none !important;
+  }
+  &:focus {
     text-decoration: none !important;
   }
 }
 .button-triangle2 {
   position: absolute;
   top: 52%;
-  left: 24%;
+  left: 29%;
   background-color: $lightblue;
   border-radius: 50%;
   &:active {
+    text-decoration: none !important;
+  }
+  &:focus {
     text-decoration: none !important;
   }
 }
 .button-triangle3 {
   position: absolute;
   top: 39%;
-  left: 23%;
+  left: 28%;
   background-color: $lightblue;
   border-radius: 50%;
   &:active {
+    text-decoration: none !important;
+  }
+  &:focus {
     text-decoration: none !important;
   }
 }
 .button-triangle4 {
   position: absolute;
   top: 26%;
-  left: 32%;
+  left: 37%;
   background-color: $lightblue;
   border-radius: 50%;
   &:active {
+    text-decoration: none !important;
+  }
+  &:focus {
     text-decoration: none !important;
   }
 }
 .button-triangle5 {
   position: absolute;
   top: 13%;
-  left: 38%;
+  left: 43%;
   background-color: $lightblue;
   border-radius: 50%;
   &:active {
+    text-decoration: none !important;
+  }
+  &:focus {
     text-decoration: none !important;
   }
 }

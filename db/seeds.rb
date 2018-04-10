@@ -79,7 +79,7 @@ A plus longue échéance, les IFSI proposent des stages de perfectionnement et d
   },
   {
     name:         "ACOUSTICIEN",
-    photo:        "acousticien",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744139/acousticien.jpg",
     synonym:      "technicien en acoustique",
     sector:       ["BÂTIMENT", "TRAVAUX PUBLICS", "ENVIRONNEMENT", "NATURE", "NETTOYAGE"],
     short_description: "L’acousticien est un spécialiste de la lutte contre les nuisances sonores, urbaines, industrielles, routières ou liées aux transports. Sa mission : rechercher des solutions contre ce type de pollution.",
@@ -108,116 +108,248 @@ Pour contacter les Scuio : www.orientation-pour-tous.fr rubrique s'orienter dans
     statut: ""
   },
   {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
+    name:         "ACTUAIRE",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744143/actuaire.jpg",
+    synonym:      "chargé d'études actuarialles, technicien d'actuariat",
+    sector:       ["BANQUE", "FINANCE", "ASSURANCE", "DROIT", "", ""],
+    short_description: "L’actuaire est un haut technicien de l’assurance. Il réalise des études économiques, financières et statistiques pour mettre au point des contrats. Il évalue les risques, les coûts et la rentabilité. Il fixe les tarifs et suit les résultats d'exploitation.",
+    description: "L'actuaire joue un rôle majeur dans la décision d’accepter un contrat, de partager les risques en co-assurance ou de réassurer le risque auprès d’une autre compagnie d’assurances.
+Il négocie ces diverses procédures avec les chargés d’études, courtiers, agents généraux et les partenaires des sociétés concurrentes.
+Il intervient dans la gestion financière des cotisations placées en épargne. Il recherche et centralise les données, élabore et présente les résultats des analyses sous forme de tableaux, barèmes, formules.
+L'actuaire travaille le plus souvent au siège d’une compagnie d’assurances, avec des déplacements auprès des réseaux d’exploitation. La plupart des activités basées sur des calculs impliquent l’utilisation des outils informatiques et des logiciels les plus spécialisés.
+Outre ces activités techniques, l'actuaire a des responsabilités d’encadrement.
+L’organisation de son travail s’effectue en toute autonomie. Il opère dans les sociétés d’assurances, les caisses de retraite et de prévoyance, les sociétés de bourse, les institutions financières, les services d’études économiques des banques et des grandes entreprises.",
+    study:  "Après un bac S, les formations sont à dominante mathématique, statistique et économique. Le niveau bac + 5 est le minimum requis pour travailler en tant qu’actuaire.
+
+Huit formations initiales sont reconnues par l'Institut des actuaires et donnent accès au statut d'Actuaire Associé de l'Institut des actuaires : l'ISFA, l'ISUP, l'Université de Strasbourg, l'EURIA, l'Université Paris Dauphine, l'ENSAE, l'ESSEC, le Collège des Ingénieurs, le Cnam.
+D'autres formations conduisent également au métier :
+- master statistique et actuariat appliquées en assurances dommages et santé (Sarads) à l'Iriaf (université de Poitiers),
+- master ingénierie maths-info : parcours ingénierie statistique et actuariat à l'Université catholique de lOuest.
+- master Ingénierie Statistique et Informatique de la Finance, de l'Assurance et du Risque (ISIFAR) à Paris Diderot.
+Le CEA (centre d'études acturielles) et le CNAM proposent des sessions de formation continue, elles aussi reconnues par l'institut des actuaires. ",
+    salary:  "Salaire en début de carrière :  3 200 € brut/ mois. ",
+    career:  "Après plusieurs années d’expérience, l’actuaire peut devenir responsable d’un service avec des fonctions d’encadrement importantes.",
+    similar_job:  ["AGENT GÉNÉRAL D'ASSURANCES", "ANALYSTE FINANCIER", "AUDITEUR EXTERNE", "CAISSIÈRE / CAISSIER", "CHARGÉ / CHARGÉE DE CLIENTÈLE BANCAIRE", "CONTRÔLEUR DE GESTION / CONTRÔLEUSE DE GESTION", "COURTIER EN ASSURANCES", "EXPERT-COMPTABLE / EXPERTE-COMPTABLE", "RÉDACTEUR EN ASSURANCES", "COMPTABLE"],
+    interest:  ["MANIER LES CHIFFRES"],
     statut: ""
   },
   {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
+    name:         "ADMINITRATEUR / ADMINISTRATRICE BASE DE DONNEES",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744143/administrateur_bdd.jpg",
+    synonym:      "Database administrator , gestionnaire de bdd",
+    sector:       ["ELECTRONIQUE", "INFORMATIQUE"],
+    short_description: "L'administrateur de BDD est le gestionnaire d'un volume important d'informations : adresses clients, tarifs, statistiques, documents. L'administrateur met ces données à la disposition des collaborateurs concernés.",
+    description: "Le rôle de l'administrateur de bases de données (ABD) est d’organiser et de gérer en toute fiabilité les systèmes de gestion des données de l'entreprise. Il doit en assurer la cohérence, la qualité et la sécurité. Il peut avoir à gérer plusieurs bases de données.
+Il participe au choix des progiciels et à la mise en oeuvre des bases de données de l'entreprise. C’est ensuite lui qui installe, configure, administre et optimise la ou les bases. Au-delà de l’aspect technique, il prend en compte tout l’environnement de l’entreprise ainsi que les besoins et les requêtes des utilisateurs.
+
+Il est au carrefour de différents services avec lesquels il travaille. Il peut participer à la formation des utilisateurs dans l’entreprise. Il peut être amené à faire des déplacements dans ou hors de l’entreprise ou intervenir sur la base en dehors des heures ouvrables.
+
+Les qualités indispensables : rigueur et sens de la méthode, mais aussi ouverture d'esprit, écoute, sens de la communication et capacité d'adaptation.",
+    study:  "De 3 à 5 années d'études supérieures et une expérience de 3 ans dans le développement informatique sont souhaitables.
+- BTS SIO services informatiques aux organisations (bac+2),
+- DUT informatique (bac+2),
+- licence pro (bac+3) :BDD, internet et sécurité Paris-Est ; systèmes informatiques en BDD CNAM Paris ; BDD Chambéry-Annecy...
+- master master pro (bac+5) : bioinformatique, connaissances, données Montpellier ; BDD et intelligence artificielle Dijon...
+- diplôme d'ingénieur (bac+5).",
+    salary:  "Salaire en début de carrière :  entre 2 300 et 3 000 € brut/ mois.",
+    career:  "Avec plusieurs années d’expérience, l'administrateur de bases de données peut évoluer vers un poste de chef de projet ou de responsable informatique encadrant toute une équipe d’informaticiens.",
+    similar_job:  ["CHEF DE PROJET INFORMATIQUE", "CHEF DE PROJET NUMÉRIQUE ÉDITION", "CHEF DE PROJET WEB", "DÉVELOPPEUR INFORMATIQUE", "DÉVELOPPEUR MULTIMÉDIA", "DÉVELOPPEUR WEB", "INGÉNIEUR RÉSEAU", "RESPONSABLE DE SÉCURITÉ INFORMATIQUE", "TECHNICIEN DE MAINTENANCE INFORMATIQUE", "TRAFFIC MANAGER"],
+    interest:  ["MANIER LES CHIFFRES", "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"],
+    statut: "BON"
+  },
+  {
+    name:         "AFFRÉTEUR",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/affre%CC%82teur.jpg",
+    synonym:      "agent de fret, commissionnaire en transport, courtier en transport, transitaire",
+    sector:       ["HUMANITAIRE", "TRANSPORT", "LOGISTIQUE"],
+    short_description: "L’affréteur est l’intermédiaire entre des clients qui ont des marchandises à expédier et les transporteurs. Il recherche le meilleur moyen de transport (coût, temps, trajet) pour son client. Les mots clés du métier : organisation, coordination, flexibilité.",
+    description: "On peut trouver l'affréteur dans les entreprises de transport et de logistique (entreposage), chez les transitaires (entreprise de courtage, cabinet conseil en transport et logistique) et dans l'industrie (responsable de transport).
+Sa mission principale : trouver le meilleur rapport qualité/prix pour transporter des produits (ou des voyageurs) tout en respectant les délais impartis. Ainsi, il choisit les moyens de transport les plus appropriés (routier, ferroviaire, maritime, fluvial, aérien), les sous-traitants qui assureront la prestation de transport, négocie avec eux les prix puis établit le contrat ainsi que les autres documents nécessaires. Il s'assure ensuite du suivi de la prestation (enlèvement, livraison...) et en rend compte à son client. L'affrétement peut être national ou international.
+
+Pour répondre aux différentes contraintes imposées par son univers de travail, l'affréteur doit bien connaître la législation en vigueur, les prix du marché et la géographie des transports. De plus, il doit parler couramment l'anglais, être clairvoyant, débrouillard et avoir une grande rapidité d'exécution.
+L'affréteur travaille principalement en collaboration avec le chef de quai, les manutentionnaires et les commerciaux. Le lieu physique principal de travail, pour l'affréteur, est son bureau. Ses outils principaux sont ceux de la communication et des TIC.
+La réduction du temps de travail à 35 heures existe aussi dans le secteur des transports et de leur organisation. Néanmoins elle est difficilement applicable, car la charge de travail, très irrégulière, est variable d'un jour à l'autre. Il existe une réglementation du travail spécifique aux transports.",
+    study:  "L’affréteur est un technicien de l’organisation du transport. Plusieurs diplômes au niveau bac et bac + 2/3 certifient des qualifications nécessaires :
+niveau bac
+- bac pro logistique,
+niveau bac + 2
+- BTS transport et prestations logistiques,
+- DUT gestion logistique et transport.
+Possibilité de poursuivre en licence professionnelle orientée transport/logistique.
+
+Il existe par ailleurs des écoles spécialisées dans le secteur des transports qui proposent de multiples formations. Elles sont dispensées par des organismes professionnels comme l’AFT-IFTIM ou PROMOTRANS.
+Mais dans tous les cas, la connaissance du terrain est primordiale avant d’acquérir des responsabilités. Au niveau de l'expérience professionnelle, en plus du diplôme, un stage de quelques semaines dans un service d'affrètement est idéal pour se préparer à cet emploi.
+
+A savoir : le CAP agent d’entreposage et de messagerie ne suffit pas pour exercer les responsabilités de l’affréteur.",
+    salary:  "Salaire en début de carrière :  1 600 € brut/mois. ",
+    career:  "Avec une certaine ancienneté et surtout de l’expérience dans la fonction d’affréteur, il est possible d'évoluer vers le métier de chef de service affrètement, puis responsable d'exploitation voire même de chef d'agence. Un affréteur peut également se lancer dans la création de sa propre entreprise d’affrètement.",
+    similar_job:  ["ASSISTANT LOGISTIQUE", "DISPATCHEUR", "EMBALLEUR / EMBALLEUSE", "EMPLOYÉ DE GROUPAGE", "LITIGEUR TRANSPORT", "LOGISTICIEN HUMANITAIRE", "RESPONSABLE LOGISTIQUE", "TRANSITAIRE / AGENT DE TRANSIT"],
+    interest:  ["ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS", "ORGANISER, GÉRER"],
     statut: ""
   },
   {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
+    name:         "AFFÛTEUR / AFFUTEUSE",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/affu%CC%82teur.jpg",
+    synonym:      "affuteur d'outillage industriel, mécanicien-affûteur",
+    sector:       ["INDUSTRIE", "MATÉRIAUX", "MÉCANIQUE", "MAINTENANCE"],
+    short_description: "Le mécanicien affûteur travaille dans une scierie ou dans certaines entreprises de la mécanique. Il répare et entretient des instruments tranchants. Il réalise des opérations minutieuses avec des cotes et des plans.",
+    description: "Le métier d'affûteur s’exerce généralement en atelier dans une atmosphère souvent bruyante pour effectuer les réparations.
+Une machine en panne, scie ou tronçonneuse ou n’importe quel autre outil tranchant de l’industrie du bois, par exemple, l’affûteur intervient immédiatement. Il répare et optimise les réglages de l’engin afin de rétablir la coupe parfaite de la machine.
+En dehors de l'industrie du bois, on rencontre des affûteurs dans le secteur de la mécanique et de l'aiguisage des objets coupants (lames de massicot par exemple).
+L’utilisation de machines automatisées a facilité le travail de coupe. Aussi, outre ses compétences en mécanique, l’affûteur doit connaître désormais les procédures exigées par les technologies modernes.
+Les normes de sécurité sont draconiennes en raison de la dangerosité des outils utilisés ou sur lesquels il travaille : lames de scie, fraises, forets, outils industriels/agricoles/industries papatières/imprimerie, instruments de chirurgie, hachoirs, instruments de cuisine, machines à affûter.
+Les  machines à commandes numériques ont aujourd'hui amélioré la sécurité, même si les projections d’étincelles et de particules métalliques demeurent. Quoiqu’il en soit l’attention de l’affûteur doit en permanence être affûtée.
+Spécialiste sollicité dans l’urgence, concentration, précision et sang froid sont des qualités indispensable pour ce métier.",
+    study:  "Ce métier est accessible à partir d'un CAP :
+- CAP conducteur-opérateur de scierie,
+- CAP mécanicien conducteur des scieries et industries mécaniques du bois, option affûteur de sciage, tranchage, déroulage,
+- CAP outillages en outils à découper et à emboutir (industrie mécanique), ",
+    salary:  "Salaire en début de carrière : 1500€ brut/mois.",
+    career:  "Dans de grandes unités, l’ouvrier affûteur expérimenté peut être amené à diriger l’équipe de maintenance. Il peut aussi créer son propre atelier d’affûtage avec son circuit de ramassage des outils et lames à travailler et réparer.",
+    similar_job:  ["CONDUCTEUR D'ENGINS FORESTIERS", "INGÉNIEUR DES PONTS, DES EAUX ET FORÊTS", "CHARPENTIER", "CHARPENTIER DE MARINE", "MENUISIER", "PÉPINIÉRISTE", "TECHNICIEN FORESTIER", "COUTELIER"],
+    interest:  ["FAIRE UN TRAVAIL DE PRÉCISION", "RÉPARER"],
     statut: ""
   },
   {
-    name:         "",
-    photo:        "",
+    name:         "AGENT D'ENTRETIEN",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/agent_d_entretien.jpg",
     synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
+    sector:       ["SOCIAL", "SERVICES À LA PERSONNE"],
+    short_description: "Électricité, menuiserie, plomberie, tapisserie, peinture ou encore jardinage… L’agent de petits travaux possède plusieurs cordes à son arc pour prendre en charge, au domicile de son employeur, en intérieur ou au jardin, des tâches de courte durée.",
+    description: "En intérieur, l’agent d’entretien “petits travaux” exécute toutes sortes de tâches, parfois en l’absence du particulier qui sollicite ses services, de la maintenance à la rénovation.
+Par exemple : pose de tringles à rideaux, changement d’un plomb dans le tableau électrique ou d’un joint de robinet, nettoyage d’un revêtement de sol, réparation d’une fuite d’eau, montage d’un meuble, remplacement d’une bouteille de gaz, fixation d’une étagère, installation et mise en route d’un appareil ménager…
+En extérieur, il ne prend en charge que des travaux légers.
+Par exemple : nettoyage de balcon ou de terrasse, réparation ou installation de clôture. Le jardinage se résume lui aussi à des tâches de base : tonte du gazon, ramassage des feuilles, taille d’une haie ou d’un massif, engazonnement, évacuation de déchets végétaux vers une déchetterie ou alimentation du compost, entretien du matériel…
+Dans la maison comme au jardin, l’agent de “petits travaux” utilise le matériel et les produits mis à sa disposition par le particulier employeur.
+Il bénéficie d’une large autonomie dans l’organisation de son travail, et ses horaires dépendent de la nature des travaux et du nombre de particuliers qui font appel à lui.
+Il peut travailler également pour des entreprises ou des associations du secteur des services à la personne.",
+    study:  "Il n’existe pas de formation ni de diplôme spécifique au métier d’agent d’entretien “petits travaux à domicile”, mais plusieurs diplômes professionnels attestent de connaissances de base utiles qui intéresseront associations, entreprises ou particuliers.
+Par exemple CAP et bac pro dans les domaines de :
+- entretien et nettoyage
+- électrotechnique
+- génie thermique et climatique
+- industrie du bois
+- bâtiment et travaux publicsassistant technique en milieu familial et collectif,
+- CAPA services en milieu rural dominante services aux personnes,
+- CAPA travaux paysagers,
+- CAPA productions horticoles,
+- BP équipements sanitaires, menuisier,
+- bac pro services de proximité et vie locale,
+- bac pro service aux personnes et aux territoires.
+En général, ces diplômes peuvent faire l’objet d’une reconnaissance dans le cadre de la VAE (validation des acquis de l’expérience).",
+    salary:  "Salaire en début de carrière : entre 25 et 30 € de l’heure en moyenne.",
+    career:  "Un agent employé par une entreprise ou une association du secteur de l’aide à la personne peut s’installer à son compte, à condition que ses tarifs soient concurrentiels à ceux pratiqués par les structures spécialisées.",
+    similar_job:  ["EMPLOYÉ À DOMICILE", "EMPLOYÉ DE MÉNAGE À DOMICILE", "RESPONSABLE DE SERVICES À DOMICILE", "ASSISTANT INFORMATIQUE ET INTERNET À DOMICILE", "ASSISTANTE MATERNELLE", "AUXILIAIRE DE VIE SOCIALE"],
+    interest:  ["RÉPARER", "TRAVAILLER AVEC DES PERSONNES ÂGÉES"],
+    statut: "BON"
+  },
+  {
+    name:         "AGENT D'ESCALE / CHEF D'ESCALE",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/agent_d_escale.jpg",
+    synonym:      "agent d'enregistrement, agent d'escale commercial",
+    sector:       ["TRANSPORT", "LOGISTIQUE"],
+    short_description: "L’agent d’escale est chargé de l’accueil, de l’information et de la prise en charge de la clientèle des aéroports (arrivées et départs). Il travaille sous la responsabilité du chef d’escale, qui supervise l’équipe sur le site aéroportuaire.",
+    description: "L’agent d’escale fait partie des services commerciaux d’une compagnie aérienne. Il travaille aux guichets d’accueil des passagers d’un aéroport, où il prend en charge les clients en partance (embarquement), à leur arrivée (débarquement) ou en correspondance (transit).
+L'agent d'escale procède à toutes les opérations d’enregistrement des passagers et de leurs bagages, et facilite les formalités de correspondance. Si nécessaire, il prend en charge les enfants en bas âge non accompagnés ou les personnes âgées ou handicapées.
+En cas d’incident, d’intempéries, de retard ou d’erreur concernant les bagages, l'agent d'escale en informe les passagers.
+En liaison avec les différents services de l’aérogare (sécurité, hôtellerie…), il utilise l’informatique et tous les moyens modernes de communication.
+L'agent d'escale peut travailler les week-ends et les jours fériés. Ses horaires sont variables et souvent décalés.
+Comme pour tous les métiers d’accueil du public, l’agent d’escale doit avoir un bon équilibre nerveux pour faire face à des situations parfois stressantes. À noter : il faut avoir un casier judiciaire vierge.
+Le chef d’escale est un cadre d’exploitation. Il assure le traitement des vols et l’encadrement de l’équipe opérationnelle sur le site aéroportuaire.
+Le chef d'escale a deux fonctions principales : une mission commerciale qui consiste à veiller à la qualité des services rendus aux passagers, et une mission de sécurité et de sûreté liée au transport aérien. Pour cette raison, le chef d’escale est en contact avec toutes les autorités de l’aéroport : police, aviation civile, services de la compagnie, gestion des vols, services de maintenance…
+Enfin, le chef d'escale assure également la liaison avec les entreprises de sous-traitance.",
+    study:  "Pour devenir agent d’escale, la pratique de l’anglais courant et le bac sont exigés. Le niveau bac + 2 est d’ailleurs de plus en plus fréquent.
+Certaines formations peuvent être utiles pour accéder à ce poste. Exemples :
+MC accueil dans les transports (bac + 1),
+BTS tourisme (fusion des BTS AGTL et VPT),
+DUT TC (techniques de commercialisation), pour évoluer plus facilement dans sa carrière
+certificat d’agent d’escale en aéroport (Ecole supérieure des métiers de l'aviation - ESMA).
+Le chef d’escale, s’il n’a pas fait carrière au sein du personnel commercial d’une compagnie aérienne, est le plus souvent issu d’une formation commerciale liée au transport ou au tourisme, qui lui a conféré de grandes aptitudes de manager.
+Technicien supérieur de l'aviation - TSA (Enac accès par concours),
+diplôme d'écoles de commerce,
+master professionnel : master pro management du transport aérien (Marseille 3) ou le master pro transport et logistique industrielle et commerciale (Lyon 2)...",
+    salary:  "Salaire en début de carrière :  1 500 € brut/ mois.",
+    career:  "Un agent d’escale peut acquérir des responsabilités au sein de son équipe : avec beaucoup d’expérience et une formation complémentaire, il peut devenir superviseur ou chef d’escale de permanence, par recrutement interne.
+Un chef d’escale peut évoluer vers les services administratifs centraux de sa compagnie : direction des ressources humaines, direction centrale de la communication, ou vers d'autres fonctions selon la mobilité interne ou les opportunités qu'offre les aéroports.",
+    similar_job:  ["CHEF DE PRODUITS VOYAGES", "COMMISSAIRE DE BORD", "HÔTESSE D'ACCUEIL", "HÔTESSE DE L'AIR / STEWARD", "AGENT DE SÛRETÉ AÉROPORTUAIRE", "AGENT DE PISTE D'AÉROPORT", "AVITAILLEUR AVION", "CONTRÔLEUR AÉRIEN"],
+    interest:  ["PARLER DES LANGUES ÉTRANGÈRES", "SUIVRE DES CONSIGNES PRÉCISES"],
     statut: ""
   },
   {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
-    statut: ""
+    name:         "AGENT D'ESCALE FERROVIAIRE",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/agent_d_escale_ferroviaire.jpg",
+    synonym:      "agent de gare technique et services",
+    sector:       ["TRANSPORT", "LOGISTIQUE"],
+    short_description: "L’agent d’escale ferroviaire SNCF a une double mission, en chantier de préparation des trains et au contact des voyageurs. Objectifs : sécurité et satisfaction de la clientèle. Le recrutement des jeunes se fait sur une période de formation rémunérée de 4 mois ou par alternance.",
+    description: "L’agent d’escale ferroviaire SNCF assure deux missions distinctes mais complémentaire.
+
+En chantier de préparation, il effectue l’assemblage des voitures pour composer le train (accrochage, décrochage), tout en respectant les règles de sécurité. Il vérifie les branchements (freins, électricité, sonorisation) et procède à des essais techniques.
+
+L’agent d’escale ferroviaire réalise aussi des missions de contrôle :
+-    coordination de la circulation des trains de voyageurs et de marchandise (aiguillage, signalisation, protection des voies…
+-    protection du personnel sur les voies, alerte…
+-    régulation du trafic en liaison avec le PCC
+
+En gare, il est responsable des conditions de départ du train. Il lance l’ordre de départ en fonction de la planification.
+
+En contact avec le public, il informe et oriente les voyageurs. Il est une pièce maîtresse dans la gestion de situation de crise.
+
+Maîtrise de soi, sens du service, réactivité sont des qualités indispensables à l’exercice du métier.
+L'agent d'escale ferriviaire ets également appelé agent de gare technique et services sur le réseau Transilien ",
+    study:  "Pour candidater à un poste d’agent d’escale ferroviaire :
+-    sans diplôme mais avec une bonne expérience de la relation client,
+-    avec un CAP du domaine transport/logistique/commerce,
+-    avec un bac général ou professionnel transport/logistique, commerce, services,
+-    avec le bac pro ARCU – accueil-relation client et usagers (indiqué).
+
+NB : une double compétence technique et commerciale est un atout.
+
+Processus : dépôt de candidature, contrôle du profil, tests, évaluation, formation rémunérée de 4 mois débouchant sur le titre professionnel d'agent d'escale ferroviaire (bac + 1), poste.",
+    salary:  "Salaire en début de carrière :  1 500 € brut/ mois.",
+    career:  "L'agent d'escale ferroviaire évoluera sur une grille indiciaire de salaire. Avec de l'ancienneré, il deviendra chef d'équipe ou de site.",
+    similar_job:  ["AGENT DES GARES", "AGENT DE CONTRÔLE DES TRANSPORTS", "AGENT DE MAINTENANCE DES CATÉNAIRES", "AGENT DE MANŒUVRE DE RÉSEAU FERRÉ", "CONDUCTEUR DE TRAIN", "INGÉNIEUR FERROVIAIRE", "COMMERCIAL À BORD DES TRAINS"],
+    interest:  ["CONSEILLER, AIDER LES AUTRES", "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS", "SUIVRE DES CONSIGNES PRÉCISES"],
+    statut: "BON"
   },
   {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
-    statut: ""
-  },
-  {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
-    statut: ""
-  },
-  {
-    name:         "",
-    photo:        "",
-    synonym:      "",
-    sector:       ["", "", "", "", "", ""],
-    short_description: "",
-    description: "",
-    study:  "",
-    salary:  "",
-    career:  "",
-    similar_job:  ["", "", "", "", "", ""],
-    interest:  ["", ""],
-    statut: ""
+    name:         "AGENT DE CONTRÔLE DES TRANSPORTS",
+    photo:        "http://res.cloudinary.com/dozkmkl7p/image/upload/v1521744142/agent_de_contro%CC%82le_de_transports.jpg",
+    synonym:      "chef de bord pour TGV , commercial à bord des trains , contrôleur",
+    sector:       ["TRANSPORT", "LOGISTIQUE"],
+    short_description: "Au sein des transports urbains ou des trains, l'agent de contrôle vérifie les titres de transports et assure une mission d'information et de conseil auprès des clients.",
+    description: "Chargé du contrôle des titres de transports, il décide des suites à donner en cas d'infraction, dresse les procès verbaux et encaisse les amendes.
+En parallèle, il dispense conseils et informations auprès de la clientèle (questions sur les horaires, les rythmes du trafic ou les destinations, justificatifs...). A bord des trains, il est également chargé d'assister le conducteur pour le bon déroulement des circulations (fermeture des portes, intervention en cas d'incidents)
+Il aide au bon fonctionnement des équipements, signale les avaries ou les déprédations éventuelles, veille au respect des réglementations et des consignes de sécurité.
+En situation il lui arrive de jouer un rôle de prévention et de médiateur social pour désamorcer d’éventuels conflits toujours possibles dans un milieu confiné où l’entassement n’est pas rare.
+Il travaille la plupart du temps en station debout, en relation permanente avec le public. Ses horaires de service sont très souvent décalés ou irréguliers : en roulement, les samedis, dimanches et jours fériés,tard le soir ou tôt le matin. Un bon équilibre nerveux et un sens aigu du relationnel sont importants, surtout en cas de litige avec la clientèle.
+Le contrôleur ne travaille jamais seul mais en équipe. Il porte une tenue spécifique obligatoire.
+Le plus souvent, l’agent de contrôle est salarié d’une compagnie de transport urbain ou d’une régie dont la plus connue est la RATP. La plupart des grandes villes possèdent aussi leur régie ou leur compagnie privée ou municipale de transport urbain (Lille, Rouen, Caen, Lyon, Marseille, Toulouse, etc.). La SNCF emploie aussi des agents de contrôle à bord des trains en Ile de France ou sur les grandes lignes (commercial à bord des trains, chef de bord pour TGV). ",
+    study:  "Si le métier recrute sans formation, certains diplômes peuvent toutefois constituer une base intéressante :
+- CAP agent d’accueil et de conduite routière, transport de voyageur,
+- bac pro accueil-relation clients et usagers,
+- bac pro transport,
+- MC (mention complémentaire) accueil dans les transports : 1 an après le bac.
+Commercial à bord des trains / SNCF :
+- sans diplôme avec une expérience professionnelle significative d’au moins 3 ans dans le domaine du service,
+ou
+- titulaire d’un diplôme de niveau IV bac ou V CAP, complété par une expérience dans la vente et la relation clients,
+- avoir au moins 20 ans.
+Après recutement, formation interne rémunérée de 4 mois assurée par la SNCF.
+Contrôleur à la RATP :
+- âgé d'au moins 18 ans
+- aucun diplôme exigé
+- être titulaire du permis B
+- être en position d’obtenir l’assermentation délivrée par le tribunal de grande instance de Paris (casier judiciaire vierge)
+- capacité d'analyse de situation et discernement (tests),
+- faire preuve de réactivité, capacité d'écoute, sens du dialogue, argumentation, maîtrise de soi, savoir gérer les situations conflictuelles, disposition à travailler en équipe,
+- expérience d'au moins un an  dans le domaine commercial, service ou sécurité.
+
+Formation de 6 semaines rémunurée assurée par la RATP à l’issue de l'embauche.  A noter, en 2017 la RATP prévoit de recruter 100 agents de contrôle. ",
+    salary:  "Salaire en début de carrière :  1 676 € brut/ mois. (sur 13 mois)",
+    career:  "Après plusieurs années d’expérience professionnelle, l’agent de contrôle peut encadrer une équipe. Il peut aussi se reconvertir en interne pour une autre fonction : machiniste, conducteur, formateur.",
+    similar_job:  ["COMMERCIAL À BORD DES TRAINS", "CONDUCTEUR / CONDUCTRICE D'AUTOBUS", "CONDUCTEUR DE TAXI", "CONDUCTEUR DE TRAIN", "CONDUCTEUR ROUTIER / CONDUCTRICE ROUTIÈRE", "CONVOYEUR DE FONDS", "COURSIER", "LIVREUR", "MÉCANICIEN / MÉCANICIENNE DE MAINTENANCE FERROVIAIRE"],
+    interest:  ["FAIRE RESPECTER LA LOI", "SE DÉPLACER SOUVENT"],
+    statut: "BON"
   }
 ]
 jobs.each do |job|
@@ -236,28 +368,49 @@ interests = [
     name: "CONVAINCRE, COMMUNIQUER"
   },
   {
-    name: ""
+    name: "PROTÉGER L'ENVIRONNEMENT"
   },
   {
-    name: ""
+    name: "FAIRE UN TRAVAIL DE PRÉCISION"
   },
   {
-    name: ""
+    name: "TRAVAILLER DANS LA MUSIQUE"
   },
   {
-    name: ""
+    name: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
   },
   {
-    name: ""
+    name: "MANIER LES CHIFFRES"
   },
   {
-    name: ""
+    name: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
   },
   {
-    name: ""
+    name: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
   },
   {
-    name: ""
+    name: "ORGANISER, GÉRER"
+  },
+  {
+    name: "RÉPARER"
+  },
+  {
+    name: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    name: "PARLER DES LANGUES ÉTRANGÈRES"
+  },
+  {
+    name: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    name: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    name: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    name: "SE DÉPLACER SOUVENT"
   }
 ]
 interests.each do |interest|
@@ -275,6 +428,90 @@ jobinterests = [
   {
     job: "AGENT DE STÉRILISATION",
     interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "AGENT DE STÉRILISATION",
+    interest: "PROTÉGER L'ENVIRONNEMENT"
+  },
+  {
+    job: "ACOUSTICIEN",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
+  },
+  {
+    job: "ACOUSTICIEN",
+    interest: "PROTÉGER L'ENVIRONNEMENT"
+  },
+  {
+    job: "ACOUSTICIEN",
+    interest: "TRAVAILLER DANS LA MUSIQUE"
+  },
+  {
+    job: "ACOUSTICIEN",
+    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
+  },
+  {
+    job: "ACTUAIRE",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "ADMINITRATEUR / ADMINISTRATRICE BASE DE DONNEES",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "ADMINITRATEUR / ADMINISTRATRICE BASE DE DONNEES",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "AFFRÉTEUR",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "AFFRÉTEUR",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "AFFÛTEUR / AFFUTEUSE",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
+  },
+  {
+    job: "AFFÛTEUR / AFFUTEUSE",
+    interest: "RÉPARER"
+  },
+  {
+    job: "AGENT D'ENTRETIEN",
+    interest: "RÉPARER"
+  },
+  {
+    job: "AGENT D'ENTRETIEN",
+    interest: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    job: "AGENT D'ESCALE / CHEF D'ESCALE",
+    interest: "PARLER DES LANGUES ÉTRANGÈRES"
+  },
+  {
+    job: "AGENT D'ESCALE / CHEF D'ESCALE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "AGENT D'ESCALE FERROVIAIRE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "AGENT D'ESCALE FERROVIAIRE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "AGENT D'ESCALE FERROVIAIRE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "AGENT DE CONTRÔLE DES TRANSPORTS",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "AGENT DE CONTRÔLE DES TRANSPORTS",
+    interest: "SE DÉPLACER SOUVENT"
   }
 ]
 jobinterests.each do |jobinterest|
