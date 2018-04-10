@@ -5,26 +5,6 @@
   font-size: 35px;
   color: white;
 }
-.sign-in {
-  border: 2px solid rgb(170, 170, 170);
-  background-color: white;
-  border-radius: 10px;
-  padding: 5px;
-  position: absolute;
-  right: 11px;
-  top: 11px;
-  a {
-    color: rgb(170, 170, 170) !important;
-  }
-}
-.logo {
-  background-size: 65px;
-  width: 159px;
-  position: absolute;
-  top: 106%;
-  left: 40%;
-}
-
 #banner-typed-text {
   font-size: 40px;
   color: white;
@@ -37,17 +17,28 @@
 .content {
   z-index: 10;
 }
-
 #app-content {
-  height: 100vh;
   overflow: scroll;
-  margin-bottom: 40px;
+  height: 100vh;
+  width: 100vw;
+}
+#students-content{
+  height: 100vh;
+  width: 100vw;
+  padding: 21px;
+  overflow: scroll;
 }
 .wrapper {
-  position: absolute;
   width: 100%;
+  position: relative;
 }
-
+.logo {
+  background-size: 65px;
+  width: 159px;
+  position: absolute;
+  top: 106%;
+  left: 40%;
+}
 // .gradient {
 //   position: absolute;
 //   top: 0;
@@ -62,52 +53,57 @@ video {
   position: absolute;
   top: 0;
   z-index: -1;
-  width: 100%;
+  width: 60%;
   height: calc(100vh - 300px);
   min-height: 300px;
   max-height: 200px;
   object-fit: cover;
 }
 
+.container-video {
+  overflow: scroll;
+}
 .youtube {
   position: absolute;
-  top: 420px;
+  top: 150px;
+  width: 180%;
 }
 .line {
-  font-size: 19px;
-  top: 323px;
+  font-size: 16px;
+  top: 68px;
   position: absolute;
   color: #333333;
 }
 .subtitle {
-  font-size: 9px;
-  top: 384px;
+  font-size: 8px;
+  left: 8px;
+  top: 120px;
   position: absolute;
   color: #333333;
 }
 .img-schema {
-  width: 63%;
+  width: 57%;
   position: absolute;
   top: 413px;
-  right: -173px;
+  right: -148px;
 }
 .fa-arrow-right {
   position: absolute;
-  top: 559px;
+  top: 319px;
   font-size: 34px;
   transform: rotate(35deg);
   color: #333333;
 }
 .littlesubtitle {
   font-size: 14px;
-  top: 569px;
+  top: 332px;
   position: absolute;
   left: 52px;
   color: #333333;
 }
 .punchline {
   font-size: 15px;
-  top: 599px;
+  top: 365px;
   position: absolute;
   left: 83%;
   color: #333333;

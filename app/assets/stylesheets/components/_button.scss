@@ -34,7 +34,7 @@ a {
 
 .students {
   position: absolute;
-  top: 598px;
+  top: 365px;
   left: 21%;
   width: 55%;
   border-radius: 4px;
@@ -44,7 +44,7 @@ a {
 }
 .parents {
   position: absolute;
-  top: 665px;
+  top: 432px;
   left: 21%;
   width: 55%;
   border-radius: 4px;
@@ -58,6 +58,24 @@ a {
   width: 55%;
   border-radius: 4px;
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   margin-top: 2px;
+  left: 30%;
+  position: absolute;
+}
+.sign-in {
+  border: 2px solid $red;
+  background-color: rgba(120, 120, 120, 0.3);
+  border-radius: 5px;
+  padding: 0px 7px;
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  a {
+    color: $red !important;
+    font-size: 13px;
+    &:active {
+      text-decoration: none !important;
+    }
+  }
 }
