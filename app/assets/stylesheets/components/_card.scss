@@ -89,7 +89,20 @@
   margin-top: 40px;
   padding: 0;
 }
+.card-infos {
+  box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.2),1px 1px 1px 1px rgba(170, 170, 170,0.2);
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 110px;
+  h3 {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  &:hover {
+    box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
 
-.cards-infos {
-
+  }
 }
