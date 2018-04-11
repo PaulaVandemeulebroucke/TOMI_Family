@@ -65,21 +65,13 @@
     background-position: 50% 50%;
   }
 }
-.navbar-down-item a {
-  color: $grey;
-  font-size: 25px;
+.navbar-down-item i {
+  font-size: 23px !important;
+  margin-top: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-}
-.navbar-down-item a:hover {
-  color: $red;
-}
-
-/* Add an active class to highlight the current page */
-.active {
-  color: $red;
 }
 
 /* Main navbar */
@@ -120,3 +112,22 @@
   }
 }
 
+.scd-navbar {
+  background: white;
+  transition: all 0.3s ease;
+  height: 125px;
+  padding: 0px 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+ul {
+  padding: 0;
+  a {
+    font-size: 12px;
+  }
+}
+li {
+  list-style-type: none;
+}

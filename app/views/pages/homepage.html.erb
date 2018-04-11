@@ -1,9 +1,43 @@
-<div class="wrapper-home">
-  <a href="#" class="button-triangle5">Tout ce qui me concerne</a>
-  <a href="#" class="button-triangle4">Mon réseau</a>
-  <a href="#" class="button-triangle3">Ils sont là pour moi</a>
-  <a href="/chooseajob" class="button-triangle2">Trouver un métier</a>
-  <a href="/interests" class="button-triangle1">Apprendre à me connaître</a>
+<div class="container-homepage">
+  <div class="cards-homepage">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
+        <a href="/interests"><div class="card-homepage">
+          <p>Etape 1: </p>
+          <h3><strong>Ce que j'</strong><i class="em em-heart"></i></i></h3>
+          <i class="fas fa-angle-right"></i>
+        </div></a>
+        <a href="/chooseajob"><div class="card-homepage">
+          <p>Etape 2: </p>
+          <h3><strong>Quel métier j'aimerai faire ?</strong><i class="em em-thinking_face"></i></h3>
+          <i class="fas fa-angle-right"></i>
+        </div></a>
+        <a href="/jobs"><div class="card-homepage">
+          <p>Etape 3: </p>
+          <h3><strong>Les infos importantes</strong><i class="em em-boom"></i></h3>
+          <i class="fas fa-angle-right"></i>
+        </div></a>
+        <a href="/jobs"><div class="card-homepage">
+          <p>Etape 4: </p>
+          <h3><strong>Mon réseau</strong><i class="em em-earth_americas"></i><i class="em em-muscle"></i></h3>
+          <i class="fas fa-angle-right"></i>
+        </div></a>
+      </div>
+    </div>
+  </div>
 </div>
 
-<%= render '/shared/navigationbar' %>
+<div class="navbar-down">
+
+    <% if user_signed_in? %>
+
+      <!-- Avatar with dropdown menu -->
+      <div class="navbar-down-item">
+        <a ></a>
+        <a ></a>
+        <a ></a>
+        <a ></i></a>
+        <a href="#" data-container="body" data-toggle="popover" data-placement="top" data-content="test"><img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" alt="profile" class="profile"></a>
+      </div>
+    <% end %>
+</div>
