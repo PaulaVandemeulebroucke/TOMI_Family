@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'myprofile', to: 'pages#myprofile'
   get 'homepage', to: 'pages#homepage'
   get 'suggestion', to: 'pages#suggestion'
+  get 'infos', to: 'pages#infos'
   resources :interests, only: [ :index, :show ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest

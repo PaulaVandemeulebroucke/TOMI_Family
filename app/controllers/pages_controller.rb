@@ -22,4 +22,7 @@ class PagesController < ApplicationController
 
   def myprofile
   end
+
+  def infos
+  end
 end
