@@ -98,11 +98,50 @@
   margin-right: 10%;
   height: 110px;
   h3 {
-    font-size: 20px;
-    padding-top: 40px;
+    font-size: 16px;
+    padding: 41px 5px;
+    color: white;
   }
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
 
   }
+}
+.card-info1 {
+  background-image: linear-gradient(-225deg, rgba(130,130,130,0.4) 0%, rgba(130,130,130,0.5) 0%), url("meeting.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info2 {
+  background-image: linear-gradient(-225deg, rgba(130,130,130,0.4) 0%, rgba(130,130,130,0.5) 0%), url("conseillers.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info3 {
+  background-image: linear-gradient(-225deg, rgba(130,130,130,0.4) 0%, rgba(130,130,130,0.5) 0%), url("outils.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info4 {
+  background-image: linear-gradient(-225deg, rgba(130,130,130,0.4) 0%, rgba(130,130,130,0.5) 0%), url("changements.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.agenda {
+  font-size: 46px;
+  text-align: center;
+  padding: 67px 10px;
+  background-color: rgb(240, 220, 220);
 }
