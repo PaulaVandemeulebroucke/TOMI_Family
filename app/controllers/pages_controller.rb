@@ -25,4 +25,17 @@ class PagesController < ApplicationController
 
   def infos
   end
+
+  def entretien
+  end
+
+  def conseillers
+  end
+
+  def outils
+  end
+
+  def changements
+  end
 end
+
