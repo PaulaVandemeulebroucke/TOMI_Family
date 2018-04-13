@@ -65,13 +65,28 @@
     background-position: 50% 50%;
   }
 }
-.navbar-down-item i {
-  font-size: 23px !important;
+.navbar-down-item {
+  i {
+    font-size: 23px !important;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+.regular-fa-home {
+  font-size: 33px !important;
   margin-top: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
+  color: $grey;
+}
+.homepage-fa-home {
+  font-size: 40px !important;
+  margin-top: 2px;
+  color: $red;
+  border: 3px solid $red;
+  border-radius: 50%;
+  padding: 2px;
 }
 
 /* Main navbar */

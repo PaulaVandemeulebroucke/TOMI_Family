@@ -1,5 +1,5 @@
-.container-homepage {
-
+.container {
+  margin-bottom: 200px;
 }
 a:hover {
   text-decoration: none;
@@ -18,13 +18,13 @@ a:hover {
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
   }
   p {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     color: $grey;
     margin-top: 10px;
   }
   h3 {
-    font-size: 17px;
+    font-size: 15px;
     padding: 0;
     margin: 0;
     text-align: center;

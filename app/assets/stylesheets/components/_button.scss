@@ -79,7 +79,16 @@ a {
     }
   }
 }
-.interests {
+.scd-navbar-btn-xtrasmall {
+  width: 70%;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  margin-top: 2px;
+  left: 26%;
+  position: absolute;
+  font-size: 14px;
+}
+.scd-navbar-btn-small {
   width: 100%;
   border-radius: 4px;
   margin-bottom: 60px;
@@ -88,4 +97,12 @@ a {
   position: absolute;
   font-size: 14px;
 }
-
+.scd-navbar-btn-big {
+  width: 114%;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  margin-top: 2px;
+  left: 3%;
+  position: absolute;
+  font-size: 14px;
+}
