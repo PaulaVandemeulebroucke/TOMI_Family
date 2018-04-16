@@ -1,4 +1,5 @@
 // https://github.com/gajus/swing#events
+// https://github.com/uqlibrary/polymer-prototypes/blob/master/bower_components/swipeable-card/swipeable-card.html
 
 function swipe() {
   // Prepare the cards in the stack for iteration.
