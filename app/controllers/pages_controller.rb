@@ -29,6 +29,9 @@ class PagesController < ApplicationController
   def entretien
   end
 
+  def financements
+  end
+
   def conseillers
   end
 
@@ -37,5 +40,25 @@ class PagesController < ApplicationController
 
   def changements
   end
-end
 
+  def un_cv_parfait
+  end
+
+  def lettre_de_motivation_qui_cartonne
+  end
+
+  def je_vais_tout_dechirer
+  end
+
+  def je_sors_du_lot
+  end
+
+  def bourse_et_APL
+  end
+
+  def les_autres_aides
+  end
+
+  def le_pret_bancaire
+  end
+end

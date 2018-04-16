@@ -16,8 +16,16 @@ Rails.application.routes.draw do
   get 'infos', to: 'pages#infos'
   get 'entretien', to: 'pages#entretien'
   get 'conseillers', to: 'pages#conseillers'
+  get 'financements', to: 'pages#financements'
   get 'outils', to: 'pages#outils'
   get 'changements', to: 'pages#changements'
+  get 'un_cv_parfait', to: 'pages#un_cv_parfait'
+  get 'lettre_de_motivation_qui_cartonne', to: 'pages#lettre_de_motivation_qui_cartonne'
+  get 'je_vais_tout_dechirer', to: 'pages#je_vais_tout_dechirer'
+  get 'je_sors_du_lot', to: 'pages#je_sors_du_lot'
+  get 'bourse_et_APL', to: 'pages#bourse_et_APL'
+  get 'les_autres_aides', to: 'pages#les_autres_aides'
+  get 'le_pret_bancaire', to: 'pages#le_pret_bancaire'
   resources :interests, only: [ :index, :show ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest
