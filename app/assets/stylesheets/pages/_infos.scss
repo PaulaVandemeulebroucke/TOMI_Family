@@ -1,0 +1,77 @@
+.title-infos-entretiens {
+  font-size: 20px;
+  text-align: center;
+}
+.small-container {
+  margin: 25px 70px;
+}
+.check-list-box {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 62px;
+}
+.check-list-label {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.card-infos-entretien {
+  box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.2),1px 1px 1px 1px rgba(170, 170, 170,0.2);
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 110px;
+  h3 {
+    font-size: 24px;
+    padding: 24px 13px;
+    padding-bottom: 66px;
+    color: white;
+  }
+  &:hover {
+    box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
+  }
+}
+.card-info1-entretien {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("cv2.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
+}
+.card-info2-entretien {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 0%), url("motiv.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
+}
+.card-info3-entretien {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 0%), url("success.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
+}
+.card-info4-entretien {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.04) 0%), url("different.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: relative;
+}
+.reminder {
+  font-size: 10px;
+  text-align: center;
+}
