@@ -31,13 +31,14 @@
 .wrapper {
   width: 100%;
   position: relative;
+  height: 100%;
 }
 .logo {
   background-size: 65px;
   width: 159px;
   position: absolute;
-  top: 106%;
   left: 40%;
+  top: 35%;
 }
 // .gradient {
 //   position: absolute;
@@ -50,19 +51,18 @@
 // }
 
 video {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: -243px;
   z-index: -1;
   width: 100%;
-  height: calc(100vh - 300px);
-  min-height: 300px;
-  max-height: 200px;
+  min-height: 40%;
+  max-height: 40%;
   object-fit: cover;
 }
 
-.container-video {
-  overflow: scroll;
-}
+// .container-video {
+//   overflow: scroll;
+// }
 .youtube {
   position: absolute;
   top: 150px;
@@ -70,22 +70,13 @@ video {
 }
 .line {
   font-size: 16px;
-  top: 68px;
-  position: absolute;
   color: #333333;
+  text-align: center;
 }
 .subtitle {
   font-size: 8px;
-  left: 8px;
-  top: 120px;
-  position: absolute;
   color: #333333;
-}
-.img-schema {
-  width: 57%;
-  position: absolute;
-  top: 413px;
-  right: -148px;
+  text-align: center;
 }
 .fa-arrow-right {
   position: absolute;

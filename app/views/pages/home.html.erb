@@ -1,4 +1,4 @@
-<div class="wrapper">
+  <div class="wrapper">
   <div class="banner">
     <%= render '/shared/banner' %>
     <div class="sign-in">
@@ -10,17 +10,14 @@
         <%= link_to t(".sign_in", default: "Login"), new_user_session_path %>
       <% end %>
     </div>
-    <%= image_tag("logo.png", class: "logo")  %>
   </div>
   <div class="gradient">
   </div>
-  <div class="container-video">
-    <video autoplay loop>
-      <source src='<%= asset_path "jeunes.mp4"%>' type="video/mp4"/>
-      Your browser does not support the video tag. I suggest you upgrade your browser.
-    </video>
-  </div>
-</div>
+  <video autoplay loop>
+    <source src='<%= asset_path "jeunes.mp4"%>' type="video/mp4"/>
+    Your browser does not support the video tag. I suggest you upgrade your browser.
+  </video>
+    <%= image_tag("logo.png", class: "logo")  %>
 <div class= "container-fluid">
   <div class="row">
     <div class="col-xs-12">
@@ -53,4 +50,4 @@
     </div>
   </div>
 </div>
-
+</div>
