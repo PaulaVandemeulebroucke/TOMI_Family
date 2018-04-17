@@ -22,6 +22,7 @@ gem 'acts_as_votable', '~> 0.11.1'
 gem 'pg_search'
 gem 'jquery-rails'
 gem 'chosen-rails'
+gem 'forest_liana'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
