@@ -1,0 +1,43 @@
+.youtube-parents {
+  width: 100%;
+  margin-top: 17px;
+}
+.title-parents {
+  font-size: 17px;
+  color: $red;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.subtitle-parents {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.subtitle-parents-small {
+  font-size: 14px;
+  text-align: justify;
+    margin-left: 8px;
+}
+.ul-parents {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.surlignement {
+  box-shadow: inset 0px -9px $lightblue;
+  margin-left: 8px;
+}
+.li-parents {
+  margin-left: 38px;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 6px;
+}
+.image {
+  background-image: url("parents.jpeg");
+  margin-left: -2px;
+  margin-right: -2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 165px;
+}

@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'favorites', to: 'pages#favorites'
   get 'signupstudents', to: 'pages#signupstudents'
   get 'signupstudents2', to: 'pages#signupstudents2'
+  get 'signupparents', to: 'pages#signupparents'
   get 'myprofile', to: 'pages#myprofile'
   get 'homepage', to: 'pages#homepage'
   get 'suggestion', to: 'pages#suggestion'

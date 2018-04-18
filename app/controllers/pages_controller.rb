@@ -61,4 +61,7 @@ class PagesController < ApplicationController
 
   def le_pret_bancaire
   end
+
+  def signupparents
+  end
 end
