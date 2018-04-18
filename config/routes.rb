@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get 'signupparents', to: 'pages#signupparents'
   get 'myprofile', to: 'pages#myprofile'
   get 'homepage', to: 'pages#homepage'
+  get 'homepage_parents', to: 'pages#homepage_parents'
   get 'suggestion', to: 'pages#suggestion'
   get 'infos', to: 'pages#infos'
   get 'entretien', to: 'pages#entretien'
@@ -28,6 +29,10 @@ Rails.application.routes.draw do
   get 'bourse_et_APL', to: 'pages#bourse_et_APL'
   get 'les_autres_aides', to: 'pages#les_autres_aides'
   get 'le_pret_bancaire', to: 'pages#le_pret_bancaire'
+  get 'tout_savoir_sur_orientation', to: 'pages#tout_savoir_sur_orientation'
+  get 'epanouissement_au_quotidien', to: 'pages#epanouissement_au_quotidien'
+  get 'energies_que_je_transmets', to: 'pages#energies_que_je_transmets'
+  get 'devenir_mentor', to: 'pages#devenir_mentor'
   resources :interests, only: [ :index, :show ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest

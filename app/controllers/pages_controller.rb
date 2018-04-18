@@ -1,9 +1,12 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupstudents2 ]
+  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupstudents2, :signupparents ]
   def home
   end
 
   def homepage
+  end
+
+  def homepage_parents
   end
 
   def favorites
@@ -64,4 +67,17 @@ class PagesController < ApplicationController
 
   def signupparents
   end
+
+  def tout_savoir_sur_orientation
+  end
+
+  def epanouissement_au_quotidien
+  end
+
+  def energies_que_je_transmets
+  end
+
+  def devenir_mentor
+  end
 end
+
