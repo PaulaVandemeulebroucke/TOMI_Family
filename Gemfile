@@ -10,7 +10,6 @@ gem 'rails', '5.1.5'
 gem 'redis'
 gem 'carrierwave', '~> 1.2'
 gem 'cloudinary'
-gem 'money-rails'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
@@ -24,6 +23,8 @@ gem 'pg_search'
 gem 'jquery-rails'
 gem 'chosen-rails'
 gem 'forest_liana'
+gem 'money-rails'
+gem 'stripe'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

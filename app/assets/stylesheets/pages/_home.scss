@@ -30,15 +30,13 @@
 }
 .wrapper {
   width: 100%;
-  position: relative;
   height: 100%;
 }
 .logo {
-  background-size: 65px;
-  width: 159px;
-  position: absolute;
-  left: 40%;
-  top: 35%;
+  width: 85px;
+}
+.logo-row {
+  text-align: center;
 }
 // .gradient {
 //   position: absolute;
@@ -64,9 +62,9 @@ video {
 //   overflow: scroll;
 // }
 .youtube {
-  position: absolute;
-  top: 150px;
-  width: 180%;
+  width: 95%;
+  margin: 3% 2%;
+  min-height: 320px;
 }
 .line {
   font-size: 16px;
@@ -78,23 +76,25 @@ video {
   color: #333333;
   text-align: center;
 }
+.small-container-home {
+  position: relative;
+}
 .fa-arrow-right {
   position: absolute;
-  top: 319px;
   font-size: 34px;
   transform: rotate(35deg);
   color: #333333;
 }
 .littlesubtitle {
   font-size: 14px;
-  top: 332px;
   position: absolute;
   left: 52px;
   color: #333333;
+  top: 10px;
 }
 .punchline {
   font-size: 15px;
-  top: 365px;
+  top: 45px;
   position: absolute;
   left: 83%;
   color: #333333;
