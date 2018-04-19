@@ -33,6 +33,7 @@ Rails.application.routes.draw do
   get 'epanouissement_au_quotidien', to: 'pages#epanouissement_au_quotidien'
   get 'energies_que_je_transmets', to: 'pages#energies_que_je_transmets'
   get 'devenir_mentor', to: 'pages#devenir_mentor'
+  get 'network', to: 'networks#network'
   resources :interests, only: [ :index, :show ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest

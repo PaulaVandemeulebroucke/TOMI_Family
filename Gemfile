@@ -25,6 +25,7 @@ gem 'chosen-rails'
 gem 'forest_liana'
 gem 'money-rails'
 gem 'stripe'
+gem 'has_friendship'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

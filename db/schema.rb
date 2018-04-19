@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180418140739) do
+ActiveRecord::Schema.define(version: 20180419062405) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20180418140739) do
     t.integer "price_cents", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_abonnements_on_user_id"
   end
 
   create_table "interests", force: :cascade do |t|
@@ -66,6 +68,14 @@ ActiveRecord::Schema.define(version: 20180418140739) do
     t.inet "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "first_name"
+    t.string "last_name"
+    t.string "city"
+    t.string "avatar"
+    t.string "ecole"
+    t.string "specialization"
+    t.string "idee_metier"
+    t.integer "age"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
@@ -84,6 +94,7 @@ ActiveRecord::Schema.define(version: 20180418140739) do
     t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
   end
 
+  add_foreign_key "abonnements", "users"
   add_foreign_key "job_interests", "interests"
   add_foreign_key "job_interests", "jobs"
 end
