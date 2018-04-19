@@ -5,6 +5,18 @@
   font-size: 35px;
   color: white;
 }
+.banner {
+  position: relative;
+  top: -320px;
+  h1 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 117px;
+    z-index: 10;
+  }
+}
 #banner-typed-text {
   font-size: 40px;
   color: white;
@@ -37,6 +49,8 @@
 }
 .logo-row {
   text-align: center;
+  position: relative;
+  top: -290px;
 }
 // .gradient {
 //   position: absolute;
@@ -49,12 +63,9 @@
 // }
 
 video {
-  position: relative;
-  top: -243px;
   z-index: -1;
   width: 100%;
   min-height: 40%;
-  max-height: 40%;
   object-fit: cover;
 }
 
@@ -65,6 +76,8 @@ video {
   width: 95%;
   margin: 3% 2%;
   min-height: 320px;
+  position: relative;
+  top: -290px;
 }
 .line {
   font-size: 16px;
@@ -75,9 +88,12 @@ video {
   font-size: 8px;
   color: #333333;
   text-align: center;
+  position: relative;
+  top: -290px;
 }
 .small-container-home {
   position: relative;
+  top: -290px;
 }
 .fa-arrow-right {
   position: absolute;
@@ -88,9 +104,10 @@ video {
 .littlesubtitle {
   font-size: 14px;
   position: absolute;
-  left: 52px;
+  left: 41px;
   color: #333333;
   top: 10px;
+  width: 100%;
 }
 .punchline {
   font-size: 15px;
