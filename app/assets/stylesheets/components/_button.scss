@@ -10,20 +10,13 @@ a {
 /* BUTTON 1 */
 
 .btneffect, .btneffect:link, .btneffect:visited {
-  color: #2c3e50;
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #fff;
-  background-color: rgba(255,255,255, 0);
-  box-shadow: 130 130 130 130 #2c3e50 inset, 0.3em 0.3em 130 130 #bbb;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 15px;
-  text-align: center;
-  transition: 0.3s transform;
+    color: #2c3e50;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.3s transform;
 
   &:hover {
     box-shadow: 0 4em 0 0 $red inset, 0em 0em 0 0 #bbb;

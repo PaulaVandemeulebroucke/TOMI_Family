@@ -1,12 +1,11 @@
 <%= render 'shared/navbar' %>
-<div ><%= cl_image_tag @job.photo, :class => "banner__image" %></div>
-<div class="container">
-   <div class="col-xs-10">
+<div class="show_job_img"><%= cl_image_tag @job.photo, :class => "banner__image" %></div>
+<div class="container-showjob">
+   <div class="col-xs-9">
     <h1 class="namejobs"><%= @job.name %></h1>
     <h3 class="shortjobs"><%= @job.short_description %></h3>
     <div class="sidebar-box">
       <p class="descjobs"><%= @job.description %></p>
-      <p><a href="#" class="button">Voir +</a></p>
 <!--       <p class="read-more"><a href="#" class="button">Voir +</a></p> -->
     </div>
   </div>

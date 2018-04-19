@@ -22,10 +22,10 @@
   .card-like-link {
     z-index: 3;
     position: absolute;
-    bottom: 5px;
-    right: 3px;
+    bottom: 24px;
+    right: 6px;
     color: #d53533;
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 .card:hover {
@@ -34,7 +34,9 @@
 
 .card__title h2 {
   font-size: 7px;
-  margin: 5px;
+  margin-top: 6px;
+  padding-right: 6px;
+  margin-right: 0;
   text-align: left;
   height: 27px;
   width: 80%;
