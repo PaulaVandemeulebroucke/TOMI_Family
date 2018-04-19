@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3">
           <h2>Les informations pour la création de ton profil:</h2>
-          <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+          <%= simple_form_for(User.new, as: :user, url: registration_path(:user)) do |f| %>
             <%= f.error_notification %>
 
             <div class="form-inputs">
@@ -27,6 +27,6 @@
       </div>
     </div>
   <% else %>
-    <p>Ok network</p>
+    <p>Ok network (à faire)</p>
   <% end %>
 <%= render '/shared/navigationbar' %>
