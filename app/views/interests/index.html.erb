@@ -7,6 +7,7 @@
           <ul class="swipe-ul">
             <li class="swipe-li"><p><%= interest.name %></p>
             <%= link_to "", interest_path(interest), class: "card-link"%>
+            <i class="fas fa-times"></i>
             <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
               <%= link_to likeinterest_path(interest), method: :patch, class: "card-like-link" do%>
                 <i class="far fa-heart"></i>

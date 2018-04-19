@@ -1,7 +1,8 @@
 <%= render 'shared/navbar' %>
 <div class="container">
   <% if @interests.empty? %>
-    <p class="text-whishlist-banner">Oups, as-tu liké des centres d'intérêts?</p>
+      <p class="text-error">Oups, il semblerait que tu n'aies pas encore liké des centres d'intérêts...</p>
+      <div class="geek">🤓</div>
   <% else %>
   <div class="cards">
     <div class="row">

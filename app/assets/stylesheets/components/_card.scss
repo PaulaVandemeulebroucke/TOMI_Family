@@ -27,18 +27,10 @@
     color: #d53533;
     font-size: 22px;
   }
-  .card-like-link:hover {
-    z-index: 3;
-    position: absolute;
-    bottom: 5px;
-    right: 3px;
-    color: #d53533;
-    font-size: 22px;
-  }
 }
 .card:hover {
-    box-shadow: 1px 1px 1px 1px rgba(130, 130, 130,0.2),1px 1px 1px 1px rgba(130, 130, 130,0.2);
-  }
+  box-shadow: 1px 1px 1px 1px rgba(130, 130, 130,0.8),1px 1px 1px 1px rgba(130, 130, 130,0.8);
+}
 
 .card__title h2 {
   font-size: 7px;
@@ -52,11 +44,9 @@
   font-size: 10px;
   padding: 0;
   color: $grey;
-}
-.card__title a:hover {
-  text-decoration: none;
-  font-size: 12px;
-  color: $grey;
+  &:hover {
+    color: black;
+  }
 }
 .card__text {
   font-size: 8px;
@@ -70,11 +60,9 @@
   font-size: 7px;
   padding: 0;
   color: $grey;
-}
-.card__text a:hover {
-  text-decoration: none;
-  font-size: 8px;
-  color: $grey;
+  &:hover {
+    color: black;
+  }
 }
 
 ///////////////////////////////
@@ -83,7 +71,59 @@
   list-style: none;
   margin-top: 40px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.card-interest {
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.card-interest-content {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 0%), url("heart.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  position: relative;
+  left: 10%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #333333;
+  p {
+    position: absolute;
+    width: 90%;
+    font-size: 26px;
+    top: 35%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-times {
+    position: absolute;
+    top: 117%;
+    font-size: 45px;
+    left: 2%;
+    transform: translate(-50%, -50%);
+  }
+  .fa-heart {
+    position: absolute;
+    top: 117%;
+    font-size: 45px;
+    right: -16%;
+    transform: translate(-50%, -50%);
+  }
+}
+/////////////////////////////////////////
 .card-infos {
   padding: 0;
   margin: 10px;
@@ -489,5 +529,66 @@
   cursor: pointer;
   h3 {
     padding: 66px 5px;
+  }
+}
+////////////////////////////////
+.card-study {
+  margin: 20px 5px;
+  height: 255px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  h1 {
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+  }
+}
+.card-study1 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("university.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    padding-top: 105px;
+    padding-bottom: 90px;
+  }
+}
+.card-study2 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("cpge.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    padding-top: 65px;
+    padding-bottom: 63px;
+  }
+}
+.card-study3 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("gepb.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    padding-top: 93px;
+    padding-bottom: 73px;
+  }
+}
+.card-study4 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("dut.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    padding-top: 105px;
+    padding-bottom: 90px;
   }
 }
