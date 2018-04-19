@@ -106,3 +106,15 @@ a {
   position: absolute;
   font-size: 11px;
 }
+.edit-btn {
+  text-align: center;
+  .btn-default {
+    background-color: $red !important;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    color: white;
+    width: 210px;
+    font-size: 16px;
+  }
+}

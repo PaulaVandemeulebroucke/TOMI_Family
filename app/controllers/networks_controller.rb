@@ -1,17 +1,13 @@
 class NetworksController < ApplicationController
 
-  def network
+  def edit
     @user = current_user
-  end
-
-  def profile
-    @user= current_user
   end
 
   def update
     @user = current_user
     @user.update(user_params)
-    redirect_to profile_path
+    redirect_to network_path
   end
 
 private
