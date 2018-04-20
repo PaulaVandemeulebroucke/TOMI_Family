@@ -15,7 +15,10 @@ class PagesController < ApplicationController
   end
 
   def suggestion
-    @interests = current_user.interest_likes.map { |like| Interest.find(like.votable_id) }
+    # @interests = current_user.interest_likes.map { |like| Interest.find(like.votable_id) }
+    @interests = current_user.get_voted(Interest)
+    sql_request = @interests.map {|interest| "interest_id = #{interest.id}" }.join(' OR ')
+    @jobs = Job.joins(:job_interests).where("#{sql_request}").uniq
   end
 
   def signupstudents

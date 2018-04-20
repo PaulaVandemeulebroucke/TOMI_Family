@@ -6,15 +6,12 @@
   <% else %>
   <div class="cards">
     <div class="row">
-      <% @interests.each do |interest| %>
+      <% @jobs.each do |job| %>
         <div class="col-xs-6 col-md-3">
           <div class="card">
-            <% interest.jobs.each do |job| %>
-              <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
-            <% end %>
-            <div class="card__content">
-              <div class="card__title">
-                <% interest.jobs.each do |job| %>
+            <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
+              <div class="card__content">
+                <div class="card__title">
                   <h2><%= link_to job.name, job_path(job) %></h2>
                   <%= link_to "", job_path(job), class: "card-link"%>
                   <% if job.get_likes.where(voter_id: current_user).count == 0 %>
@@ -26,17 +23,15 @@
                       <i class="fas fa-heart"></i>
                     <% end %>
                   <% end %>
-                <% end %>
+                  <div class="card__text">
+                    <p><%= link_to job.short_description.first(95), job_path(job) %>...</p>
+                  </div>
+                </div>
               </div>
-               <div class="card__text">
-                <% interest.jobs.each do |job| %>
-                  <p><%= link_to job.short_description.first(95), job_path(job) %>...</p>
-                <% end %>
-              </div>
-            </div>
           </div>
         </div>
       <% end %>
+
     </div>
   </div>
   <% end %>
