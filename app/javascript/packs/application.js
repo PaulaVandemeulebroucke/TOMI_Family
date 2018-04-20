@@ -12,3 +12,6 @@ popover();
 
 // import { swipe } from '../packs/components/swipe';
 // swipe();
+
+import { moveToLeft } from '../packs/components/card';
+moveToLeft();

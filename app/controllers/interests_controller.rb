@@ -1,6 +1,6 @@
 class InterestsController < ApplicationController
   def index
-    @interests = Interest.all
+    @interests = Interest.all - current_user.get_voted(Interest)
   end
 
   def show
@@ -10,12 +10,18 @@ class InterestsController < ApplicationController
   def likeinterest
     @interest = Interest.find(params[:id])
     @interest.liked_by current_user
-    redirect_to interests_path
+    respond_to do |format|
+      format.html { redirect_to interests_path }
+      format.js
+    end
   end
 
   def dislikeinterest
     @interest = Interest.find(params[:id])
     @interest.disliked_by current_user
-    redirect_to interests_path
+    respond_to do |format|
+      format.html { redirect_to interests_path }
+      format.js
+    end
   end
 end

@@ -11,6 +11,7 @@ class PagesController < ApplicationController
 
   def favorites
     @jobs = current_user.job_likes.map { |like| Job.find(like.votable_id) }
+    # @jobs = current_user.get_voted Job
   end
 
   def suggestion
