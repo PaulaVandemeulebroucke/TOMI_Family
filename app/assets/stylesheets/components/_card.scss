@@ -22,10 +22,13 @@
   .card-like-link {
     z-index: 3;
     position: absolute;
-    bottom: 11px;
+    bottom: 10px;
     right: 6px;
     color: #d53533;
     font-size: 26px;
+    &:hover {
+      color: $red;
+    }
   }
 }
 .card:hover {
@@ -40,6 +43,7 @@
   text-align: left;
   height: 27px;
   width: 80%;
+  margin-left: 8px;
 }
 
 .card__title a {
@@ -89,7 +93,7 @@
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
-  transition: all .3s ease;
+  transition: all 1.4s ease;
 }
 
 .card-interest-content {
@@ -98,7 +102,7 @@
   background-repeat: no-repeat;
   cursor: pointer;
   width: 80%;
-  height: 60%;
+  height: 70%;
   position: absolute;
   position: relative;
   left: 10%;
@@ -116,19 +120,21 @@
   }
   .remove-box {
     position: absolute;
-    top: 108%;
+    top: 109.5%;
+    left: -20px;
+  }
+  .like-box {
+    position: absolute;
+    top: 110.5%;
+    right: -20px;
   }
   .fa-times {
-    font-size: 45px;
-    left: 2%;
+    font-size: 52px;
     // transform: translate(-50%, -50%);
   }
   .fa-heart {
-    position: absolute;
-    top: 117%;
     font-size: 45px;
-    right: -16%;
-    transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
   }
 }
 /////////////////////////////////////////

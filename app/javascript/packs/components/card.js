@@ -5,7 +5,7 @@ function moveToLeft() {
       const card = button.parentElement.parentElement.parentElement.parentElement;
       button.addEventListener('click', () => {
         console.log(card)
-        card.style.marginLeft = "-600px";
+        card.style.marginLeft = "-1400px";
       });
     });
   }

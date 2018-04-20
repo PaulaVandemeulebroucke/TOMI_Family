@@ -34,7 +34,7 @@ Rails.application.routes.draw do
   get 'energies_que_je_transmets', to: 'pages#energies_que_je_transmets'
   get 'devenir_mentor', to: 'pages#devenir_mentor'
   resources :networks, only: [ :edit, :update ]
-  resources :interests, only: [ :index, :show ]
+  resources :interests, only: [ :index, :show, :edit ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest
 end

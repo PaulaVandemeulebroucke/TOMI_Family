@@ -3,6 +3,10 @@ class InterestsController < ApplicationController
     @interests = Interest.all - current_user.get_voted(Interest)
   end
 
+  def edit
+    @interests = current_user.get_voted(Interest)
+  end
+
   def show
     @interest = Interest.find(params[:id])
   end

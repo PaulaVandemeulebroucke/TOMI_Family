@@ -10,17 +10,15 @@
             <div class="remove-box">
               <i class="fas fa-times"></i>
             </div>
-            <div class="like-box">
-              <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
-                <%= link_to likeinterest_path(interest), method: :patch, remote: true, class: "card-like-link" do%>
-                  <i class="far fa-heart"></i>
-                <% end %>
-              <% else %>
-                <%= link_to dislikeinterest_path(interest), method: :patch, remote: true, class: "card-like-link" do %>
-                  <i class="fas fa-heart"></i>
-                <% end %>
+            <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
+              <%= link_to likeinterest_path(interest), method: :patch, remote: true, class: "card-like-link" do%>
+                <i class="far fa-heart"></i>
               <% end %>
-            </div>
+            <% else %>
+              <%= link_to dislikeinterest_path(interest), method: :patch, remote: true, class: "card-like-link" do %>
+                <i class="fas fa-heart"></i>
+              <% end %>
+            <% end %>
             </li>
           </ul>
         </div>
