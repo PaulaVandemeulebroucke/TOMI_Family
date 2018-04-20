@@ -8,18 +8,18 @@
     <div class="row">
       <% @jobs.each do |job| %>
         <div class="col-xs-6 col-md-3">
-          <div class="card">
-            <div ><%= cl_image_tag job.photo, :class => "card__image" %></div>
+          <div class="card" id= <%= "#{job.id}" %>>
+            <div ><%= link_to (cl_image_tag job.photo, :class => "card__image"), job_path(job) %></div>
             <div class="card__content">
               <div class="card__title">
                 <h2><%= link_to job.name, job_path(job) %></h2>
                 <%= link_to "", job_path(job), class: "card-link"%>
                 <% if job.get_likes.where(voter_id: current_user).count == 0 %>
-                  <%= link_to like_path(job), method: :patch, class: "card-like-link" do%>
+                  <%= link_to like_path(job), remote: true, method: :patch, class: "card-like-link" do%>
                     <i class="far fa-heart"></i>
                   <% end %>
                 <% else %>
-                  <%= link_to dislike_path(job), method: :patch, class: "card-like-link" do %>
+                  <%= link_to dislike_path(job), remote: true, method: :patch, class: "card-like-link" do %>
                     <i class="fas fa-heart"></i>
                   <% end %>
                 <% end %>
