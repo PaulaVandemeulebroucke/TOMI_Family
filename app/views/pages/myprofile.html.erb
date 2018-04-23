@@ -1,3 +1,3 @@
 <%= render 'shared/navbar' %>
-<% User.first_name %>
+<a href='<%= destroy_user_session_path %>' data-method='delete'><%= t('.sign_out', default: 'Log out') %></a>
 <%= render '/shared/navigationbar' %>

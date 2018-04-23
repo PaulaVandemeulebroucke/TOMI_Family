@@ -1,4 +1,15 @@
-<%= render 'shared/navbar' %>
+<div class="navbar-up">
+
+    <% if user_signed_in? %>
+      <div class="navbar-up-item">
+        <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+        <a type="student-btn" href="#" class="btn btn-primary next-step-btn-medium">Etape 4: Mon réseau <i class="fas fa-arrow-right arrow-next-step"></i></a>
+      </div>
+    <% else %>
+      <!-- Login link (when logged out) -->
+      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
+    <% end %>
+</div>
 <div class="container">
   <div>
     <h1 class="agenda">AGENDA</h1>
@@ -41,13 +52,6 @@
         </div>
       </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="scd-navbar">
-  <div class="row">
-    <div class="col-xs-10">
-      <a type="student-btn" href="#" class="btn btn-primary scd-navbar-btn-big">Passer à l'étape 4: je m'entoure de mon réseau</a>
     </div>
   </div>
 </div>
