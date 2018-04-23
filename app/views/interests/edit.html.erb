@@ -1,4 +1,15 @@
-<%= render 'shared/navbar' %>
+<div class="navbar-up">
+
+    <% if user_signed_in? %>
+      <div class="navbar-up-item">
+        <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+        <a type="student-btn" href="/chooseajob" class="btn btn-primary next-step-btn-small">Etape 2: les métiers <i class="fas fa-arrow-right arrow-next-step"></i></a>
+      </div>
+    <% else %>
+      <!-- Login link (when logged out) -->
+      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
+    <% end %>
+</div>
 <div class="container">
   <div class="cards-interest">
     <% @interests.each do |interest| %>
@@ -26,11 +37,5 @@
     <% end %>
   </div>
 </div>
-<div class="scd-navbar">
-  <div class="row">
-    <div class="col-xs-10">
-      <a type="student-btn" href="/chooseajob" class="btn btn-primary scd-navbar-btn-small">Passer à l'étape 2: découvrir les métiers</a>
-    </div>
-  </div>
-</div>
+
 <%= render '/shared/navigationbar' %>

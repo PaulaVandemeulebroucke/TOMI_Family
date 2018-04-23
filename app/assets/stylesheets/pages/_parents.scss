@@ -1,3 +1,19 @@
+.accroche-parents {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+  padding: 25px;
+}
+.sous-accroche-parents-small {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.sous-accroche-parents-medium {
+  text-align: center;
+  font-size: 29px;
+  margin-top: -11px;
+}
 .youtube-parents {
   width: 95%;
   margin: 3% 2%;
@@ -6,7 +22,7 @@
 .title-parents {
   font-size: 17px;
   color: $red;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-bottom: 25px;
 }
 .subtitle-parents {

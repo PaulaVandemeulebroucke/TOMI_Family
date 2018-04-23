@@ -1,3 +1,12 @@
 <%= render 'shared/navbar' %>
+<h1>Hello <%if current_user.first_name.nil?%>
+  <%=current_user.email%>
+  <% else %>
+  <%=current_user.first_name%>
+  <% end %>,
+</h1>
+
+<h2>A faire</h2>
+
 <a href='<%= destroy_user_session_path %>' data-method='delete'><%= t('.sign_out', default: 'Log out') %></a>
 <%= render '/shared/navigationbar' %>
