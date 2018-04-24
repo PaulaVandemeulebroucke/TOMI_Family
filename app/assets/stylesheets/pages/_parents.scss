@@ -20,39 +20,54 @@
   min-height: 320px;
 }
 .title-parents {
-  font-size: 17px;
-  color: $red;
-  margin-top: 120px;
-  margin-bottom: 25px;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 20px 3px;
 }
 .subtitle-parents {
-  font-size: 15px;
+  font-size: 17px;
   text-align: justify;
+  font-weight: lighter;
+  padding: 0 10px;
 }
-.subtitle-parents2 {
-  font-size: 15px;
-  text-align: justify;
-  margin-bottom: 25px;
-  margin-top: -8px;
+.parents-desc {
+  // background: linear-gradient($darkblue, white);
+  // padding: 16px 24px;
+  // border-radius: 5px 5px 20px 5px;
+  text-align: center;
 }
 .subtitle-parents-small {
   font-size: 14px;
   text-align: justify;
-    margin-left: 8px;
+  margin-left: 8px;
+}
+.subtitle-parents-xtra-small {
+  font-size: 10px;
+  text-align: justify;
 }
 .ul-parents {
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .surlignement {
-  box-shadow: inset 0px -11px $lightblue;
-  margin-left: 8px;
+  box-shadow: inset 0px -4px $darkblue;
+  margin-left: -33px;
 }
 .li-parents {
-  margin-left: 38px;
-  font-size: 14px;
+  font-size: 12px;
   text-align: justify;
-  margin-top: 6px;
+  margin-top: 20px;
+  list-style-type: none;
+  position: relative;
+  margin-left: 42px;
+  margin-bottom: 50px;
+}
+.img-desc-parents {
+  vertical-align: middle;
+  width: 60px;
+  position: absolute;
+  left: -79px;
+  top: 0px;
 }
 .image {
   background-image: url("parents.jpeg");
@@ -62,4 +77,7 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 165px;
+}
+.btn-signup-parents {
+  text-align: center;
 }
