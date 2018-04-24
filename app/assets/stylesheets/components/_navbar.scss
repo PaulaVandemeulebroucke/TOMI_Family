@@ -6,6 +6,7 @@
   padding: 40px 8px;
   display: flex;
   align-items: center;
+  position: relative;
   .back {
     font-size: 30px;
     color: $grey;
@@ -13,6 +14,33 @@
     top: 21px;
     z-index:0;
     cursor: pointer;
+  }
+  .next-step-btn-xtrasmall {
+    width: 140px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 15px;
+    top: -2px;
+    padding: 10px;
+    right: 4%;
+  }
+  .next-step-btn-small {
+    width: 170px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 15px;
+    top: -2px;
+    padding: 10px;
+    right: 4%;
+  }
+  .next-step-btn-medium {
+    width: 175px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 15px;
+    top: -2px;
+    padding: 10px;
+    right: 4%;
   }
   .back:hover {
     color: $red;
@@ -33,7 +61,7 @@
   box-shadow: 1px 0px 3px 3px rgba(130,130,130,0.04),1px 0px 3px 3px rgba(130,130,130,0.04);
   background: white;
   transition: all 0.3s ease;
-  height: 70px;
+  height: 63px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -78,12 +106,10 @@
   color: $grey;
 }
 .homepage-fa-home {
-  font-size: 40px !important;
+  font-size: 36px !important;
   margin-top: 2px;
-  color: $red;
-  border: 3px solid $red;
-  border-radius: 50%;
-  padding: 2px;
+  color: $grey;
+  border-bottom: 3px solid $red;
 }
 
 /* Main navbar */

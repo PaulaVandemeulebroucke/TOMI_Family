@@ -75,7 +75,7 @@
 
 .cards-interest {
   list-style: none;
-  height: calc(100vh - 210px);
+  height: calc(100vh - 190px);
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -101,7 +101,7 @@
   background-repeat: no-repeat;
   cursor: pointer;
   width: 80%;
-  height: 75%;
+  height: 81%;
   position: absolute;
   position: relative;
   left: 10%;
@@ -119,16 +119,17 @@
   }
   .remove-box {
     position: absolute;
-    top: 109.5%;
+    top: 104.5%;
     left: -20px;
   }
   .like-box {
     position: absolute;
-    top: 110.5%;
+    top: 105.5%;
     right: -20px;
   }
   .fa-times {
     font-size: 52px;
+    color: $grey;
     // transform: translate(-50%, -50%);
   }
   .fa-heart {

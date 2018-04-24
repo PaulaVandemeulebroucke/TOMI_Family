@@ -10,7 +10,7 @@
       <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
     <% end %>
 </div>
-<div class="container">
+<div class="container-interests">
   <div class="cards-interest">
     <% @interests.each do |interest| %>
       <div class="card-interest" data-interest-id="<%= interest.id %>">

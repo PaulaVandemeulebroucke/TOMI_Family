@@ -1,6 +1,9 @@
 .container {
   margin-bottom: 200px;
 }
+.row-homepage {
+  width: 100%;
+}
 a:hover {
   text-decoration: none;
 }
@@ -12,7 +15,7 @@ a:hover {
   margin-top: 1em;
   padding: 0.5em  1.5em;
   transition: all .3s cubic-bezier(.25,.8,.25,1);
-  width: 100%;
+  width: 112%;
   position: relative;
   &:hover{
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
