@@ -1,4 +1,15 @@
-<%= render 'shared/navbar' %>
+<div class="navbar-up">
+
+    <% if user_signed_in? %>
+      <div class="navbar-up-item">
+        <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+        <a type="student-btn" href="/infos" class="btn btn-primary next-step-btn-xtrasmall">Etape 3: infos <i class="fas fa-arrow-right arrow-next-step"></i></a>
+      </div>
+    <% else %>
+      <!-- Login link (when logged out) -->
+      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
+    <% end %>
+</div>
 <div class="navbar-onglet">
       <div class="navbar-onglet-item row">
         <a class="col-xs-4 col-xs-offset-2 col-md-3 col-md-offset-3" href="/chooseajob">Métiers</a>
