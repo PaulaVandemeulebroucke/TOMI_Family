@@ -15,6 +15,15 @@
     z-index:0;
     cursor: pointer;
   }
+  .next-step-btn-xxtrasmall {
+    width: 115px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: 15px;
+    top: -2px;
+    padding: 10px;
+    right: 4%;
+  }
   .next-step-btn-xtrasmall {
     width: 140px;
     border-radius: 4px;
@@ -90,6 +99,22 @@
     background-position: 50% 50%;
   }
 }
+.navbar-down-item-myprofile {
+  cursor: pointer;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  z-index:0;
+    .profile {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}
 .navbar-down-item {
   i {
     font-size: 23px !important;
@@ -105,11 +130,20 @@
   margin-top: 2px;
   color: $grey;
 }
+.regular-fa-home-myprofile {
+  font-size: 33px !important;
+  margin-top: 5px;
+  color: $grey;
+}
 .homepage-fa-home {
   font-size: 36px !important;
   margin-top: 2px;
   color: $grey;
   border-bottom: 3px solid $red;
+}
+.profile-home {
+  border: 3px solid $red;
+  padding: 2px;
 }
 
 /* Main navbar */
