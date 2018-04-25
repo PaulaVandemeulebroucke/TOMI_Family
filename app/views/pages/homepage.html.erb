@@ -2,36 +2,59 @@
   <div class="cards-homepage">
     <div class="row row-homepage">
       <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
-        <a href="/interests"><div class="card-homepage">
-          <p>Etape 1: </p>
-          <h3><strong>Ce que j'</strong><i class="em em-heart"></i></i></h3>
-          <i class="fas fa-angle-right"></i>
-        </div></a>
-        <a href="/chooseajob"><div class="card-homepage">
-          <p>Etape 2: </p>
-          <h3><strong>Quel métier j'aimerais faire ?</strong><i class="em em-thinking_face"></i></h3>
-          <i class="fas fa-angle-right"></i>
-        </div></a>
-        <a href="/infos"><div class="card-homepage">
-          <p>Etape 3: </p>
-          <h3><strong>Les infos importantes</strong><i class="em em-boom"></i></h3>
-          <i class="fas fa-angle-right"></i>
-        </div></a>
-        <a href="#"><div class="card-homepage">
-          <p>Etape 4: </p>
-          <h3><strong>Mon réseau</strong><i class="em em-earth_americas"></i><i class="em em-muscle"></i></h3>
-          <i class="fas fa-angle-right"></i>
-        </div></a>
+        <a href="/interests">
+          <div class="card-homepage">
+            <p>Etape 1: </p>
+            <h3><strong>Ce que j'</strong><i class="em em-heart"></i></i></h3>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </a>
+        <a href="/chooseajob">
+          <div class="card-homepage">
+            <p>Etape 2: </p>
+            <h3><strong>Quel métier j'aimerais faire ?</strong><i class="em em-thinking_face"></i></h3>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </a>
+        <a href="/infos">
+          <div class="card-homepage">
+            <p>Etape 3: </p>
+            <h3><strong>Les infos importantes</strong><i class="em em-boom"></i></h3>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        </a>
+        <%#= link_to edit_network_path, do  %>
+          <div class="card-homepage">
+            <p>Etape 4: </p>
+            <h3><strong>Mon réseau</strong><i class="em em-earth_americas"></i><i class="em em-muscle"></i></h3>
+            <i class="fas fa-angle-right"></i>
+          </div>
+        <%# end %>
       </div>
     </div>
   </div>
 </div>
 
-<div class="navbar-down">
-    <% if user_signed_in? %>
-      <div class="navbar-down-item">
-        <a href="/homepage"><i class="fas fa-home homepage-fa-home"></i></a>
-        <a href="/myprofile"><img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" alt="profile" class="profile"></a>
-      </div>
+<div class="friendable-list">
+  <%= current_user.email %>
+  <ul>
+    <% @users.each do |user| %>
+      <li>
+        <%= user.email %>
+        <%= link_to send_friend_request_path(friendable: user.id) do %>
+          <i class="fas fa-plus"></i>
+        <% end %>
+      </li>
     <% end %>
+  </ul>
+</div>
+
+
+<div class="navbar-down">
+  <% if user_signed_in? %>
+    <div class="navbar-down-item">
+      <a href="/homepage"><i class="fas fa-home homepage-fa-home"></i></a>
+      <a href="/myprofile"><img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" alt="profile" class="profile"></a>
+    </div>
+  <% end %>
 </div>

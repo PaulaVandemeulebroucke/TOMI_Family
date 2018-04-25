@@ -1,6 +1,39 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
+      <% if params[:type] == "student"  %>
+        <div id="students-content">
+          <div class="back">
+            <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+          </div>
+          <%= image_tag("logo.png", class: "logo2")  %>
+          <p class="title-students3">BRAVO, Test terminé !</p>
+          <div class="party-popper">🎉</div>
+          <p class="subtitle-students"><strong>Ton métier idéal: </strong></p>
+          <p class="subtitle-students"><%= "#{["Astronaute, et tu as de la chance il parait qu’ils recrutent chez Star Wars !!!", "Joueur de jeu vidéo professionnel ...Et le mieux dans cette blague, c'est que c'est un vrai métier !!", "Gardien d'autruches, ...Et fais gaffe elles courent vite !! Tu peux déjà commencer à t'entrainer à courir.", "Pousseur dans le métro chinois ...Les métros sont tellement bondés, que les pousseurs sont chargés de pousser les gens pour en faire rentrer un maximum !", "Soigneur de nénuphar ...Et le mieux dans cette blague, c'est que c'est un vrai métier !!", "Posteur de commentaires sur internet: Le gouvernement chinois paie des gens pour qu'ils laissent des commentaires positifs sur les sites liés au parti Communiste. Et bien t'en as de la chance !"].sample}" %></p>
+          <div class="laugh">🤣</div>
+          <p class="subtitle-students3">Allez on n’est pas là pour coller des gommettes, n’attend plus et crée-toi un compte 100% gratuit.</p>
+          <p class="subtitle-students2"><strong>On va te le trouver ce métier idéal!</strong></p>
+        </div>
+      <% end %>
+
+      <% if params[:type] == "parent" %>
+        <div class="container">
+         <!--  <div class="back image"> -->
+          <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+        <!--   </div> -->
+          <h1 class="accroche-parents"> Devenez le meilleur conseiller en orientation pour votre enfant.</h1>
+          <p class="sous-accroche-parents-small"><em>Vous serez</em></p>
+          <p class="sous-accroche-parents-medium">Informés. Avertis.</p>
+          <p class="sous-accroche-parents-medium"> & Connectés à lui.</p>
+
+          <div>
+            <p style="text-align: center; margin: 0; margin-top: 30px;">👇 L'explication en vidéo 👇</p>
+            <iframe class="youtube-parents" src="https://www.youtube.com/embed/nGeKSiCQkPw?list=RDQM-gh_Nk0JfxI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      <% end %>
+
     <h2>Sign up</h2>
 
     <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -10,6 +43,7 @@
         <%= f.input :email, required: true, autofocus: true %>
         <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
         <%= f.input :password_confirmation, required: true %>
+        <%= f.hidden_field :user_category, value: "#{params[:type]}" %>
       </div>
 
       <div class="form-actions">
