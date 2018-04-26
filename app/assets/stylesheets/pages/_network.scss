@@ -1,7 +1,7 @@
 .plus-regular {
   font-size: 45px;
   position: absolute;
-  right:38px;
+  right:-7px;
   top: 15px;
   &:clicked {
     color: rgb(220, 220, 220)!important;
@@ -10,11 +10,17 @@
 .plus-grey {
   font-size: 45px;
   position: absolute;
-  right:38px;
+  right:-7px;
   top: 15px;
   color: rgb(220, 220, 220)!important;
 }
+.fa-user-plus {
+  font-size: 35px;
+}
 .fa-envelope {
+  font-size: 35px;
+}
+.fa-users {
   font-size: 35px;
 }
 .title-network {
@@ -29,7 +35,7 @@
   height: 75px;
   margin-top: 1em;
   padding: 0.5em  1em;
-  width: 112%;
+  width: 100%;
   position: relative;
 }
 .img-network {
