@@ -33,8 +33,11 @@ Rails.application.routes.draw do
   get 'epanouissement_au_quotidien', to: 'pages#epanouissement_au_quotidien'
   get 'energies_que_je_transmets', to: 'pages#energies_que_je_transmets'
   get 'devenir_mentor', to: 'pages#devenir_mentor'
-  get 'send_friend_request', to: 'pages#send_friend_request'
-  resources :networks, only: [ :edit, :update ]
+  get 'send_friend_request', to: 'networks#send_friend_request'
+  get 'look_for_a_friend', to: 'networks#look_for_a_friend'
+  get 'network', to: 'networks#network'
+  get 'messenger', to: 'networks#messenger'
+
   resources :interests, only: [ :index, :show, :edit ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest

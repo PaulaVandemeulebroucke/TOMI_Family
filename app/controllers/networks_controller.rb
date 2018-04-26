@@ -1,19 +1,20 @@
 class NetworksController < ApplicationController
 
-  def edit
-
-    @user = current_user
+  def network
+    @users = User.all
   end
 
-  def update
-    @user = current_user
-    @user.update(user_params)
+  def messenger
+
+  end
+
+  def send_friend_request
+    friendable = User.find(params[:friendable])
+    current_user.friend_request(friendable)
     redirect_to network_path
   end
 
-private
+  def look_for_a_friend
 
-  def use_params
-    params.require(:user).permit(:first_name, :last_name, :email, :age, :idee_metier)
   end
 end

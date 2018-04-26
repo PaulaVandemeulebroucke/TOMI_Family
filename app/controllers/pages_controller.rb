@@ -4,7 +4,6 @@ class PagesController < ApplicationController
   end
 
   def homepage
-    @users = User.all
   end
 
   def homepage_parents
@@ -83,12 +82,6 @@ class PagesController < ApplicationController
   end
 
   def devenir_mentor
-  end
-
-  def send_friend_request
-    friendable = User.find(params[:friendable])
-    current_user.friend_request(friendable)
-    redirect_to homepage_path
   end
 end
 

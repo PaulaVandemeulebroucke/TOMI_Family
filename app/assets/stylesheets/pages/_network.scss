@@ -1,0 +1,57 @@
+.plus-regular {
+  font-size: 45px;
+  position: absolute;
+  right:38px;
+  top: 15px;
+  &:clicked {
+    color: rgb(220, 220, 220)!important;
+  }
+}
+.plus-grey {
+  font-size: 45px;
+  position: absolute;
+  right:38px;
+  top: 15px;
+  color: rgb(220, 220, 220)!important;
+}
+.fa-envelope {
+  font-size: 35px;
+}
+.title-network {
+  font-weight: lighter;
+  font-size: 27px;
+  padding: 0 12px;
+}
+.searchbar {
+  padding: 8px;
+}
+.card-network {
+  height: 75px;
+  margin-top: 1em;
+  padding: 0.5em  1em;
+  width: 112%;
+  position: relative;
+}
+.img-network {
+  width: 65px;
+  border-radius: 50%;
+  height: 65px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.name-user {
+  position: absolute;
+  top: 14px;
+  left: 98px;
+  font-size: 19px;
+}
+.desc-user {
+  position: absolute;
+  top: 48px;
+  left: 93px;
+  font-size: 12px;
+  font-weight: lighter;
+}
