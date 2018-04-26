@@ -14,7 +14,7 @@ class NetworksController < ApplicationController
     redirect_to network_path
   end
 
-  def look_for_a_friend
+  def users_all
 
   end
 end
