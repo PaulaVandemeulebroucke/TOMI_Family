@@ -27,9 +27,6 @@ class PagesController < ApplicationController
   def signupstudents2
   end
 
-  def myprofile
-  end
-
   def infos
   end
 
