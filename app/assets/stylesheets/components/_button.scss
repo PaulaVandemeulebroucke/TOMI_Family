@@ -28,8 +28,18 @@ a {
 // }
 .students {
   position: absolute;
-  top: 45px;
+  top: 12px;
   left: 32%;
+  width: 55%;
+  border-radius: 4px;
+  font-size: 25px;
+  margin-bottom: 76px;
+  margin-top: 2px;
+}
+.students-home {
+  position: absolute;
+  top: 45px;
+  left: 21%;
   width: 55%;
   border-radius: 4px;
   font-size: 25px;
@@ -80,16 +90,17 @@ a {
     }
   }
 }
+.signup {
+  margin-bottom: 5px;
+}
 
-.edit-btn {
-  text-align: center;
-  .btn-default {
-    background-color: $red !important;
-    border-radius: 4px;
-    margin-bottom: 60px;
-    margin-top: 15px;
-    color: white;
-    width: 210px;
-    font-size: 16px;
-  }
+.btn-default {
+  background-color: $red !important;
+  border-radius: 4px;
+  margin-top: 15px;
+  color: white;
+  width: 180px;
+  font-size: 16px;
+  margin-bottom: 70px;
+  margin-left: 20%;
 }
