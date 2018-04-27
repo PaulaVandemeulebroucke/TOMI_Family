@@ -8,6 +8,9 @@
       <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
     <% end %>
 </div>
+
+
+<!-- PARTIE MODIFIABLE -->
 <div class="container">
   <p><%= current_user.first_name %></p>
   <div class="container-img">
@@ -42,6 +45,8 @@
     </div>
   </div>
 </div>
+
+<!-- FIN DE PARTIE MODIFIABLE -->
 
 </div>
 <div class="navbar-down">
