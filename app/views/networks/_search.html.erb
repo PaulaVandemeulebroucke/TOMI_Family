@@ -1,0 +1,23 @@
+<form id="live-search-form" method="get" action="<%= search_path %>">
+  <input id="big-search-box" name="query" type="text"/>
+
+</form>
+
+
+<script type="text/javascript">
+
+  $("#big-search-box").bind("keyup", function() {
+
+  var form = $("#live-search-form");
+
+  var url = "/search";
+  var formData = form.serialize();
+  $.get(url, formData, function(html) {
+
+    $("#container-homepage").html(html);
+
+  });
+
+});
+</script>
+

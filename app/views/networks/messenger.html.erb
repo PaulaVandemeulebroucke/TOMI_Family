@@ -9,11 +9,52 @@
 
 <!-- CODE ICI -->
 
+<% if @conversations && current_user.first_name && !current_user.first_name.empty? && current_user.last_name && !current_user.last_name.empty? %>
 
+  <!-- FRIENDS INDEX -->
 
+  <div>
+    <h2 class="title-network">Mes contacts</h2>
+    <div class="cards-homepage">
+      <div class="row row-homepage">
+        <% @conversations.each do |conversation| %>
+
+          <% user = conversation.sender_id == current_user.id ? conversation.recipient : conversation.sender %>
+          <%= link_to conversation_messages_path(conversation) do %>
+
+            <div class="col-xs-12">
+              <div class="card-network">
+                <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" alt="profile" class="profile img-network">
+                <p class="name-user">
+                  <%= "#{user.first_name} #{user.last_name}" %>
+                </p>
+                <p class="desc-user"><%= conversation.messages.first.body[0..140] if !conversation.messages.empty? && conversation.messages.first.body %></p>
+              </div>
+            </div>
+
+          <% end %>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+
+<% elsif !@conversations %>
+
+  <!-- EMPTY CONVERSATIONS GESTION -->
+
+  <div>
+    <p>Oups il n'y a rien ici</p>
+    <%= link_to "Trouver un contact à qui parler", users_all_path %>
+  </div>
+
+<% else %>
+  <%= render "shared/edit_profile_suggestion" %>
+<% end %>
 
 
 
 <!-- FIN PARTIE CODE -->
 
 <%= render '/shared/navigationbar' %>
+

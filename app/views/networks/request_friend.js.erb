@@ -1,0 +1,6 @@
+function refreshDiv(outerHTML) {
+  const job = document.getElementById(<%= @friend.id %>);
+  job.outerHTML = outerHTML;
+}
+
+refreshDiv('<%= j render('networks/searchable_users/user_card', user: @friend, work: nil) %>');

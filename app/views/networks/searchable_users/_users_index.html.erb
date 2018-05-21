@@ -1,0 +1,26 @@
+<% if @suggested_friends || @results %>
+
+  <div id="users_index" >
+    <h2 class="title-network">Suggestion de contacts:</h2>
+    <div class="cards-homepage">
+      <div class="row row-homepage">
+
+        <% (@results ? @results : @suggested_friends).each do |user| %>
+
+          <%= render "networks/searchable_users/user_card", user: user[0], work: user[1] %>
+
+        <% end %>
+
+        <%= link_to search_path(query: params[:query], more: true), remote: true do %>
+            <%= "voir plus" %>
+          <% end %>
+
+      </div>
+    </div>
+  </div>
+
+<% else %>
+
+  <p>Aucun résultat</p>
+
+<% end %>

@@ -1,0 +1,58 @@
+<%= render 'shared/navbar' %>
+
+<div class="navbar-onglet-network">
+  <div class="navbar-onglet-item row">
+    <a class="col-xs-4" href="/network"><i class="fas fa-user-plus"></i></a>
+    <a class="col-xs-4 active" href="/messenger"><i class="far fa-envelope"></i></a>
+    <a class="col-xs-4" href="/users_all"><i class="fas fa-users"></i></a>
+  </div>
+</div>
+
+  <div class="row" >
+    <li class="messages" >
+      <% @messages.each do |message| %>
+        <%= render "message", message: message %>
+      <% end %>
+    </li>
+  </div>
+
+  <% if @friend.friends.include?(current_user) %>
+    <div>
+      <%= simple_form_for @message, url: conversation_messages_path(@conversation), method: :post, remote: true do |f| %>
+       <div class="field">
+         <%= f.input :body, class: "form-control" %>
+       </div>
+       <%= f.input :user_id, as: :hidden, input_html: { value: current_user.id } %>
+       <div>
+         <%= f.submit "envoyer", class: "ui blue labeled submit icon button" %>
+       </div>
+      <% end %>
+    </div>
+
+  <% else %>
+  <div>
+    <h3><%= @blocked ? "Aucune action n'est possible sur cette conversation" : "#{@friend.first_name} n'a pas encore accepté votre invitation" %></h3>
+  </div>
+  <% end %>
+
+  <!-- a enlever quand il y aura du margin ou du padding -->
+<br><br><br><br>
+
+<%= render '/shared/navigationbar' %>
+
+<script>
+
+  $(document).ready(function () {
+    setInterval(refreshPartial, 5000)
+
+});
+
+
+function refreshPartial() {
+  var id = "<%= @conversation.id %>";
+  $.ajax({
+    url: "/conversations/" + id + "/messages"
+ })
+}
+
+</script>

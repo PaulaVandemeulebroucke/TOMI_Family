@@ -1,0 +1,6 @@
+function refreshDiv(outerHTML) {
+  const job = document.getElementById("users_all");
+  job.outerHTML = outerHTML;
+}
+
+refreshDiv('<%= j render('networks/users_all/index') %>');
