@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :authenticate_user!, :configure_permitted_parameters, if: :devise_controller?
+  before_action :find_unread_message, if: :has_current_user?
+  #include Pundit
 
   def after_sign_in_path_for(resource)
     if current_user.user_category == "parent"
@@ -15,6 +17,22 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:sign_up, keys: [:user_category])
 
     # For additional in app/views/devise/registrations/edit.html.erb
-    devise_parameter_sanitizer.permit(:account_update, keys: [:first_name])
+    devise_parameter_sanitizer.permit(:account_update, keys: [:first_name, :last_name])
+  end
+
+  def has_current_user?
+    current_user ? true : false
+  end
+
+  def find_unread_message
+    if current_user
+      @unread_messages = false
+      current_user.conversations.each do |conv|
+        unless conv.messages.where(read: false).where.not(user_id: current_user.id).empty?
+          @unread_messages = true
+          break
+        end
+      end
+    end
   end
 end
