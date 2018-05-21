@@ -1,0 +1,2 @@
+class NetworkPolicy < ApplicationPolicy
+end
