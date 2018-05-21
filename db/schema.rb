@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180425092161) do
+ActiveRecord::Schema.define(version: 20180513142623) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,13 @@ ActiveRecord::Schema.define(version: 20180425092161) do
     t.datetime "updated_at", null: false
     t.bigint "user_id"
     t.index ["user_id"], name: "index_abonnements_on_user_id"
+  end
+
+  create_table "conversations", force: :cascade do |t|
+    t.integer "sender_id"
+    t.integer "recipient_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "friendships", force: :cascade do |t|
@@ -53,17 +60,28 @@ ActiveRecord::Schema.define(version: 20180425092161) do
     t.string "name"
     t.string "photo"
     t.string "synonym"
-    t.text "sector"
+    t.text "sector", default: [], array: true
     t.text "short_description"
     t.text "description"
     t.text "study"
     t.string "salary"
     t.text "career"
-    t.text "similar_job"
-    t.text "interest"
+    t.text "similar_job", default: [], array: true
+    t.text "interest", default: [], array: true
     t.string "statut"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.text "body"
+    t.bigint "conversation_id"
+    t.bigint "user_id"
+    t.boolean "read", default: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["conversation_id"], name: "index_messages_on_conversation_id"
+    t.index ["user_id"], name: "index_messages_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
