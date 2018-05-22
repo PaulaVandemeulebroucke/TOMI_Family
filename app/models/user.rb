@@ -3,8 +3,21 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  # GEMS CONCERNS
+
   acts_as_voter
   has_friendship
+  mount_uploader :avatar, PhotoUploader
+  include PgSearch
+
+  # RELATIONS
+
+  has_many :messages
+  has_many :conversations, foreign_key: :sender_id
+
+  # METHODS
+
   def job_likes
     self.votes.up.for_type(Job)
   end
@@ -21,4 +34,12 @@ class User < ApplicationRecord
       avatar_url
     end
   end
+
+  # PG SEARCH SCOPES
+
+  pg_search_scope :search_by_full_name, :against => [:first_name, :last_name],
+                                          :using => {
+                                          :tsearch => {:prefix => true}
+
+                                        }
 end

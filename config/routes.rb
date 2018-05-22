@@ -40,4 +40,19 @@ Rails.application.routes.draw do
   resources :interests, only: [ :index, :show, :edit ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest
+
+  get 'myprofile', to: 'users#edit'
+  patch 'edit_profile', to: 'users#update'
+  get 'search', to: 'users#search'
+  post 'unblock_friend', to: 'networks#unblock_friend'
+  post 'accept_friend', to: 'networks#accept_friend'
+  post 'decline_friend', to: 'networks#decline_friend'
+  post 'request_friend', to: 'networks#request_friend'
+  post 'block_friend', to: 'networks#block_friend'
+  post 'remove_friend', to: 'networks#remove_friend'
+  get 'search_friends', to: 'users#search_friends'
+
+  resources :conversations do
+    resources :messages
+  end
 end

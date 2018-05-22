@@ -1,0 +1,8 @@
+<div>
+  <p>Vous devriez remplir les informations suviantes avant de pouvoir contacter les autres membres de la commnauté:</p>
+  <%= "Votre prénom" if !current_user.first_name || current_user.first_name.empty? %>
+  <%= "Votre nom" if !current_user.last_name || current_user.last_name.empty? %>
+  <%= link_to myprofile_path() do %>
+    <%= "Remplir les informations manquantes" %>
+  <% end %>
+</div>

@@ -1,0 +1,131 @@
+<% if current_user.first_name && !current_user.first_name.empty? && current_user.last_name && !current_user.last_name.empty? %>
+
+  <div class="container-homepage" id="users_all">
+
+    <% if @friends && @friends.empty? && !@requested_friends %>
+
+      <div>
+        <p>Vous n'avez pas encore d'amis</p>
+        <%= link_to network_path do %>
+          Parcourir les suggestions
+        <% end %>
+      </div>
+
+    <% else %>
+
+      <!-- SEARCHBAR -->
+
+      <% unless @friends && @friends.empty? %>
+        <%= render "networks/search_friends", results: @results %>
+      <% end %>
+
+      <!-- PENDING FRIENDS INVITATIONS GESTION -->
+
+      <% if @requested_friends %>
+        <div>
+          <h2 class="title-network">Invitations en attente</h2>
+          <div class="cards-homepage">
+            <div class="row row-homepage">
+              <% @requested_friends.each do |requested| %>
+                <div class="col-xs-12">
+                  <div class="card-network">
+                    <img src=<%= requested.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : requested.avatar_url %>  alt="profile" class="profile img-network">
+                    <p class="name-user">
+                      <%= "#{requested.first_name} #{requested.last_name}" %>
+                      <span><%= "(#{requested.city})" if requested.city %></span>
+                    </p>
+
+                    <%= link_to accept_friend_path(friendable: requested.id), method: :post, remote: true do %>
+                      <span>accept </span>
+                    <% end %>
+                    <%= link_to decline_friend_path(friendable: requested.id), method: :post, remote: true do %>
+                      <span>decline</span>
+                    <% end %>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+
+      <!-- FRIENDS CARDS -->
+
+      <% if @friends %>
+        <div class="cards-homepage">
+          <div class="row row-homepage">
+            <% @friends.each do |friend| %>
+              <div class="col-xs-12">
+                <div class="card-network">
+                  <img src=<%= friend.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : friend.avatar_url %>  alt="profile" class="profile img-network">
+                  <p class="name-user">
+                    <%= "#{friend.first_name} #{friend.last_name}" %>
+                    <span><%= "(#{friend.city})" unless !friend.city %></span>
+                  </p>
+                  <div class="plus-regular">
+                    <%= link_to conversations_path(friendable: friend.id), method: :post do %>
+                      <i class="far fa-envelope"></i>
+                    <% end %>
+                    <%= link_to remove_friend_path(friendable: friend.id), method: :post, remote: true do %>
+                      <i class="fas fa-times"></i>
+                    <% end %>
+                    <%= link_to block_friend_path(friendable: friend.id), method: :post, remote: true do %>
+                      <i class="fas fa-ban"></i>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+
+      <!-- BLOCKED USERS GESTION -->
+      <% if @blocked_friends %>
+        <div>
+          <h2 class="title-network">Utilisateurs bloqués</h2>
+          <div class="cards-homepage">
+            <div class="row row-homepage">
+              <% @blocked_friends.each do |blocked| %>
+                <div class="col-xs-12">
+                  <div class="card-network">
+                    <img src=<%= blocked.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : blocked.avatar_url %>  alt="profile" class="profile img-network">
+                    <p class="name-user"><%= blocked.first_name %></p>
+                    <%= link_to unblock_friend_path(friendable: blocked.id), method: :post, remote: true do %>
+                      <p>Débloquer</p>
+                    <% end %>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
+  <% end %>
+
+
+  <!-- SENT INVITATIONS GESTION -->
+
+  <% if @pending_friends %>
+    <div>
+      <h2 class="title-network">Invitations en attente</h2>
+      <div class="cards-homepage">
+        <div class="row row-homepage">
+          <% @pending_friends.each do |pending| %>
+            <div class="col-xs-12">
+              <div class="card-network">
+                <img src=<%= pending.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : pending.avatar_url %>  alt="profile" class="profile img-network">
+                <p class="name-user"><%= pending.first_name %></p>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+<% else %>
+  <%= render "shared/edit_profile_suggestion" %>
+<% end %>
