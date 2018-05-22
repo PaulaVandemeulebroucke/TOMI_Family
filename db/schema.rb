@@ -60,14 +60,14 @@ ActiveRecord::Schema.define(version: 20180513142623) do
     t.string "name"
     t.string "photo"
     t.string "synonym"
-    t.text "sector", default: [], array: true
+    t.text "sector"
     t.text "short_description"
     t.text "description"
     t.text "study"
     t.string "salary"
     t.text "career"
-    t.text "similar_job", default: [], array: true
-    t.text "interest", default: [], array: true
+    t.text "similar_job"
+    t.text "interest"
     t.string "statut"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
