@@ -75,7 +75,7 @@ a {
 }
 .sign-in {
   border: 2px solid $red;
-  background-color: rgba(120, 120, 120, 0.3);
+  background-color: rgba(190, 190, 190, 0.8);
   border-radius: 5px;
   padding: 0px 7px;
   position: absolute;
@@ -85,6 +85,7 @@ a {
   a {
     color: $red !important;
     font-size: 13px;
+    font-weight: bolder;
     &:active {
       text-decoration: none !important;
     }

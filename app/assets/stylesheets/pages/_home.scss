@@ -17,14 +17,23 @@
     z-index: 10;
   }
 }
-.congtainer-banner {
+.container-banner {
   position: relative;
   width: 100px; /*the image width*/
   height: 100px; /*the image height*/
   left: 50%;
-  top: 50%;
+  top: 30%;
   margin-left: -152px;
   margin-top: -255px;
+}
+.container-banner-centre {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.4) 80%), url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80");
+  height: 77%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 220px;
 }
 #banner-typed-text {
   font-size: 40px;
@@ -52,7 +61,8 @@
   height: 100%;
 }
 .img-banner {
-  width: 312%;
+  width: 280%;
+  margin-left: 12%;
 }
 
 .logo {
@@ -61,7 +71,7 @@
 .logo-row {
   text-align: center;
   position: relative;
-  top: 110px;
+  top: -39px;
 }
 // .gradient {
 //   position: absolute;
@@ -88,7 +98,7 @@ video {
   margin: 3% 2%;
   min-height: 320px;
   position: relative;
-  top: 110px;
+  top: -39px;
 }
 .line {
   font-size: 16px;
@@ -100,11 +110,11 @@ video {
   color: #333333;
   text-align: center;
   position: relative;
-  top: 110px;
+  top: -39px;
 }
 .small-container-home {
   position: relative;
-  top: 110px;
+  top: -39px;
 }
 .arrow-home {
   position: absolute;
