@@ -124,4 +124,18 @@ a {
 }
 .log-out {
   text-align: right;
+  a {
+    color: $grey;
+  }
+}
+.btn-plus {
+  background-color: #C3413B !important;
+  border-radius: 4px;
+  margin-top: 15px;
+  color: white;
+  width: 180px;
+  font-size: 16px;
+  margin-bottom: 70px;
+  margin-left: 10%;
+  padding: 7px 21px;
 }

@@ -10,10 +10,11 @@
           <%= render "networks/searchable_users/user_card", user: user[0], work: user[1] %>
 
         <% end %>
-
-        <%= link_to search_path(query: params[:query], more: true), remote: true do %>
-            <%= "voir plus" %>
+        <div class="center">
+          <%= link_to search_path(query: params[:query], more: true), remote: true, class: "btn-plus"  do %>
+            <%= "Voir plus" %>
           <% end %>
+        </div>
 
       </div>
     </div>

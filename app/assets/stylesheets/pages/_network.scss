@@ -27,6 +27,8 @@
   font-weight: lighter;
   font-size: 27px;
   padding: 0 12px;
+  margin-bottom: -6px;
+  margin-top: 30px;
 }
 .searchbar {
   padding: 8px;
@@ -50,9 +52,10 @@
 }
 .name-user {
   position: absolute;
-  top: 14px;
+  top: 26px;
   left: 98px;
-  font-size: 19px;
+  font-size: 14px;
+  font-weight: bolder;
 }
 .desc-user {
   position: absolute;
@@ -60,6 +63,7 @@
   left: 93px;
   font-size: 12px;
   font-weight: lighter;
+  width: 70%;
 }
 .navbar-onglet-network {
   background: white;
@@ -94,4 +98,7 @@
   .active {
     box-shadow: inset 0px -5px $red;
   }
+}
+.center {
+  text-align: center;
 }

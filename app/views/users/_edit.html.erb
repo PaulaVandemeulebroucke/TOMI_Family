@@ -46,7 +46,9 @@
     </div>
   </div>
   <div class="log-out">
-    <a href='<%= destroy_user_session_path %>' class='log-out' data-method='delete'><%= t('.sign_out', default: 'Log out', method: :get, data: { confirm: "Tu es sûr(e) de vouloir te déconnecter?" } ) %></a>
+    <%= link_to destroy_user_session_path, method: :delete, data: { confirm: "Tu es sûr(e) de vouloir te déconnecter?" } do %>
+      <i class="fas fa-sign-out-alt"></i>  <%= t(".sign_out", default: "Log out") %>
+    <% end %>
   </div>
 
 </div>
