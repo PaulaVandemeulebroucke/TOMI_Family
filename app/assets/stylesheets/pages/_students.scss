@@ -4,14 +4,28 @@
 }
 .container-signupstudents {
   position: relative;
+  top: 110px;
+}
+.congtainer-logo-signup {
+  position: absolute;
+  width: 100px; /*the image width*/
+  height: 100px; /*the image height*/
+  left: 50%;
+  top: 50%;
+  margin-left: -72px;
+  margin-top: -180px;
+}
+.congtainer-logo-signup2 {
+  position: absolute;
+  width: 100px; /*the image width*/
+  height: 100px; /*the image height*/
+  left: 50%;
+  top: 25%;
+  margin-left: -72px;
+  margin-top: -180px;
 }
  .logo2 {
-  background-size: 65px;
-  width: 159px;
-  position: absolute;
-  top: -27%;
-  left: 40%;
-  margin-bottom: 25px;
+  width: 150px;
  }
 .title-students1 {
   font-size: 26px;
@@ -28,6 +42,7 @@
 .title-students3 {
   font-size: 26px;
   text-align: center;
+  margin-top: 110px;
 }
 .em-sunglasses {
   width: 100% !important;
@@ -47,7 +62,7 @@
 }
 .subtitle-students {
   text-align: center;
-  font-size: 11px;
+  font-size: 14px;
 }
 .subtitle-students2 {
   text-align: center;

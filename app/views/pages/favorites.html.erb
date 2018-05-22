@@ -1,4 +1,15 @@
-<%= render 'shared/navbar' %>
+<div class="navbar-up">
+
+    <% if user_signed_in? %>
+      <div class="navbar-up-item">
+        <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+        <a type="student-btn" href="/chooseajob" class="btn btn-primary next-step-btn-mediumbig">Revenir à la page métiers <i class="fas fa-arrow-right arrow-next-step"></i></a>
+      </div>
+    <% else %>
+      <!-- Login link (when logged out) -->
+      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
+    <% end %>
+</div>
 <div class="container">
   <% if @jobs.empty? %>
     <p class="text-error">Oups, il semblerait que tu n'aies pas encore mis de métier en favoris...</p>

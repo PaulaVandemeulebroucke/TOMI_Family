@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 function loadDynamicBannerText() {
   new Typed('#banner-typed-text', {
-    strings: ["T O M I - Family"],
+    strings: ["Big - Family"],
     typeSpeed: 50,
     loop: false
   });
