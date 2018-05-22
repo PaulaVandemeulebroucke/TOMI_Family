@@ -5,20 +5,20 @@ class NetworksController < ApplicationController
 
 
   def network
-    @results = User.where(user_category: "student") - Array(current_user.blocked_friends) - Array(current_user)
+    @results = User.where(user_category: "student") - Array(current_user.blocked_friends) - Array(current_user) - current_user.friends
     job_likes_ids = current_user.job_likes.pluck(:votable_id)
     @commun_jobs_results = []
-    i = 0
     @results.each_with_index do |result, index|
       array = result.job_likes.pluck(:votable_id)
+      j = 0
       array.each do |id|
         if job_likes_ids.include? id
           @commun_jobs_results.unshift [result, Job.find(id).name]
-          i += 1
+          j = 1
           break
         end
       end
-      @commun_jobs_results << [result, nil] if @commun_jobs_results.size != index
+      @commun_jobs_results << [result, nil] if @commun_jobs_results.size != index && !j
       break if @commun_jobs_results.size == 10 && !params[:more]
     end
     @results = @commun_jobs_results

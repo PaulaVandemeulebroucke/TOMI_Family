@@ -15,23 +15,23 @@ class UsersController < ApplicationController
   def search
     @results = User.where(user_category: "student").search_by_full_name(params["query"]) if params[:query] && !params[:query].blank?
     if @results
-      @results = @results - Array(current_user) - current_user.blocked_friends
+      @results = @results - Array(current_user) - current_user.blocked_friends - current_user.friends
     else
-      @results = User.where(user_category: "student") - Array(current_user.blocked_friends) - Array(current_user)
+      @results = User.where(user_category: "student") - Array(current_user.blocked_friends) - Array(current_user) - current_user.friends
     end
     job_likes_ids = current_user.job_likes.pluck(:votable_id)
     @commun_jobs_results = []
-    i = 0
     @results.each_with_index do |result, index|
       array = result.job_likes.pluck(:votable_id)
+      j = 0
       array.each do |id|
         if job_likes_ids.include? id
           @commun_jobs_results.unshift [result, Job.find(id).name]
-          i += 1
+          j = 1
           break
         end
       end
-      @commun_jobs_results << [result, nil] if @commun_jobs_results.size != index
+      @commun_jobs_results << [result, nil] if @commun_jobs_results.size != index && !j
       break if @commun_jobs_results.size == 10 && !params[:more]
     end
     @results = @commun_jobs_results
