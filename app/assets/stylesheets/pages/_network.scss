@@ -30,6 +30,13 @@
   margin-bottom: -6px;
   margin-top: 30px;
 }
+.title-users {
+  font-weight: lighter;
+  font-size: 27px;
+  padding: 0 12px;
+  margin-bottom: -6px;
+  margin-top: 60px;
+}
 .searchbar {
   padding: 8px;
 }
@@ -101,4 +108,30 @@
 }
 .center {
   text-align: center;
+}
+.accroche-students2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 26px;
+  padding: 0px 44px;
+}
+.envelope-message {
+  position: absolute;
+  top: 6px;
+  right: 80px;
+  font-size: 38px;
+}
+.supp-friends {
+  position: absolute;
+  top: 9px;
+  right: 30px;
+  font-size: 32px;
+  color: $grey !important;
+}
+.block-friends {
+  position: absolute;
+  top: 11px;
+  right: -17px;
+  font-size: 28px;
+  color: $grey !important;
 }

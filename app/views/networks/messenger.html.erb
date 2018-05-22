@@ -14,7 +14,7 @@
   <!-- FRIENDS INDEX -->
 
   <div>
-    <h2 class="title-network">Mes contacts</h2>
+    <h2 class="title-network">Mes conversations:</h2>
     <div class="cards-homepage">
       <div class="row row-homepage">
         <% @conversations.each do |conversation| %>
@@ -44,8 +44,8 @@
   <!-- EMPTY CONVERSATIONS GESTION -->
 
   <div>
-    <p>Oups il n'y a rien ici</p>
-    <%= link_to "Trouver un contact à qui parler", users_all_path %>
+    <p class="accroche-students2">N'attend plus une seule seconde pour demander à tes nouveaux contacts des infos sur les études et les métiers qui te plaisent ! Par exemple: est-ce que tu sais quelle est la date limite pour envoyer les dossiers d'inscriptions? Demande, peut-être qu'eux le savent ! 👍</p>
+    <%= link_to "Mes contacts", users_all_path, class:"btn btn-primary students-network" %>
   </div>
 
 <% else %>
