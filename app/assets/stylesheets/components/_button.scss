@@ -114,9 +114,10 @@ a {
 
 .btn-simple {
   font-style: italic !important;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: lighter;
-  color: rgb(200, 200, 200);
+  color: #c8c8c8;
+  width: 100%;
 }
 .btn-enter {
   background-color: $red !important;
@@ -126,7 +127,7 @@ a {
   width: 180px;
   font-size: 16px;
   margin-bottom: 70px;
-  margin-left: 20%;
+  margin-left: 17%;
   padding: 7px;
 }
 .log-out {

@@ -33,7 +33,10 @@
 
         <%= f.input :first_name, label: 'Prénom:', required: true %>
         <%= f.input :last_name, label: 'Nom:', required: true %>
-        <%= f.input :age, :as => :date, :start_year => Date.today.year - 80, :end_year => Date.today.year - 10, selected: Date.today.year - 17, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
+        <div class="format">
+          <%= f.input :age, :as => :date, :start_year => Date.today.year - 80, :end_year => Date.today.year - 10, selected: Date.today.year - 17, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
+        </div>
+
         <%= f.input :city, label: 'Code Postal:', required: true, autocomplete: "on" %>
         <%= f.input :avatar, label: 'Photo de profil:', input_html: { class: 'btn-simple'} %>
         <%= f.input :avatar_cache, as: :hidden %>
