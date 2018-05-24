@@ -96,7 +96,7 @@ video {
 // }
 .youtube {
   width: 95%;
-  margin: 3% 2%;
+  margin: 5% 2%;
   min-height: 320px;
   position: relative;
   top: -6px;
@@ -106,7 +106,7 @@ video {
   text-align: justify;
   list-style-type: none;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: lighter;
   text-align: center;
 }
@@ -126,6 +126,8 @@ video {
   position: relative;
   top: 144px;
   font-weight: lighter;
+  width: 115%;
+  margin-left: -20px;
 }
 .small-container-home {
   position: relative;
