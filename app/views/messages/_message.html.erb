@@ -1,17 +1,27 @@
 <ul id=<%= message.id %> >
-          <% if message.body %>
-            <div class="col col-xs-6 col-xs-offset-2">
-              <div id=<%= message.id %> >
-              <div>
-                <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
-                <%= message.message_time %>
-              </div>
-              <div>
-                <%= message.body %>
-                <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
-                <i class="fas fa-circle" color=<%= message.read ? "green" : "red" %>></i>
-              </div>
+  <% if message.body %>
+    <div class="col col-xs-11 col-sm-6 col-sm-offset-3">
+      <div class="espace-message">
+        <div id=<%= message.id %> >
+          <div class="entete-message">
+            <div class="name-message">
+              <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
             </div>
+            <div class="time-message">
+              <%= message.message_time %>
             </div>
-          <% end %>
-        </ul>
+          </div>
+          <div class="corps-message">
+            <div class="text-message">
+              <%= message.body %>
+            </div>
+            <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
+            <div class="notification-message">
+              <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</ul>

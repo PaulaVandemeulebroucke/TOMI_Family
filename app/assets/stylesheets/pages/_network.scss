@@ -30,6 +30,13 @@
   margin-bottom: -6px;
   margin-top: 30px;
 }
+.title-network2 {
+  font-weight: lighter;
+  font-size: 27px;
+  padding: 0 12px;
+  margin-bottom: -6px;
+  margin-top: 8px;
+}
 .title-users {
   font-weight: lighter;
   font-size: 27px;
@@ -63,6 +70,7 @@
   left: 98px;
   font-size: 14px;
   font-weight: bolder;
+  color: $grey !important;
 }
 .desc-user {
   position: absolute;
@@ -71,6 +79,17 @@
   font-size: 12px;
   font-weight: lighter;
   width: 70%;
+}
+.message-user {
+  position: absolute;
+  top: 48px;
+  left: 93px;
+  font-size: 12px;
+  font-weight: lighter;
+  width: 70%;
+  padding: 1px 6px;
+  color: $grey !important;
+  font-style: italic;
 }
 .navbar-onglet-network {
   background: white;
@@ -134,4 +153,41 @@
   right: -17px;
   font-size: 28px;
   color: $grey !important;
+}
+.espace-message {
+  position: relative;
+  margin-bottom: 25px;
+}
+.entete-message {
+
+}
+.name-message {
+
+}
+.time-message {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  font-size: 10px;
+  color: rgb(170, 170, 170);
+}
+.corps-message {
+
+}
+.field {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+}
+.text-message {
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 95%;
+  margin-left: 1%;
+}
+.notification-message {
+  font-size: 13px;
+  right: 17px;
+  position: absolute;
 }
