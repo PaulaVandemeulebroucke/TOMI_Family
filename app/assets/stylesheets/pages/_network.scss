@@ -72,6 +72,14 @@
   font-weight: bolder;
   color: $grey !important;
 }
+.name-user2 {
+  position: absolute;
+  top: 18px;
+  left: 98px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: $grey !important;
+}
 .desc-user {
   position: absolute;
   top: 48px;
@@ -127,42 +135,38 @@
 }
 .center {
   text-align: center;
+  margin-top: 130px;
 }
 .accroche-students2 {
   text-align: center;
   font-weight: lighter;
-  font-size: 26px;
+  font-size: 22px;
   padding: 0px 44px;
 }
 .envelope-message {
-  position: absolute;
-  top: 9px;
-  right: 65px;
-  font-size: 31px;
+  position: relative;
+  top: 5px;
+  left: -128px;
+  color: $red;
+  font-size: 30px;
 }
 .supp-friends {
-  position: absolute;
-  top: 11px;
-  right: 24px;
-  font-size: 25px;
-  color: #333333 !important;
+  position: relative;
+  top: 5px;
+  left: -69px;
+  color: $grey;
+  font-size: 30px;
 }
 .block-friends {
-  position: absolute;
-  top: 12px;
-  right: -12px;
-  font-size: 22px;
-  color: #333333 !important;
+  position: relative;
+  top: 4px;
+  left: -19px;
+  color: $grey;
+  font-size: 27px;
 }
 .espace-message {
   position: relative;
   margin-bottom: 25px;
-}
-.entete-message {
-
-}
-.name-message {
-
 }
 .time-message {
   position: absolute;
@@ -170,9 +174,6 @@
   top: 7px;
   font-size: 10px;
   color: rgb(170, 170, 170);
-}
-.corps-message {
-
 }
 .field {
   width: 95%;
@@ -190,4 +191,24 @@
   font-size: 13px;
   right: 17px;
   position: absolute;
+}
+.accroche-students3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 19px;
+  padding: 0px 44px;
+}
+.accept {
+  position: relative;
+  top: 20px;
+  left: 45px;
+  color: #63af76;
+  font-size: 30px;
+}
+.decline {
+  position: relative;
+  top: 20px;
+  left: 130px;
+  color: #a02219;
+  font-size: 30px;
 }
