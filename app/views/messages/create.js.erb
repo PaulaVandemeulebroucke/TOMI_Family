@@ -1,3 +1,3 @@
-<% unless @comment.new_record? %>
-  $('#messages').html('<%= j render partial: "message", message: @message %>');
+<% unless @message.new_record? %>
+  $('#messages').append('<%= j render( partial: "message", :locals => {  message: @message } )  %>');
 <% end %>
