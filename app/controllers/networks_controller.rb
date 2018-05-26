@@ -1,6 +1,5 @@
 class NetworksController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_friends_clusters, only: [:unblock_friend, :accept_friend, :decline_friend, :block_friend, :remove_friend]
   before_action :set_friendable, only: [:unblock_friend, :accept_friend, :decline_friend, :request_friend, :block_friend, :remove_friend]
 
 
@@ -57,6 +56,7 @@ class NetworksController < ApplicationController
       current_user.friend_request(@friend)
       @friend.accept_request(current_user)
     end
+    set_friends_clusters
     respond_to do |format|
       format.js { render "users_all" }
     end
@@ -64,6 +64,7 @@ class NetworksController < ApplicationController
 
   def accept_friend
     current_user.accept_request(@friend) if @friend
+    set_friends_clusters
     respond_to do |format|
       format.js { render "users_all" }
     end
@@ -71,6 +72,7 @@ class NetworksController < ApplicationController
 
   def decline_friend
     current_user.decline_request(@friend) if @friend
+    set_friends_clusters
     respond_to do |format|
       format.js { render "users_all" }
     end
@@ -78,6 +80,7 @@ class NetworksController < ApplicationController
 
   def block_friend
     current_user.block_friend(@friend) if @friend
+    set_friends_clusters
     respond_to do |format|
       format.js { render "users_all" }
     end
@@ -85,6 +88,7 @@ class NetworksController < ApplicationController
 
   def remove_friend
     current_user.remove_friend(@friend) if @friend
+    set_friends_clusters
     respond_to do |format|
       format.js { render "users_all" }
     end
