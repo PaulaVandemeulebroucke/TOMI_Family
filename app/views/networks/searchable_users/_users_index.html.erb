@@ -11,7 +11,7 @@
 
         <% end %>
         <div class="center">
-          <%= link_to search_path(query: params[:query], more: true), remote: true, class: "btn-plus"  do %>
+          <%= link_to search_path(query: params[:query], more: true), class: "btn-plus"  do %>
             <%= "Voir plus" %>
           <% end unless params[:more] %>
         </div>
