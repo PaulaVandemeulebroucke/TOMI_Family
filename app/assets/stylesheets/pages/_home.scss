@@ -28,7 +28,7 @@
 }
 .container-banner-centre {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 80%, rgba(0,0,0,0.4) 80%), url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80");
-  height: 77%;
+  height: 46%;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,9 +49,8 @@
 }
 #app-content {
   overflow: scroll;
-  height: 100vh;
+  height: 160vh;
   width: 100vw;
-  margin-bottom: 400px;
 }
 #students-content{
   padding: 21px;

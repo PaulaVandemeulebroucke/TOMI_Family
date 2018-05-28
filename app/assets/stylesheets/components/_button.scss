@@ -168,10 +168,13 @@ a {
 .btn-envoyer {
   background-color: #C3413B !important;
   border-radius: 4px;
-  margin-top: 0px;
   color: white;
   width: 180px;
   font-size: 20px;
-  margin-left: 24%;
   height: 40px;
+  position: relative;
+  left: 50%;
+  top: 30%;
+  margin-left: -92px;
+  margin-top: 4px;
 }
