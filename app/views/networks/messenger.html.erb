@@ -14,7 +14,7 @@
   <!-- FRIENDS INDEX -->
 
   <div>
-    <h2 class="title-network">Mes conversations:</h2>
+    <h2 class="title-network2">Mes conversations:</h2>
     <div class="cards-homepage">
       <div class="row row-homepage">
         <% @conversations.each do |conversation| %>
@@ -29,6 +29,7 @@
                   <%= "#{user.first_name} #{user.last_name}" %>
                 </p>
                 <p class="desc-user"><%= conversation.messages.last.body[0..140] if !conversation.messages.empty? && conversation.messages.last.body %></p>
+                <p class="message-user"><%= conversation.messages.first.body[0..140] if !conversation.messages.empty? && conversation.messages.first.body %></p>
               </div>
             </div>
 

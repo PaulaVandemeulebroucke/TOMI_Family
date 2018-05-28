@@ -28,16 +28,16 @@
                 <div class="col-xs-12">
                   <div class="card-network">
                     <img src=<%= requested.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : requested.avatar_url %>  alt="profile" class="profile img-network">
-                    <p class="name-user">
+                    <p class="name-user2">
                       <%= "#{requested.first_name} #{requested.last_name}" %>
                       <span><%= "(#{requested.city})" if requested.city %></span>
                     </p>
 
                     <%= link_to accept_friend_path(friendable: requested.id), method: :post, remote: true do %>
-                      <span>accept </span>
+                      <span class="accept"><i class="fas fa-check-circle"></i></span>
                     <% end %>
                     <%= link_to decline_friend_path(friendable: requested.id), method: :post, remote: true do %>
-                      <span>decline</span>
+                      <span class="decline"><i class="far fa-times-circle"></i></span>
                     <% end %>
                   </div>
                 </div>
@@ -57,7 +57,7 @@
               <div class="col-xs-12">
                 <div class="card-network">
                   <img src=<%= friend.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : friend.avatar_url %>  alt="profile" class="profile img-network">
-                  <p class="name-user">
+                  <p class="name-user2">
                     <%= "#{friend.first_name} #{friend.last_name}" %>
                     <span><%= "(#{friend.city})" unless !friend.city %></span>
                   </p>

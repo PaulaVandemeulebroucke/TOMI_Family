@@ -111,7 +111,25 @@ a {
   margin-bottom: 70px;
   margin-left: 20%;
 }
-
+.btn-default2 {
+    background-color: #C3413B !important;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 70px;
+    padding: 7px;
+    position: relative;
+    width: 215px;
+    left: 50%;
+    top: 30%;
+    margin-left: -109px;
+    margin-top: 31px;
+}
+.linkto {
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+}
 .btn-simple {
   font-style: italic !important;
   font-size: 18px;
@@ -146,4 +164,14 @@ a {
   margin-bottom: 70px;
   margin-left: 10%;
   padding: 7px 21px;
+}
+.btn-envoyer {
+  background-color: #C3413B !important;
+  border-radius: 4px;
+  margin-top: 0px;
+  color: white;
+  width: 180px;
+  font-size: 20px;
+  margin-left: 24%;
+  height: 40px;
 }
