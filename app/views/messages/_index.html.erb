@@ -8,6 +8,7 @@
   </div>
 </div>
 
+<div id="messages">
   <div class="row" >
     <li class="messages" >
       <% @messages.each do |message| %>
@@ -15,11 +16,13 @@
       <% end %>
     </li>
   </div>
+</div>
 
   <% if @friend.friends.include?(current_user) %>
     <div class="col-xs-12 col-sm-6 col-sm-offset-3">
       <%= simple_form_for @message, url: conversation_messages_path(@conversation), method: :post, remote: true do |f| %>
        <div class="field">
+         <%= f.input :body, class: "form-control", label: false %>
          <%= f.input :body, class: "form-control", placeholder: "Ton message ici...", label: false %>
        </div>
        <%= f.input :user_id, as: :hidden, input_html: { value: current_user.id } %>
