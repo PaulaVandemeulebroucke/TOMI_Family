@@ -19,6 +19,8 @@ Rails.application.routes.draw do
   get 'entretien', to: 'pages#entretien'
   get 'conseillers', to: 'pages#conseillers'
   get 'financements', to: 'pages#financements'
+  get 'bourse', to: 'pages#bourse'
+  get 'apl', to: 'pages#apl'
   get 'outils', to: 'pages#outils'
   get 'changements', to: 'pages#changements'
   get 'un_cv_parfait', to: 'pages#un_cv_parfait'

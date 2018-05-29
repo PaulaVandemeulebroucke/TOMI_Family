@@ -80,5 +80,11 @@ class PagesController < ApplicationController
 
   def devenir_mentor
   end
+
+  def bourse
+  end
+
+  def apl
+  end
 end
 

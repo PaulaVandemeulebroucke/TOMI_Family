@@ -7,7 +7,7 @@
         <span><%= "(#{user.city})" if user.city %></span>
       </p>
       <% if work %>
-        <p class="desc-user">...a aussi liké le métier de <%= work %></p>
+        <p class="desc-user">...a aussi liké le métier de <%= work %> <%= @commun_jobs_results.count %></p>
       <% end %>
 
       <% if user.requested_friends.include?(current_user) || user.pending_friends.include?(current_user) %>
