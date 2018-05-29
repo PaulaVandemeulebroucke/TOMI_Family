@@ -639,3 +639,125 @@
     margin-top: -67px;
   }
 }
+.card-info-aide1 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("logement2.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide2 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("flag.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide3 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("explore.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide4 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("bus.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide5 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("master.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide6 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("jobs.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide7 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("artist.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide8 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("perfect.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide9 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("specifique.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide10 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("accompagnement.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.card-info-aide11 {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("lesautres.jpeg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.card-infos2 {
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 110px;
+  h3 {
+    font-size: 16px;
+    padding: 40px 10px;
+    color: white;
+  }
+  &:hover {
+    box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
+  }
+}
+
+.card-infos3 {
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 110px;
+  h3 {
+    font-size: 16px;
+    padding: 31px 10px;
+    color: white;
+  }
+  &:hover {
+    box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
+  }
+}
