@@ -1,3 +1,50 @@
-<%= render 'shared/navbar' %>
-  <p>test</p>
+<div class="navbar-up">
+  <div class="navbar-up-item">
+    <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+    <a type="student-btn" href="/le_pret_bancaire" class="btn btn-primary next-step-btn-xtrasmall">Faire un prêt <i class="fas fa-arrow-right arrow-next-step"></i></a>
+  </div>
+</div>
+<div class="container">
+  <div class="cards">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="card-infos">
+          <div class="card-info1">
+            <a href="/entretien"><h3>Être prêt pour un entretien</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="card-infos">
+          <div class="card-info2">
+            <a href="/conseillers"><h3>Ils sont là pour moi</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="card-infos">
+          <div class="card-info5">
+            <a href="/financements"><h3>Trouver des financements</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="card-infos">
+          <div class="card-info3">
+            <a href="/outils"><h3>Pro avant l'heure</h3></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="card-infos">
+          <div class="card-info4">
+            <a href="/changements"><h3>Et si tu as des doutes...</h3></a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 <%= render '/shared/navigationbar' %>
+
