@@ -179,7 +179,7 @@ a {
   margin-top: 4px;
 }
 .btn-link {
-  background-color: rgb(227, 227, 227) !important;
+  background-color: #75324e !important;
   border-radius: 4px;
   color: white;
   width: 180px;
@@ -190,5 +190,18 @@ a {
   top: 30%;
   margin-left: -92px;
   margin-top: 4px;
+  padding: 5px;
+}
+.btn-dropdown {
+  border-radius: 4px;
+  color: white;
+  width: 180px;
+  font-size: 20px;
+  height: 40px;
+  position: relative;
+  left: 0%;
+  top: 30%;
+  margin-left: 10%;
+  margin-top: 22px;
   padding: 5px;
 }

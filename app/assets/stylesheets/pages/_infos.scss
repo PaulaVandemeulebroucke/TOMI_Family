@@ -2,6 +2,7 @@
   font-size: 16px;
   text-align: center;
   padding: 0 20px;
+  color: #333333;
 }
 .small-container {
   margin: 25px 70px;
@@ -21,12 +22,14 @@
 .reminder {
   font-size: 10px;
   text-align: center;
+  color: #333333;
 }
 .reminder2 {
   font-size: 9px;
   text-align: right;
   padding: 0px 11px;
   margin-bottom: 22px;
+  color: #333333;
 }
 .etape {
   box-shadow: inset 0px -15px #ffed5f;
@@ -35,6 +38,7 @@
   margin: 0 20px;
   padding: 0 4px;
   margin-top: 20px;
+  color: #333333;
 }
 .desc-infos {
   padding: 5px 20px;
@@ -42,6 +46,7 @@
   font-weight: lighter;
   text-justify: inter-word;
   text-align: justify;
+  color: #333333;
 }
 .etape2 {
   box-shadow: inset 0px -15px #ffc9ba;
@@ -50,6 +55,7 @@
   margin: 0 20px;
   padding: 0 4px;
   margin-top: 20px;
+  color: #333333;
 }
 .desc-infos2 {
   padding: 12px 20px;
@@ -57,12 +63,71 @@
   margin-top: 33px;
   background-color: #fcf6de;
   border-radius: 14px;
+  color: #333333;
 }
-.etape3 {
-  box-shadow: inset 0px -15px #84dcff;
+.etape3-xtrasmall {
+  box-shadow: inset 0px -15px #fff699;
+  width: 100px;
+  font-size: 25px;
+  margin: 9px 20px;
+  padding: 0 4px;
+  margin-top: 31px;
+  color: #333333;
+}
+.etape3-medium {
+  box-shadow: inset 0px -15px #fff699;
   width: 264px;
   font-size: 25px;
-  margin: 0 20px;
+  margin: 9px 20px;
   padding: 0 4px;
-  margin-top: 20px;
+  margin-top: 31px;
+  color: #333333;
+}
+.etape3-large {
+  box-shadow: inset 0px -15px #fff699;
+  width: 301px;
+  font-size: 25px;
+  margin: 9px 20px;
+  padding: 0 4px;
+  margin-top: 31px;
+  color: #333333;
+}
+.etape3-medlarge {
+  box-shadow: inset 0px -15px #fff699;
+  width: 283px;
+  font-size: 25px;
+  margin: 9px 0px;
+  padding: 0 4px;
+  margin-top: 31px;
+  color: #333333;
+}
+.little {
+  font-size: 19px;
+  font-style: italic;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 18px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.subtitle-aides {
+  padding: 33px 10px;
+  font-size: 13px;
+  padding-bottom: 5px;
+  color: #333333;
 }

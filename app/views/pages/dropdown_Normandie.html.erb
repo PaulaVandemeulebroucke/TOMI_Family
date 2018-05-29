@@ -1,0 +1,45 @@
+<div class="navbar-up">
+  <div class="navbar-up-item">
+    <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+    <a type="student-btn" href="/les_autres_aides" class="btn btn-primary next-step-btn-medium">Revenir page aides <i class="fas fa-arrow-right arrow-next-step"></i></a>
+  </div>
+</div>
+<div class="container">
+  <p class="etape3-medlarge">LES AIDES PAR REGION:</p>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle btn-dropdown" type="button" data-toggle="dropdown">Choisis ta région
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="/dropdown_HDF">Hauts-de-France</a></li>
+      <li><a href="/dropdown_IDF">Île-de-France</a></li>
+      <li><a href="/dropdown_Normandie">Normandie</a></li>
+      <li><a href="/dropdown_Bretagne">Bretagne</a></li>
+      <li><a href="/dropdown_PDLL">Pays de la Loire</a></li>
+      <li><a href="/dropdown_CVDL">Centre-Val de Loire</a></li>
+      <li><a href="/dropdown_BFC">Bourgogne-Franche-Comté</a></li>
+      <li><a href="/dropdown_GE">Grand Est</a></li>
+      <li><a href="/dropdown_NA">Nouvelle-Aquitaine</a></li>
+      <li><a href="/dropdown_ARA">Auvergne-Rhône-Alpes</a></li>
+      <li><a href="/dropdown_Occitanie">Occitanie</a></li>
+      <li><a href="/dropdown_PACA">Provence-Alpes-Côte d'Azur</a></li>
+      <li><a href="/dropdown_Paradis_francais">Paradis Français</a></li>
+    </ul>
+  </div>
+
+  <p class="subtitle-aides">Les aides proposées par la région <strong>Normandie:</strong></p>
+  <ul>
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i></i><a target="_blank" href="http://generation.hautsdefrance.fr/mermoz/" style="font-size: 15px; color: #333333;"> <strong>La Bourse Mermoz</strong> : une aide pour partir à l'étranger</a></li>
+
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i><a target="_blank" href="http://generation.hautsdefrance.fr/initiatives-etudiantes/" style="font-size: 15px; color: #333333;"> <strong>Une aide pour les associations étudiantes</strong></a></li>
+
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i><a target="_blank" href="http://generation.hautsdefrance.fr/hauts-de-france-pass-etudes/" style="font-size: 15px; color: #333333;"> Les aides pour les <strong>transports en commun</strong></a></li>
+
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i><a target="_blank" href="http://generation.hautsdefrance.fr/dispositifs-apprentissage/" style="font-size: 15px; color: #333333;"> Différentes aides pour les <strong>apprentis / alternants</strong></a></li>
+
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i><a target="_blank" href="http://generation.hautsdefrance.fr/bons-plans-generation-nouvelle-formule/" style="font-size: 15px; color: #333333;"> Des <strong>bons plans</strong> grâce à la carte Génération #HDF</a></li>
+
+    <li style="list-style-type:  none;margin-left: -17px;margin-right: 8px; margin-bottom:  10px;"><i class="fas fa-external-link-alt"></i><a target="_blank" href="http://www.hautsdefrance.fr/bourses-formations-sanitaires-sociales/" style="font-size: 15px; color: #333333;"> Bourses pour les <strong>formations sanitaires et sociales</strong></a></li>
+  </ul>
+</div>
+<%= render '/shared/navigationbar' %>
+

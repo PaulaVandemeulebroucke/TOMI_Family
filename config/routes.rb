@@ -49,6 +49,19 @@ Rails.application.routes.draw do
   get 'aidesurgences', to: 'pages#aidesurgences'
   get 'aidesaccompagnement', to: 'pages#aidesaccompagnement'
   get 'aidesautres', to: 'pages#aidesautres'
+  get 'dropdown_HDF', to: 'pages#dropdown_HDF'
+  get 'dropdown_IDF', to: 'pages#dropdown_IDF'
+  get 'dropdown_Normandie', to: 'pages#dropdown_Normandie'
+  get 'dropdown_Bretagne', to: 'pages#dropdown_Bretagne'
+  get 'dropdown_PDLL', to: 'pages#dropdown_PDLL'
+  get 'dropdown_CVDL', to: 'pages#dropdown_CVDL'
+  get 'dropdown_BFC', to: 'pages#dropdown_BFC'
+  get 'dropdown_GE', to: 'pages#dropdown_GE'
+  get 'dropdown_NA', to: 'pages#dropdown_NA'
+  get 'dropdown_ARA', to: 'pages#dropdown_ARA'
+  get 'dropdown_Occitanie', to: 'pages#dropdown_Occitanie'
+  get 'dropdown_PACA', to: 'pages#dropdown_PACA'
+  get 'dropdown_Paradis_francais', to: 'pages#dropdown_Paradis_francais'
 
   resources :interests, only: [ :index, :show, :edit ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
