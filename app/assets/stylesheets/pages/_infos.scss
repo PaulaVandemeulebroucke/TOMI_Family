@@ -40,6 +40,8 @@
   padding: 5px 20px;
   font-size: 15px;
   font-weight: lighter;
+  text-justify: inter-word;
+  text-align: justify;
 }
 .etape2 {
   box-shadow: inset 0px -15px #ffc9ba;
@@ -56,4 +58,11 @@
   background-color: #fcf6de;
   border-radius: 14px;
 }
-
+.etape3 {
+  box-shadow: inset 0px -15px #84dcff;
+  width: 264px;
+  font-size: 25px;
+  margin: 0 20px;
+  padding: 0 4px;
+  margin-top: 20px;
+}
