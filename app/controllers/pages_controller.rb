@@ -86,5 +86,37 @@ class PagesController < ApplicationController
 
   def apl
   end
-end
 
+  def aideslogement
+  end
+
+  def aidesregionales
+  end
+
+  def aidespourpartir
+  end
+
+  def aidestransports
+  end
+
+  def aidesmaster
+  end
+
+  def aidespremieremploi
+  end
+
+  def aidesartistes
+  end
+
+  def aidesmerite
+  end
+
+  def aidesurgences
+  end
+
+  def aidesaccompagnement
+  end
+
+  def aidesautres
+  end
+end

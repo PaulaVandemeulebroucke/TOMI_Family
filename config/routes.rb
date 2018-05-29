@@ -38,6 +38,17 @@ Rails.application.routes.draw do
   get 'network', to: 'networks#network'
   get 'messenger', to: 'networks#messenger'
   get 'users_all', to: 'networks#users_all'
+  get 'aideslogement', to: 'pages#aideslogement'
+  get 'aidesregionales', to: 'pages#aidesregionales'
+  get 'aidespourpartir', to: 'pages#aidespourpartir'
+  get 'aidestransports', to: 'pages#aidestransports'
+  get 'aidesmaster', to: 'pages#aidesmaster'
+  get 'aidespremieremploi', to: 'pages#aidespremieremploi'
+  get 'aidesartistes', to: 'pages#aidesartistes'
+  get 'aidesmerite', to: 'pages#aidesmerite'
+  get 'aidesurgences', to: 'pages#aidesurgences'
+  get 'aidesaccompagnement', to: 'pages#aidesaccompagnement'
+  get 'aidesautres', to: 'pages#aidesautres'
 
   resources :interests, only: [ :index, :show, :edit ]
   patch "interests/:id/likeinterest", to: "interests#likeinterest", as: :likeinterest
