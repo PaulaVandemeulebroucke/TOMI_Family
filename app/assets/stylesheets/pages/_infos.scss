@@ -1,6 +1,7 @@
 .title-infos-entretiens {
   font-size: 17px;
   text-align: center;
+  padding: 0 20px;
 }
 .small-container {
   margin: 25px 70px;
@@ -20,4 +21,23 @@
 .reminder {
   font-size: 10px;
   text-align: center;
+}
+.reminder2 {
+  font-size: 9px;
+  text-align: right;
+  padding: 0px 11px;
+  margin-bottom: 22px;
+}
+.etape {
+  box-shadow: inset 0px -15px #ffed5f;
+  width: 102px;
+  font-size: 25px;
+  margin: 0 20px;
+  padding: 0 4px;
+  margin-top: 20px;
+}
+.desc-infos {
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: lighter;
 }
