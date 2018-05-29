@@ -5,9 +5,13 @@
     <div class="cards-homepage">
       <div class="row row-homepage">
 
-        <% (@results ? @results : @suggested_friends).each do |user| %>
-
-          <%= render "networks/searchable_users/user_card", user: user[0], work: user[1] %>
+        <% if @results %>
+        <% array = @results %>
+        <% else %>
+          <% array = @suggested_friends %>
+        <% end %>
+        <% array.each do |user| %>
+          <%= render "networks/searchable_users/user_card", user: user[0], work: user[1], number: user[2] %>
 
         <% end %>
         <div class="center">
