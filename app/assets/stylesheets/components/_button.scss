@@ -179,11 +179,12 @@ a {
   margin-top: 4px;
 }
 .btn-link {
-  background-color: #75324e !important;
-  border-radius: 4px;
-  color: white;
+  background-color: white !important;
+  border-radius: 15px;
+  color: $grey;
   width: 180px;
   font-size: 20px;
+  border: 2px solid $grey;
   height: 40px;
   position: relative;
   left: 65%;
