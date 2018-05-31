@@ -22,6 +22,8 @@ class PagesController < ApplicationController
   end
   def infos
   end
+  def ose
+  end
   def entretien
   end
   def financements
@@ -77,8 +79,6 @@ class PagesController < ApplicationController
   def aidesmerite
   end
   def aidesurgences
-  end
-  def aidesaccompagnement
   end
   def aidesautres
   end

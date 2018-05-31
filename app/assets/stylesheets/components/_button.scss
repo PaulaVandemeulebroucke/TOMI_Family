@@ -179,17 +179,18 @@ a {
   margin-top: 4px;
 }
 .btn-link {
-  background-color: white !important;
+  background-color: #f0dcdc !important;
   border-radius: 15px;
   color: $grey;
   width: 180px;
   font-size: 20px;
-  border: 2px solid $grey;
+  border: 0px solid #d6bcbc;
+  box-shadow: 2px 2px 2px #d6bcbc;
   height: 40px;
   position: relative;
   left: 65%;
   top: 30%;
-  margin-left: -92px;
+  margin-left: -105px;
   margin-top: 4px;
   padding: 5px;
 }
