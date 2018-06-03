@@ -1,0 +1,6 @@
+function refreshCard(outerHTML) {
+  const interest = document.getElementById(<%= @interest.id %>);
+  interest.outerHTML = outerHTML;
+}
+
+refreshCard('<%= j render "pages/card", interest:@interest %>');

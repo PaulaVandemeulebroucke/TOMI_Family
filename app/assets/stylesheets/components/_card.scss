@@ -769,3 +769,23 @@
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
   }
 }
+
+.card-likes {
+  height: 130px;
+  width: 95%;
+  text-align: center;
+  margin: 5px;
+  p {
+    padding: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+}
+.card-like-link2 {
+  z-index: 3;
+  position: absolute;
+  bottom: -16px;
+  right: 39%;
+  color: #d53533;
+  font-size: 32px;
+}

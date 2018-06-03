@@ -1,0 +1,37 @@
+<div class="navbar-up">
+  <div class="navbar-up-item">
+    <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+    <a type="student-btn" href="/chooseajob" class="btn btn-primary next-step-btn-small">Etape 2: les métiers <i class="fas fa-arrow-right arrow-next-step"></i></a>
+  </div>
+</div>
+
+<div class="container">
+  <% if @interests.empty? %>
+    <p class="text-error">Oups, il semblerait que tu n'aies pas encore liké de centres d'intérêt...</p>
+      <div class="geek">🤓</div>
+  <% else %>
+  <div class="cards">
+    <div class="row">
+      <% @interests.each do |interest| %>
+        <div class="col-xs-6 col-md-3">
+          <div class="card card-likes" id= <%= "#{interest.id}" %>>
+            <p><%= interest.name %></p>
+            <%= link_to "", interest_path(interest), class: "card-link"%>
+            <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
+              <%= link_to like2interest_path(interest), method: :patch, remote: true, class: "card-like-link2" do%>
+                <i class="far fa-heart"></i>
+              <% end %>
+            <% else %>
+              <%= link_to dislike2interest_path(interest), method: :patch, remote: true, class: "card-like-link2" do %>
+                <i class="fas fa-heart"></i>
+              <% end %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <% end %>
+</div>
+
+<%= render '/shared/navigationbar' %>
