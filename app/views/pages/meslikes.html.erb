@@ -16,7 +16,6 @@
         <div class="col-xs-6 col-md-3">
           <div class="card card-likes" id= <%= "#{interest.id}" %>>
             <p><%= interest.name %></p>
-            <%= link_to "", interest_path(interest), class: "card-link"%>
             <% if interest.get_likes.where(voter_id: current_user).count == 0 %>
               <%= link_to like2interest_path(interest), method: :patch, remote: true, class: "card-like-link2" do%>
                 <i class="far fa-heart"></i>
