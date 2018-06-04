@@ -10,6 +10,7 @@ gem 'rails', '5.1.5'
 gem 'redis'
 gem 'carrierwave', '~> 1.2'
 gem 'cloudinary'
+gem "simple_calendar", "~> 2.0"
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
