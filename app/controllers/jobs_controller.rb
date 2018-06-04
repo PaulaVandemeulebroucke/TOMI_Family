@@ -1,4 +1,6 @@
 class JobsController < ApplicationController
+  before_action :authenticate_user!
+
   def index
     if params[:query].present?
       @jobs = params[:query].map { |query| Job.global_search("%#{query}%")}.inject(:&)

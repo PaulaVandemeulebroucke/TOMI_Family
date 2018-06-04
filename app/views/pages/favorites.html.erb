@@ -15,6 +15,17 @@
     <p class="text-error">Oups, il semblerait que tu n'aies pas encore mis de métier en favoris...</p>
       <div class="geek">🤓</div>
   <% else %>
+  <div class="row">
+    <div class="col-xs-12">
+      <p class="jobscount">
+        <% if @jobs.count > 1 %>
+          <span><%= @jobs.count %> métiers</span>
+        <% else %>
+          <span><%= @jobs.count %> métier</span>
+        <% end %>
+      </p>
+    </div>
+  </div>
   <div class="cards">
     <div class="row">
       <% @jobs.each do |job| %>

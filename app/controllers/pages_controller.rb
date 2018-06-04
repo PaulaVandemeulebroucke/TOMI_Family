@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupstudents2, :signupparents ]
+  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupparents ]
+   before_action :authenticate_user!
   def home
   end
   def homepage
@@ -20,8 +21,6 @@ class PagesController < ApplicationController
     @jobs = Job.joins(:job_interests).where("#{sql_request}").uniq
   end
   def signupstudents
-  end
-  def signupstudents2
   end
   def infos
   end

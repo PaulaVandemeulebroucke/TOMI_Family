@@ -15,3 +15,10 @@ popover();
 
 import { moveToLeft } from '../packs/components/card';
 moveToLeft();
+
+import { myFunction } from '../packs/components/filter';
+myFunction();
+
+import { filterFunction } from '../packs/components/filter';
+filterFunction();
+

@@ -11,7 +11,6 @@ Rails.application.routes.draw do
   get 'favorites', to: 'pages#favorites'
   get 'meslikes', to: 'pages#meslikes'
   get 'signupstudents', to: 'pages#signupstudents'
-  get 'signupstudents2', to: 'pages#signupstudents2'
   get 'signupparents', to: 'pages#signupparents'
   get 'homepage', to: 'pages#homepage'
   get 'homepage_parents', to: 'pages#homepage_parents'
