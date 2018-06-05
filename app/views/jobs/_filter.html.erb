@@ -1,0 +1,21 @@
+
+<div id="filter-title">
+   <% if params[:sector] %>
+     <%= link_to "Effacer filtres", jobs_path %>
+   <% elsif %>
+     Filtrer par:
+   <% end %>
+ </div>
+ <div class="dropdown">
+   <button class="btn form-control dropdown-toggle font-15 height-30" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+     <%= params[:sector].present? ? params[:sector] : "Secteur" %>
+     <span class="caret"></span>
+   </button>
+   <ul class="dropdown-menu small-font" aria-labelledby="dropdownMenu1">
+     <% @sectors.each do |sector| %>
+       <li><%= link_to "#{sector.name}", jobs_path(sector: "#{sector}") %></li>
+     <% end %>
+     <li role="separator" class="divider"></li>
+     <li><%= link_to "Tous", jobs_path %></li>
+   </ul>
+ </div>
