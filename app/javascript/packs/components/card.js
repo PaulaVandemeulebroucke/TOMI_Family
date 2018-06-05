@@ -1,6 +1,8 @@
 function moveToLeft() {
   const buttons = document.querySelectorAll('.remove-box');
+  console.log(buttons);
   if (buttons) {
+    console.log('oooo');
     buttons.forEach( (button) => {
       const card = button.parentElement.parentElement.parentElement.parentElement;
       button.addEventListener('click', () => {
@@ -10,5 +12,4 @@ function moveToLeft() {
     });
   }
 }
-
-export { moveToLeft }
+export { moveToLeft };

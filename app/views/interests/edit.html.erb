@@ -18,7 +18,7 @@
           <ul class="swipe-ul">
             <li class="swipe-li"><p><%= interest.name %></p>
             <%= link_to "", interest_path(interest), class: "card-link"%>
-            <div class="remove-box">
+            <div class="remove-box-in-edit">
               <i class="fas fa-times"></i>
             </div>
             <% if interest.get_likes.where(voter_id: current_user).count == 0 %>

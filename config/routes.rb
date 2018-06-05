@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   patch "jobs/:id/like", to: "jobs#like", as: :like
   patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
   get 'favorites', to: 'pages#favorites'
-  get 'meslikes', to: 'pages#meslikes'
   get 'signupstudents', to: 'pages#signupstudents'
   get 'signupparents', to: 'pages#signupparents'
   get 'homepage', to: 'pages#homepage'
@@ -68,6 +67,7 @@ Rails.application.routes.draw do
   patch "interests/:id/dislikeinterest", to: "interests#dislikeinterest", as: :dislikeinterest
   patch "interests/:id/like2interest", to: "interests#like2interest", as: :like2interest
   patch "interests/:id/dislike2interest", to: "interests#dislike2interest", as: :dislike2interest
+  get 'meslikes', to: 'interests#meslikes'
 
   get 'myprofile', to: 'users#edit'
   patch 'edit_profile', to: 'users#update'

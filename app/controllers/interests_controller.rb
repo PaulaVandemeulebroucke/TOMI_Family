@@ -13,6 +13,10 @@ class InterestsController < ApplicationController
     @interest = Interest.find(params[:id])
   end
 
+  def meslikes
+    @interests = Interest.all
+  end
+
   def likeinterest
     @interest = Interest.find(params[:id])
     @interest.liked_by current_user

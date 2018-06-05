@@ -11,9 +11,6 @@ class PagesController < ApplicationController
     @jobs = current_user.job_likes.map { |like| Job.find(like.votable_id) }
     # @jobs = current_user.get_voted Job
   end
-  def meslikes
-    @interests = Interest.all
-  end
   def suggestion
     # @interests = current_user.interest_likes.map { |like| Interest.find(like.votable_id) }
     @interests = current_user.get_voted(Interest)
