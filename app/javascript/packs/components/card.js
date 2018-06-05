@@ -1,13 +1,6 @@
-function moveToLeft() {
-  const buttons = document.querySelectorAll('.remove-box');
-  if (buttons) {
-    buttons.forEach( (button) => {
-      const card = button.parentElement.parentElement.parentElement.parentElement;
-      button.addEventListener('click', () => {
-        console.log(card)
-        card.style.marginLeft = "-1400px";
-      });
-    });
-  }
+function moveToLeft(button) {
+  console.log(this)
+  const card = button.closest(".card-interest");
+  card.style.marginLeft = "-1400px";
 }
 export { moveToLeft };

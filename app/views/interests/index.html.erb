@@ -33,4 +33,20 @@
   </div>
   <div class="class-btn-likes"><a href="/meslikes" class="btn-likes">Voir mes likes ></a></div>
 </div>
+
+<script>
+    function moveToLeft() {
+      const buttons = document.querySelectorAll('.remove-box');
+      if (buttons) {
+        buttons.forEach((button) => {
+          const card = button.parentElement.parentElement.parentElement.parentElement;
+          button.addEventListener('click', () => {
+            card.style.marginLeft = "-1400px";
+          });
+        });
+      }
+    }
+    moveToLeft();
+  </script>
+
 <%= render '/shared/navigationbar' %>
