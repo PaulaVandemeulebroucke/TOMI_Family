@@ -10,7 +10,8 @@
         <% else %>
           <% array = @suggested_friends %>
         <% end %>
-        <% array.each do |user| %>
+        <% sorted_array = array.sort {|a,b| b[2]<=> a[2]} %>
+        <% sorted_array.each do |user| %>
           <%= render "networks/searchable_users/user_card", user: user[0], work: user[1], number: user[2] %>
 
         <% end %>
