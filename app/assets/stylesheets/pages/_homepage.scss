@@ -17,22 +17,23 @@ a:hover {
   transition: all .3s cubic-bezier(.25,.8,.25,1);
   width: 112%;
   position: relative;
+  background-color: #fcfcfc;
   &:hover{
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
   }
   p {
-    font-size: 14px;
-    text-align: center;
-    color: $grey;
-    margin-top: 10px;
+    font-size: 12px;
+    color: #333333;
+    margin-top: 0px;
+    font-style: italic;
   }
   h3 {
     font-size: 15px;
-    padding: 0;
+    padding-left: 9%;
     margin: 0;
     text-align: center;
     color: $grey;
-    margin-top: 20px;
+    margin-top: 16px;
   }
 }
 .cards-homepage {
@@ -63,4 +64,10 @@ a:hover {
 }
 .em-muscle {
   margin-left: 2px;
+}
+.likes-emoji {
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  font-size: 1.15em;
 }
