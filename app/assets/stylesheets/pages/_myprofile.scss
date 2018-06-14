@@ -27,8 +27,11 @@
 }
 
 .dob {
-  display: inline;
-  width: auto;
+    display: inline;
+    width: auto;
+    max-width: 115px;
+    font-size: 13px;
+    padding: 0 10px;
 }
 .format {
   width: 100%;
