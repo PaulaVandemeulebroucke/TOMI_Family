@@ -43,11 +43,36 @@
         <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
         <%= f.input :password_confirmation, required: true %>
         <%= f.hidden_field :user_category, value: "#{params[:type]}" %>
+
+        <html>
+        <head>
+        <script>
+         function disableSubmit() {
+          document.getElementById("submit").disabled = true;
+         }
+
+          function activateButton(element) {
+
+              if(element.checked) {
+                document.getElementById("submit").disabled = false;
+               }
+               else  {
+                document.getElementById("submit").disabled = true;
+              }
+
+          }
+        </script>
+        </head>
+
+        <body onload="disableSubmit()">
+         <input type="checkbox" style="width: 35px; height: 20px;" name="terms" id="terms" onchange="activateButton(this)">  J'accepte <a href="/CGU" style="color: #2c82f7; text-decoration: underline;">les conditions générales d'utilisation</a>
+        <br><br>
+          <input type="submit" name="submit" id="submit" value="Inscription" class="btn-envoyer">
+        </body>
+        </html>
+
       </div>
 
-      <div class="form-actions">
-        <%= f.button :submit, "Sign up", class: "signup" %>
-      </div>
     <% end %>
     </div>
   </div>

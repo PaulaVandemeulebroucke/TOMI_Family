@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   before_action :authenticate_user!
-  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupparents ]
+  skip_before_action :authenticate_user!, only: [:home, :signupstudents, :signupparents, :CGU ]
   def home
   end
   def homepage
@@ -22,6 +22,8 @@ class PagesController < ApplicationController
   def infos
   end
   def ose
+  end
+  def CGU
   end
   def entretien
   end
