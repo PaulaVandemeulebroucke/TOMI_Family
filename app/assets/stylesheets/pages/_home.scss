@@ -129,6 +129,25 @@ video {
   margin-left: -10%;
   padding-bottom: 10px;
 }
+.footer {
+  position: relative;
+  width: 276px;
+  border-radius: 4px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  left: 32%;
+  margin-left: -94px;
+}
+.footer_items {
+  font-size: 9px;
+  color: $red;
+  text-align: center;
+  position: relative;
+  top: 159px;
+  font-weight: lighter;
+  width: 115%;
+  padding-bottom: 10px;
+}
 .small-container-home {
   position: relative;
   top: -6px;
