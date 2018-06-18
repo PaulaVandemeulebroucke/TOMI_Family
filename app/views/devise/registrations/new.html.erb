@@ -7,7 +7,7 @@
             <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
           </div>
           <div class="congtainer-logo-signup2">
-            <%= image_tag("logo2.png", class: "logo2") %>
+            <%= image_tag("logo-entier.png", class: "logo2") %>
           </div>
           <p class="title-students3">BRAVO, Test terminé !</p>
           <div class="party-popper">🎉</div>
@@ -65,9 +65,11 @@
         </head>
 
         <body onload="disableSubmit()">
-         <input type="checkbox" style="width: 35px; height: 20px;" name="terms" id="terms" onchange="activateButton(this)">Je consens au recueil et au traitement de mes données personnelles
-         <input type="checkbox" style="width: 35px; height: 20px;" name="terms" id="terms" onchange="activateButton(this)">J’accepte sans réserve <a href="/CGU" style="color: #2c82f7; text-decoration: underline;">les Conditions Générales d’Utilisation des services BIG-FAMILY</a>
+          <div style="font-size: 13px; text-align: justify;">
+            <input type="checkbox" style="width: 35px; height: 20px;" name="terms" id="terms" onchange="activateButton(this)">J’accepte sans réserve <a href="/CGU" style="color: #2c82f7; text-decoration: underline; font-size: 14px;">les conditions générales d’utilisation des services BIG-FAMILY</a> et consens au recueil et au traitement de mes données personnelles.
         <br><br>
+          </div>
+
           <input type="submit" name="submit" id="submit" value="Inscription" class="btn-envoyer">
         </body>
         </html>
