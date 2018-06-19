@@ -48,6 +48,24 @@
 
     </div>
   </div>
+  <div class="row footer">
+    <div class="col-xs-6">
+      <a class="footer_items" style="margin-left: 29px; font-size: 14px; font-weight: bolder;" href="#">Nous contacter:</a>
+    </div>
+    <div class="col-xs-6">
+      <a class="footer_items" style="margin-left: 6px; font-size: 14px; font-weight: bolder;" href="#">A Propos de nous:</a>
+    </div>
+    <div class="col-xs-6">
+      <a class="footer_items" style="margin-left: 29px; font-size: 13px;" href="#"><i class="far fa-envelope" style="font-size: 16px; margin-right: 7px;"></i> paula@big-family.fr</a>
+    </div>
+    <div class="col-xs-6">
+      <a class="footer_items" style="font-size: 13px; margin-left: 6px;" href="/Mentions_legales">Mentions légales</a>
+    </div>
+    <div class="col-xs-6 col-xs-offset-6">
+      <a class="footer_items" style="font-size: 13px; margin-left: 6px;" href="/CGU">CGU</a>
+    </div>
+  </div>
+
   <div class="log-out">
     <%= link_to destroy_user_session_path, method: :delete, data: { confirm: "Tu es sûr(e) de vouloir te déconnecter?" } do %>
       <i class="fas fa-sign-out-alt"></i>  <%= t(".sign_out", default: "Log out") %>

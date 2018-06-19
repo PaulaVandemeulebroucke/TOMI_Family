@@ -22,6 +22,8 @@ Rails.application.routes.draw do
   get 'bourse', to: 'pages#bourse'
   get 'apl', to: 'pages#apl'
   get 'CGU', to: 'pages#CGU'
+  get 'Mentions_legales', to: 'pages#Mentions_legales'
+  get 'Contact', to: 'pages#Contact'
   get 'outils', to: 'pages#outils'
   get 'changements', to: 'pages#changements'
   get 'un_cv_parfait', to: 'pages#un_cv_parfait'

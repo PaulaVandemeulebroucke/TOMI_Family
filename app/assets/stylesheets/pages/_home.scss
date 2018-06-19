@@ -55,6 +55,11 @@
 #students-content{
   padding: 21px;
   overflow: scroll;
+  height: 100vh;
+}
+#students-content2{
+  padding: 21px;
+  overflow: scroll;
 }
 .wrapper {
   width: 100%;
@@ -101,7 +106,7 @@ video {
   top: -6px;
 }
 .li-students {
-  font-size: 14px;
+  font-size: 13px;
   text-align: justify;
   list-style-type: none;
   position: relative;
@@ -113,7 +118,7 @@ video {
   padding: 0;
 }
 .line {
-  font-size: 16px;
+  font-size: 15px;
   color: #333333;
   text-align: center;
   margin-bottom: -12px;
@@ -131,22 +136,17 @@ video {
 }
 .footer {
   position: relative;
-  width: 276px;
-  border-radius: 4px;
-  font-size: 25px;
-  margin-bottom: 10px;
-  left: 32%;
-  margin-left: -94px;
+  margin: 0;
+  background-color: #F4F4F4;
+  top: 180px;
+  height: 115px;
+  padding-top: 10px;
 }
 .footer_items {
   font-size: 9px;
-  color: $red;
-  text-align: center;
   position: relative;
-  top: 159px;
   font-weight: lighter;
-  width: 115%;
-  padding-bottom: 10px;
+  color: $grey;
 }
 .small-container-home {
   position: relative;
@@ -154,23 +154,22 @@ video {
 }
 .arrow-home {
   position: absolute;
-  font-size: 34px;
+  font-size: 26px;
   transform: rotate(35deg);
   color: #333333;
 }
 .littlesubtitle {
-  font-size: 14px;
+  font-size: 13px;
   position: absolute;
   left: 41px;
   color: #333333;
   top: 10px;
-  width: 100%;
 }
 .punchline {
-  font-size: 14px;
-  top: 45px;
+  font-size: 11px;
+  top: 58px;
   position: absolute;
-  left: 91%;
+  width: 10px;
   color: #333333;
   transform: rotate(-27deg);
 }
