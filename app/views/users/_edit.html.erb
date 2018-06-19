@@ -1,16 +1,15 @@
 <div class="navbar-up">
-
-    <% if user_signed_in? %>
-      <div class="navbar-up-item">
-        <a type="student-btn" href="/network" class="btn btn-primary next-step-btn-xtrasmall">Mon réseau <i class="fas fa-arrow-right arrow-next-step"></i></a>
-      </div>
-    <% else %>
-      <!-- Login link (when logged out) -->
-      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
-    <% end %>
+  <% if user_signed_in? %>
+    <div class="navbar-up-item">
+      <a type="student-btn" href="/network" class="btn btn-primary next-step-btn-xtrasmall">Mon réseau <i class="fas fa-arrow-right arrow-next-step"></i></a>
+    </div>
+  <% else %>
+    <!-- Login link (when logged out) -->
+    <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-up-item navbar-up-link" %>
+  <% end %>
 </div>
 
-<div class="container">
+<div class="container" style="margin-bottom: 98px;">
 <!--   <p><%= current_user.age %></p>
   <p><%= current_user.city %></p> -->
   <div class="container-img">
@@ -20,58 +19,46 @@
     <p class="centerline">T'es au top <%= current_user.first_name %> ! 😎</p>
   <% end %>
 
-<div class="container">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
-
     <%= simple_form_for current_user, as: :user, url: edit_profile_path do |f| %>
-
-    <div class="form-inputs">
-
-      <%= f.error_notification %>
-
-
-        <%= f.input :first_name, label: 'Prénom:', required: true %>
-        <%= f.input :last_name, label: 'Nom:', required: true %>
-        <div class="format">
-          <%= f.input :age, :as => :date, :start_year => Date.today.year - 80, :end_year => Date.today.year - 10, selected: Date.today.year - 17, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
-        </div>
-
-        <%= f.input :city, label: 'Code Postal:', required: true, autocomplete: "on" %>
-        <%= f.input :avatar, label: 'Photo de profil:', input_html: { class: 'btn-simple'} %>
-        <%= f.input :avatar_cache, as: :hidden %>
-        <%= f.submit "OK", :class => 'btn-enter' %>
-
+      <div class="form-inputs">
+        <%= f.error_notification %>
+          <%= f.input :first_name, label: 'Prénom:', required: true %>
+          <%= f.input :last_name, label: 'Nom:', required: true %>
+          <div class="format">
+            <%= f.input :age, :as => :date, :start_year => Date.today.year - 80, :end_year => Date.today.year - 10, selected: Date.today.year - 17, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
+          </div>
+          <%= f.input :city, label: 'Code Postal:', required: true, autocomplete: "on" %>
+          <%= f.input :avatar, label: 'Photo de profil:', input_html: { class: 'btn-simple'} %>
+          <%= f.input :avatar_cache, as: :hidden %>
+          <%= f.submit "OK", :class => 'btn-enter' %>
       <% end %>
-
-    </div>
-
+      </div>
     </div>
   </div>
-  <div class="row footer">
-    <div class="col-xs-6">
-      <a class="footer_items" style="margin-left: 29px; font-size: 14px; font-weight: bolder;" href="#">Nous contacter:</a>
-    </div>
-    <div class="col-xs-6">
-      <a class="footer_items" style="margin-left: 6px; font-size: 14px; font-weight: bolder;" href="#">A Propos de nous:</a>
-    </div>
-    <div class="col-xs-6">
-      <a class="footer_items" style="margin-left: 29px; font-size: 13px;" href="#"><i class="far fa-envelope" style="font-size: 16px; margin-right: 7px;"></i> paula@big-family.fr</a>
-    </div>
-    <div class="col-xs-6">
-      <a class="footer_items" style="font-size: 13px; margin-left: 6px;" href="/Mentions_legales">Mentions légales</a>
-    </div>
-    <div class="col-xs-6 col-xs-offset-6">
-      <a class="footer_items" style="font-size: 13px; margin-left: 6px;" href="/CGU">CGU</a>
-    </div>
-  </div>
-
   <div class="log-out">
     <%= link_to destroy_user_session_path, method: :delete, data: { confirm: "Tu es sûr(e) de vouloir te déconnecter?" } do %>
       <i class="fas fa-sign-out-alt"></i>  <%= t(".sign_out", default: "Log out") %>
     <% end %>
   </div>
-
+  <div class="row footer" style="top:21px;">
+    <div class="col-xs-6 col-sm-4 col-sm-offset-2" style="padding:0;">
+      <a class="footer_items" style="margin-left: 21px; font-size: 13px; font-weight: bolder;" href="#">Nous contacter:</a>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-sm-offset-2" style="padding:0;">
+      <a class="footer_items" style="margin-left: 10px; font-size: 13px; font-weight: bolder;" href="#">A Propos de nous:</a>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-sm-offset-2" style="padding:0;">
+      <a class="footer_items" style="margin-left: 21px; font-size: 10px;" href="#"><i class="far fa-envelope" style="font-size: 12px; margin-right: 7px;"></i> paula@big-family.fr</a>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-sm-offset-2" style="padding:0;">
+      <a class="footer_items" style="font-size: 12px; margin-left: 10px;" href="/Mentions_legales">Mentions légales</a>
+    </div>
+    <div class="col-xs-6 col-xs-offset-6 col-sm-4 col-sm-offset-8" style="padding:0;">
+      <a class="footer_items" style="font-size: 12px; margin-left: 10px;" href="/CGU">CGU</a>
+    </div>
+  </div>
 </div>
 
 <%= render '/shared/navigationbar' %>
