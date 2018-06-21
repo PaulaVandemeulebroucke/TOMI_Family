@@ -23,7 +23,7 @@ jobs = [
    },
    {
      name: "GAME DESIGNER",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917129/gaming.jpgLEVEL DESIGNER",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917129/gaming.jpg",
      synonym: "",
      short_description: "",
      description: "",
