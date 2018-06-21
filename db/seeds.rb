@@ -9,8 +9,8 @@
 puts 'Creating jobs...'
 jobs = [
    {
-     name: "CARTOGRAPHE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917257/map.jpg",
+     name: "DÉTAILLANT EN FRUITS ET LÉGUMES",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/vege.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -22,8 +22,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "AUTEUR",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917271/auteur.jpg",
+     name: "CHEF DE PROJET E-COMMERCE LIVRE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/book1.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -35,8 +35,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "ARCHIVISTE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917271/book.jpg",
+     name: "DESIGNER PRODUIT",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/designer.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -48,8 +48,8 @@ jobs = [
      statut: ""
    },
   {
-    name: "ATTACHÉ / ATTACHÉE DE PRESSE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917271/book2.jpg",
+    name: "HABILLEUSE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/habits.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -61,8 +61,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CONCEPTEUR RÉDACTEUR",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917271/comm4.jpg",
+    name: "ICONOGRAPHE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/iconographe.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -74,8 +74,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHEF DE PUBLICITÉ",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917271/comm5.jpg",
+    name: "TECHNICIEN(NE) LUMIÈRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/lumiere.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -87,8 +87,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "JOURNALISTE D'ENTREPRISE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/comm2.jpg",
+    name: "MUSICIEN INTERVENANT",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/music2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -100,8 +100,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHARGÉ(E) DE RELATIONS PUBLIQUES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/comm3.jpg",
+    name: "CHARCUTIER-TRAITEUR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/platter.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -113,8 +113,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "TRADUCTRICE / TRADUCTEUR",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/comm6.jpg",
+    name: "CHEF DE PRODUIT",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/product1.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -126,8 +126,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHARGÉ DE PRODUCTION",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/comm8.jpg",
+    name: "STORY-BOARDER",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/storyboarder.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -139,8 +139,8 @@ jobs = [
     statut: ""
   },
    {
-     name: "MANNEQUIN",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/mannequin.jpg",
+     name: "CHEF DE PRODUITS VOYAGES",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917573/travel.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -152,8 +152,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "RESPONSABLE MARKETING",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917272/marketing6.jpg",
+     name: "CONSEILLÈRE(ER) DE VENTE BEAUTÉ PARFUMERIE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917574/beauty1.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -165,8 +165,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "RESPONSABLE DE COMMUNICATION",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917273/comm1.jpg",
+     name: "CHARGÉ D'ÉTUDES MARKETING",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917574/marketing.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -178,8 +178,8 @@ jobs = [
      statut: ""
    },
   {
-    name: "ENQUÊTEUR / ENQUÊTRICE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917273/comm7.jpg",
+    name: "PEINTRE EN BÂTIMENT",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917574/peintre.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -191,8 +191,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "INGÉNIEUR ENVIRONNEMENT",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917273/forest8.jpg",
+    name: "TECHNICIEN(NE)  SPA ET BIEN-ÊTRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917574/spa.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -204,8 +204,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "INGÉNIEUR RECHERCHE ET DÉVELOPPEMENT EN AGROALIMENTAIRE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917273/packaging.jpg",
+    name: "MÉDIATEUR(TRICE) CULTUREL(LE)",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917575/art.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -217,8 +217,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "DIRECTEUR ARTISTIQUE 3D",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917274/3D.jpg",
+    name: "ESTHÉTICIENNE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917575/beauty2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -230,8 +230,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "GRAPHISTE ILLUSTRATEUR 2D/3D",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917274/3D.jpg",
+    name: "COIFFEUSE / COIFFEUR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917575/hair.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -243,8 +243,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "MODELEUR 3D",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917274/3D.jpg",
+    name: "SECRÉTAIRE DE DIRECTION",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917575/sec1.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -256,8 +256,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "RÉALISATEUR 3D",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917274/3D.jpg",
+    name: "SECRÉTAIRE ASSISTANTE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917575/sec2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -269,8 +269,8 @@ jobs = [
     statut: ""
   },
    {
-     name: "RÉDACTEUR TECHNIQUE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917274/comm9.jpg",
+     name: "MÉCANICIEN DE MARINE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917576/boat8.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -282,8 +282,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "JOURNALISTE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917275/journalist.jpg",
+     name: "MÉCANICIEN 2 ROUES",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917576/moto.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -295,8 +295,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "SOCIOLOGUE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917275/sociologue.jpg",
+     name: "MÉCANICIEN DE MAINTENANCE AÉRONAUTIQUE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917576/plane2.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -308,8 +308,8 @@ jobs = [
      statut: ""
    },
   {
-    name: "CONSULTANT EN VALIDATION",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917275/validation.jpg",
+    name: "SOPHROLOGUE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917576/sophrology.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -321,8 +321,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "DIRECTRICE(TEUR) ARTISTIQUE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917276/crea1.jpg",
+    name: "MÉCANICIEN(IENNE) DE MAINTENANCE FERROVIAIRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917576/train2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -334,8 +334,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHEF DE PROJET WEB",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917400/computer3.jpg",
+    name: "CONTRÔLEUR TECHNIQUE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/car2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -347,8 +347,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHIEF DATA OFFICER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917400/computer4.jpg",
+    name: "PEINTRE EN CARROSSERIE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/car4.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -360,8 +360,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "CHEF DE PROJET E-CRM",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917428/computer2.jpg",
+    name: "DÉPANNEUR-REMORQUEUR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/depanneur.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -373,8 +373,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "RESPONSABLE DE MAGASIN",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917539/shop2.jpg",
+    name: "ANIMATRICE / ANIMATEUR SOCIOCULTUREL",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/happyold.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -386,8 +386,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "VENDEUSE / VENDEUR EN MAGASIN",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917539/shop2.jpg",
+    name: "ELECTRICIEN DE MAINTENANCE FERROVIAIRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/train1.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -399,8 +399,8 @@ jobs = [
     statut: ""
   },
    {
-     name: "ANIMATEUR MULTIMÉDIA",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/computer1.jpg",
+     name: "INGÉNIEUR DE RECHERCHE INDUSTRIELLE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917577/usine.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -412,8 +412,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "WEBMARKETER",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/internet.jpg",
+     name: "PATROUILLEUR AUTOROUTIER",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/autoroute.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -425,8 +425,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "STATISTICIEN",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/statistic.jpg",
+     name: "CARROSSIER RÉPARATEUR",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/car1.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -438,8 +438,8 @@ jobs = [
      statut: ""
    },
   {
-    name: "YIELD MANAGER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/store.jpg",
+    name: "MÉCANICIEN AUTO",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/car3.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -451,8 +451,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "VENDEUR-CONSEIL EN MATÉRIEL AGRICOLE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/tractor.jpg",
+    name: "TECHNICIEN EN MÉCANIQUE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/car5.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -464,8 +464,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "WEDDING PLANNER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917540/wedding.jpg",
+    name: "SAPEUR-POMPIER",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/fireman.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -477,8 +477,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "DIRECTEUR(TRICE) DES RESSOURCES HUMAINES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917541/directeur1.jpg",
+    name: "RESPONSABLE DE SÉCURITÉ INFORMATIQUE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/informatique2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -490,8 +490,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "MARCHANDISEUR",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917541/marchandiseur.jpg",
+    name: "SURVEILLANT(E) PÉNITENTIAIRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/jail.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -503,8 +503,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "EXPLOITANT D'ÉQUIPEMENTS DE LOISIRS",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917541/ski8.jpg",
+    name: "MAÎTRE-NAGEUR(EUSE) SAUVETEUR(EUSE)",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/lifeguard.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -516,8 +516,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "RESPONSABLE APPROVISIONNEMENT",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917541/storage2.jpg",
+    name: "PISTEUR SECOURISTE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917578/ski4.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -529,8 +529,8 @@ jobs = [
     statut: ""
   },
    {
-     name: "ASSISTANT / ASSISTANTE DE GESTION PME/PMI",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/ass1.jpg",
+     name: "INSTALLATEUR D'ALARMES",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/alarm.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -542,8 +542,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "ASSISTANTE / ASSISTANT DE RESSOURCES HUMAINES",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/ass2.jpg",
+     name: "PILOTE MILITAIRE D'HÉLICOPTÈRE",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/armee6.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -555,8 +555,8 @@ jobs = [
      statut: ""
    },
    {
-     name: "RESPONSABLE D'AGENCE D'INTÉRIM",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/ass3.jpg",
+     name: "INTERCEPTEUR TRADUCTEUR DE L’ARMÉE DE L’AIR",
+     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/armee7.jpg",
      synonym: "",
      short_description: "",
      description: "",
@@ -568,8 +568,8 @@ jobs = [
      statut: ""
    },
   {
-    name: "LOUEUR DE VOITURES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/car8.jpg",
+    name: "GARDE DU CORPS",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/bodyguard.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -581,8 +581,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "REPRÉSENTANT / VENDEUR DE VÉHICULES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/car9.jpg",
+    name: "DÉTECTIVE PRIVÉ",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/detective.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -594,8 +594,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "COACH PROFESSIONNEL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/coach.jpg",
+    name: "GARDIEN(IENNE) D'IMMEUBLE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/guardien.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -607,8 +607,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "POISSONNIER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917542/poissonnier.jpg",
+    name: "INGÉNIEUR SÉCURITÉ SANITAIRE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/mask.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -620,8 +620,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "INGÉNIEUR TECHNICO-COMMERCIAL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917543/commercial3.jpg",
+    name: "CONVOYEUR DE FONDS",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917579/money.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -633,8 +633,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "VENDEUR EN MICRO-INFORMATIQUE ET MULTIMÉDIA",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917543/multimedia.jpg",
+    name: "CONTRÔLEUR DE DÉFENSE AÉRIENNE",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/armee1.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -646,8 +646,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "ASSISTANTE / ASSISTANT DE MANAGER INTERNATIONAL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917543/world.jpg",
+    name: "ÉLECTRONICIEN DE L’ARMÉE DE L’AIR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/armee2.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -659,8 +659,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "VENDEUR EXPORT",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917543/world.jpg",
+    name: "FUSILIER COMMANDO DE L’ARMÉE DE L’AIR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/armee3.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -672,8 +672,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "DIRECTEUR DE GRAND MAGASIN",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917571/marketing3.jpg",
+    name: "INTERCEPTEUR TECHNIQUE ET GRAPHIE DE L’ARMÉE DE L’AIR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/armee4.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -685,8 +685,8 @@ jobs = [
     statut: ""
   },
   {
-    name: "DIRECTEUR(TRICE) COMMERCIALE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917571/marketing4.jpg",
+    name: "MONITEUR DE SIMULATEUR DE VOL DE L’ARMÉE DE L’AIR",
+    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/armee5.jpg",
     synonym: "",
     short_description: "",
     description: "",
@@ -698,8 +698,8 @@ jobs = [
     statut: ""
   },
  {
-   name: "DÉLÉGUÉ COMMERCIAL ÉDITION",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/bookstore.jpg",
+   name: "EXPLOITANT RENSEIGNEMENTS DE L’ARMÉE DE L’AIR",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/police10.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -711,8 +711,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "COMMERCIAL",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/commercial.jpg",
+   name: "GENDARME ADJOINT VOLONTAIRE",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/police6.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -724,8 +724,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "CLIENT(E) MYSTÈRE PROFESSIONNEL",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/eat.jpg",
+   name: "GENDARME",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/police7.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -737,8 +737,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "DIRECTEUR(TRICE) DU MARKETING",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/marketing2.jpg",
+   name: "GARDIEN(IENNE) DE LA PAIX",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/police8.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -750,8 +750,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "E-MERCHANDISER",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/marketing5.jpg",
+   name: "DOUANIER",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917580/police9.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -763,8 +763,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "CHEF DE RAYON",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/rayon.jpg",
+   name: "MONTEUR EN INSTALLATIONS THERMIQUES",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917581/heating.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -776,8 +776,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "EMPLOYÉ DE STATION SERVICE",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/station.jpg",
+   name: "MÉTREUR",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917581/metreur.jpg",
    synonym: "",
    short_description: "",
    description: "",
@@ -789,8 +789,8 @@ jobs = [
    statut: ""
  },
  {
-   name: "COMMERCIAL À BORD DES TRAINS",
-   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917572/train9.jpg",
+   name: "MONTEUR EN INSTALLATIONS SANITAIRES",
+   photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917581/pipe.jpg",
    synonym: "",
    short_description: "",
    description: "",
