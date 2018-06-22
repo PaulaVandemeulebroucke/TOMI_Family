@@ -1,554 +1,124 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Interest.destroy_all
+puts 'Creating interests...'
 
-puts 'Creating jobs...'
-jobs = [
-   {
-     name: "PROFESSEUR DE FLE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "PROFESSEUR DE LANGUE DES SIGNES FRANÇAISE (LSF)",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "PROFESSEUR DE LYCÉE ET COLLÈGE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
+
+interests = [
   {
-    name: "PROFESSEUR DE MUSIQUE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "SOIGNER, SECOURIR"
   },
   {
-    name: "PROFESSEUR D'ARTS PLASTIQUES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher2.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "CONVAINCRE, COMMUNIQUER"
   },
   {
-    name: "PROFESSEUR DES ÉCOLES",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917634/teacher2.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "PROTÉGER L'ENVIRONNEMENT"
   },
   {
-    name: "HÔTESSE D'ACCUEIL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917635/accueil.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "FAIRE UN TRAVAIL DE PRÉCISION"
   },
   {
-    name: "PROFESSEUR DOCUMENTALISTE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917635/doc.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "TRAVAILLER DANS LA MUSIQUE"
   },
   {
-    name: "MAÎTRE D'HÔTEL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917635/hotel2.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
   },
   {
-    name: "HÔTESSE DE L'AIR / STEWARD",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917635/steward.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
-  },
-   {
-     name: "BILLETTISTE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917635/ticket.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "GARÇON DE CAFÉ",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/cafe.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "FEMME DE CHAMBRE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/chambre.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-  {
-    name: "CORRESPONDANT INFORMATIQUE ET LIBERTÉS",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/it.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "MANIER LES CHIFFRES"
   },
   {
-    name: "MAITRE RESTAURATEUR",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/restaurant.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
   },
   {
-    name: "SERVEUR / SERVEUSE DE RESTAURANT",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/serveur.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
   },
   {
-    name: "SOMMELIER / SOMMELIÈRE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917636/sommelier.png",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ORGANISER, GÉRER"
   },
   {
-    name: "MAGISTRAT / MAGISTRATE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917637/law7.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "FABRIQUER, CONSTRUIRE, REPARER"
   },
   {
-    name: "HUISSIER DE JUSTICE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917637/law8.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
   },
   {
-    name: "SECRÉTAIRE DE MAIRIE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917637/law9.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
-  },
-   {
-     name: "SECRÉTAIRE JURIDIQUE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917637/law9.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "BARMAN / BARMAID",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/barman.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "GÉRANT(E) D'HÔTEL",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/hotel1.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-  {
-    name: "CHARGÉ DE RECRUTEMENT TERRITORIAL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/law4.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "PARLER DES LANGUES ÉTRANGÈRES"
   },
   {
-    name: "CLERC DE NOTAIRE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/law5.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "SUIVRE DES CONSIGNES PRÉCISES"
   },
   {
-    name: "GREFFIER / GREFFIÈRE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/law5.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "CONSEILLER, AIDER LES AUTRES"
   },
   {
-    name: "CONTRÔLEUR DU TRAVAIL",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917638/law6.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "FAIRE RESPECTER LA LOI"
   },
   {
-    name: "NOTAIRE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917639/law1.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    name: "MÉDECIN LÉGISTE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917639/law2.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "CONTRÔLER"
   },
   {
-    name: "AVOCAT / AVOCATE",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917639/law3.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
-  },
-   {
-     name: "PROCUREUR / PROCUREURE",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526917639/law3.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "DIGITAL BRAND MANAGER",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919747/computer10.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-   {
-     name: "ERGONOME WEB",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919788/computer11.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   },
-  {
-    name: "WEB EVANGELIST",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919788/computer12.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "DESSINER"
   },
   {
-    name: "TECHNICIEN VIDÉO",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919788/computer13.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "DIRIGER, DÉCIDER"
   },
   {
-    name: "WEB DESIGNER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919788/computer14.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ECRIRE, DONNER ENVIE DE LIRE"
   },
   {
-    name: "COMMUNITY MANAGER",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919906/computer5.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ENQUÊTER, DÉCOUVRIR"
   },
   {
-    name: "CONSULTANT SEO",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919906/computer6.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ENSEIGNER, ÉDUQUER"
   },
   {
-    name: "CREATIVE TECHNOLOGIST",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919906/computer7.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "ÊTRE INNOVANT"
   },
   {
-    name: "DESIGNER UX / UI",
-    photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919906/computer9.jpg",
-    synonym: "",
-    short_description: "",
-    description: "",
-    study: "",
-    salary: "",
-    career: "",
-    similar_job: [ "", "", "", "", ""],
-    interest: [""],
-    statut: ""
+    name: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
   },
-   {
-     name: "DATA PROTECTION OFFICER",
-     photo: "http://res.cloudinary.com/dozkmkl7p/image/upload/v1526919907/computer8.jpg",
-     synonym: "",
-     short_description: "",
-     description: "",
-     study: "",
-     salary: "",
-     career: "",
-     similar_job: [ "", "", "", "", ""],
-     interest: [""],
-     statut: ""
-   }
+  {
+    name: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
+  },
+  {
+    name: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    name: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    name: "SE DÉPLACER SOUVENT"
+  },
+  {
+    name: "TRAVAILLER AVEC DES ANIMAUX"
+  },
+  {
+    name: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    name: "TRAVAILLER AVEC DES PERSONNES HANDICAPÉES"
+  },
+  {
+    name: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    name: "TRAVAILLER DANS LA NATURE"
+  },
+  {
+    name: "TRAVAILLER LA NUIT"
+  },
+  {
+    name: "TRAVAILLER LE GOÛT"
+  },
+  {
+    name: "TRAVAILLER SEUL"
+  },
+  {
+    name: "SE DÉPLACER SOUVENT"
+  }
 ]
-jobs.each do |job|
-  new_job = Job.new(job)
-  new_job.remote_photo_url = job[:photo]
-  new_job.save
+interests.each do |interest|
+  new_interest = Interest.new(interest)
+  new_interest.save
 end
-
-puts 'Finished!'
-
-
-
