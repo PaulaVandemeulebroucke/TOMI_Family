@@ -1,3 +1,4 @@
+JobInterest.destroy_all
 Interest.destroy_all
 puts 'Creating interests...'
 
