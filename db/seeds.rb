@@ -1,1063 +1,1147 @@
 jobinterests = [
   {
-    job: "TECHNICIEN EAU ET INSTALLATIONS SANITAIRES",
-    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+    job: "TECHNICIEN(NE)  SPA ET BIEN-ÊTRE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
   },
   {
-    job: "TECHNICIEN EAU ET INSTALLATIONS SANITAIRES",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
+    job: "TECHNICIEN(NE)  SPA ET BIEN-ÊTRE",
+    interest: "SOIGNER, SECOURIR"
   },
   {
-    job: "HYDROGÉOLOGUE",
-    interest: "DIRIGER, DÉCIDER"
+    job: "TECHNICIEN(NE)  SPA ET BIEN-ÊTRE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
   },
   {
-    job: "HYDROGÉOLOGUE",
-    interest: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
+    job: "MÉDIATEUR(TRICE) CULTUREL(LE)",
+    interest: "CONVAINCRE, COMMUNIQUER"
   },
   {
-    job: "HYDROGÉOLOGUE",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
-  },
-  {
-    job: "EBOUEUR",
-    interest: "TRAVAILLER DEHORS"
-  },
-  {
-    job: "EBOUEUR",
-    interest: "TRAVAILLER LA NUIT"
-  },
-  {
-    job: "JARDINIER DE GOLF",
-    interest: "TRAVAILLER DANS LA NATURE"
-  },
-  {
-    job: "HYDRAULICIEN",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "HYDRAULICIEN",
-    interest: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
-  },
-  {
-    job: "HYDRAULICIEN",
+    job: "MÉDIATEUR(TRICE) CULTUREL(LE)",
     interest: "ORGANISER, GÉRER"
   },
   {
-    job: "HYDRAULICIEN",
-    interest: "MANIER LES CHIFFRES"
+    job: "MÉDIATEUR(TRICE) CULTUREL(LE)",
+    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
   },
   {
-    job: "CONDUCTEUR DE STATION D'ÉPURATION",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
+    job: "ESTHÉTICIENNE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
   },
   {
-    job: "CONDUCTEUR DE STATION D'ÉPURATION",
+    job: "ESTHÉTICIENNE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "COIFFEUSE / COIFFEUR",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "COIFFEUSE / COIFFEUR",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ESTHÉTICIENNE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "TECHNICIEN(NE)  SPA ET BIEN-ÊTRE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "COIFFEUSE / COIFFEUR",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "SECRÉTAIRE DE DIRECTION",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "SECRÉTAIRE DE DIRECTION",
     interest: "SUIVRE DES CONSIGNES PRÉCISES"
   },
   {
-    job: "BÛCHERON",
+    job: "SECRÉTAIRE ASSISTANTE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "SECRÉTAIRE ASSISTANTE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "MÉCANICIEN DE MARINE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MÉCANICIEN DE MARINE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "MÉCANICIEN 2 ROUES",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MÉCANICIEN DE MAINTENANCE AÉRONAUTIQUE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MÉCANICIEN DE MAINTENANCE AÉRONAUTIQUE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "SOPHROLOGUE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "MÉCANICIEN(IENNE) DE MAINTENANCE FERROVIAIRE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "CONTRÔLEUR TECHNIQUE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "CONTRÔLEUR TECHNIQUE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "CONTRÔLEUR TECHNIQUE",
+    interest: "CONTRÔLER"
+  },
+  {
+    job: "PEINTRE EN CARROSSERIE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "DÉPANNEUR-REMORQUEUR",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "DÉPANNEUR-REMORQUEUR",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "ANIMATRICE / ANIMATEUR SOCIOCULTUREL",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "ANIMATRICE / ANIMATEUR SOCIOCULTUREL",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "ANIMATRICE / ANIMATEUR SOCIOCULTUREL",
+    interest: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    job: "ANIMATRICE / ANIMATEUR SOCIOCULTUREL",
+    interest: "TRAVAILLER AVEC DES PERSONNES HANDICAPÉES"
+  },
+  {
+    job: "ELECTRICIEN DE MAINTENANCE FERROVIAIRE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "INGÉNIEUR DE RECHERCHE INDUSTRIELLE",
+    interest: "DIRIGER, DÉCIDER"
+  },
+  {
+    job: "INGÉNIEUR DE RECHERCHE INDUSTRIELLE",
+    interest: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
+  },
+  {
+    job: "INGÉNIEUR DE RECHERCHE INDUSTRIELLE",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "PATROUILLEUR AUTOROUTIER",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PATROUILLEUR AUTOROUTIER",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "PATROUILLEUR AUTOROUTIER",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "CARROSSIER RÉPARATEUR",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MÉCANICIEN AUTO",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "TECHNICIEN EN MÉCANIQUE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "SAPEUR-POMPIER",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "SAPEUR-POMPIER",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "SAPEUR-POMPIER",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "RESPONSABLE DE SÉCURITÉ INFORMATIQUE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "SURVEILLANT(E) PÉNITENTIAIRE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "MAÎTRE-NAGEUR(EUSE) SAUVETEUR(EUSE)",
     interest: "SE DÉPENSER PHYSIQUEMENT"
   },
   {
-    job: "BÛCHERON",
-    interest: "TRAVAILLER DANS LA NATURE"
+    job: "MAÎTRE-NAGEUR(EUSE) SAUVETEUR(EUSE)",
+    interest: "TRAVAILLER DANS L'URGENCE"
   },
   {
-    job: "PACKAGER ÉDITORIAL",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
+    job: "MAÎTRE-NAGEUR(EUSE) SAUVETEUR(EUSE)",
+    interest: "SOIGNER, SECOURIR"
   },
   {
-    job: "SECRÉTAIRE D'ÉDITION",
-    interest: "DIRIGER, DÉCIDER"
+    job: "PISTEUR SECOURISTE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
   },
   {
-    job: "SECRÉTAIRE D'ÉDITION",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
+    job: "PISTEUR SECOURISTE",
+    interest: "SOIGNER, SECOURIR"
   },
   {
-    job: "SECRÉTAIRE D'ÉDITION",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "SECRÉTAIRE DE RÉDACTION",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "SECRÉTAIRE DE RÉDACTION",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DE COLLECTION (EDITION)",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DE COLLECTION (EDITION)",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "ANIMATEUR ENVIRONNEMENT",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
-  },
-  {
-    job: "ANIMATEUR ENVIRONNEMENT",
-    interest: "TRAVAILLER DANS LA NATURE"
-  },
-  {
-    job: "ANIMATEUR ENVIRONNEMENT",
-    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
-  },
-  {
-    job: "ECO-CONSEILLER",
-    interest: "FAIRE RESPECTER LA LOI"
-  },
-  {
-    job: "ECO-CONSEILLER",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
-  },
-  {
-    job: "ECO-CONSEILLER",
-    interest: "ÊTRE INNOVANT"
-  },
-  {
-    job: "ECOTOXICOLOGUE",
-    interest: "FAIRE RESPECTER LA LOI"
-  },
-  {
-    job: "ECOTOXICOLOGUE",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
-  },
-  {
-    job: "ECOTOXICOLOGUE",
-    interest: "CONTRÔLER"
-  },
-  {
-    job: "TECHNICIEN DE FABRICATION",
+    job: "INSTALLATEUR D'ALARMES",
     interest: "FABRIQUER, CONSTRUIRE, REPARER"
   },
   {
-    job: "TECHNICIEN DE FABRICATION",
-    interest: "ORGANISER, GÉRER"
+    job: "PILOTE MILITAIRE D'HÉLICOPTÈRE",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "CORRECTEUR / CORRECTRICE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "CORRECTEUR / CORRECTRICE",
+    job: "PILOTE MILITAIRE D'HÉLICOPTÈRE",
     interest: "SUIVRE DES CONSIGNES PRÉCISES"
   },
   {
-    job: "CORRECTEUR / CORRECTRICE",
-    interest: "TRAVAILLER SEUL"
+    job: "INTERCEPTEUR TRADUCTEUR DE L’ARMÉE DE L’AIR",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "ILLUSTRATEUR",
-    interest: "DESSINER"
-  },
-  {
-    job: "ILLUSTRATEUR",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "ILLUSTRATEUR",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "MAQUETTISTE",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "MAQUETTISTE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CONDUCTEUR DE PRESSE NUMÉRIQUE",
-    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
-  },
-  {
-    job: "CONDUCTEUR DE PRESSE NUMÉRIQUE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CONDUCTEUR DE PRESSE OFFSET",
-    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
-  },
-  {
-    job: "DIRECTEUR DE CLIENTÈLE",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "DIRECTEUR DE CLIENTÈLE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "DIRECTEUR DE CLIENTÈLE",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "DOCUMENTALISTE",
+    job: "INTERCEPTEUR TRADUCTEUR DE L’ARMÉE DE L’AIR",
     interest: "ENQUÊTER, DÉCOUVRIR"
   },
   {
-    job: "DOCUMENTALISTE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+    job: "GARDE DU CORPS",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "CHARGÉ DE MISSION PATRIMOINE CULTUREL",
-    interest: "CONVAINCRE, COMMUNIQUER"
+    job: "GARDE DU CORPS",
+    interest: "FAIRE RESPECTER LA LOI"
   },
   {
-    job: "CHARGÉ DE MISSION PATRIMOINE CULTUREL",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHARGÉ DE MISSION PATRIMOINE CULTUREL",
-    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
-  },
-  {
-    job: "ASSISTANT / ASSISTANTE DE COMMUNICATION",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "ASSISTANT / ASSISTANTE DE COMMUNICATION",
-    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
-  },
-  {
-    job: "CHEF D'ATELIER DES INDUSTRIES GRAPHIQUES",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF D'ATELIER DES INDUSTRIES GRAPHIQUES",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CHEF D'ATELIER DES INDUSTRIES GRAPHIQUES",
-    interest: "FABRIQUER, CONSTRUIRE, REPARER"
-  },
-  {
-    job: "CHEF DE FABRICATION DES INDUSTRIES GRAPHIQUES",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF DE FABRICATION DES INDUSTRIES GRAPHIQUES",
-    interest: "SUIVRE DES CONSIGNES PRÉCISES"
-  },
-  {
-    job: "CHEF DE FABRICATION DES INDUSTRIES GRAPHIQUES",
-    interest: "FABRIQUER, CONSTRUIRE, REPARER"
-  },
-  {
-    job: "CHEF DE PROJET NUMÉRIQUE ÉDITION",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF DE PROJET NUMÉRIQUE ÉDITION",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "STÉNOTYPISTE DE CONFÉRENCES",
-    interest: "SUIVRE DES CONSIGNES PRÉCISES"
-  },
-  {
-    job: "STÉNOTYPISTE DE CONFÉRENCES",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "DESSINATEUR DE PRESSE",
-    interest: "DESSINER"
-  },
-  {
-    job: "CARTOGRAPHE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CARTOGRAPHE",
-    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
-  },
-  {
-    job: "AUTEUR",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "AUTEUR",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "AUTEUR",
-    interest: "TRAVAILLER SEUL"
-  },
-  {
-    job: "ARCHIVISTE",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "ARCHIVISTE",
-    interest: "SUIVRE DES CONSIGNES PRÉCISES"
-  },
-  {
-    job: "ARCHIVISTE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "ATTACHÉ / ATTACHÉE DE PRESSE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "ATTACHÉ / ATTACHÉE DE PRESSE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "CONCEPTEUR RÉDACTEUR",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "CHEF DE PUBLICITÉ",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PUBLICITÉ",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF DE PUBLICITÉ",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "JOURNALISTE D'ENTREPRISE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "JOURNALISTE D'ENTREPRISE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "CHARGÉ(E) DE RELATIONS PUBLIQUES",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "TRADUCTRICE / TRADUCTEUR",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "TRADUCTRICE / TRADUCTEUR",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
-  },
-  {
-    job: "CHARGÉ DE PRODUCTION",
-    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
-  },
-  {
-    job: "CHARGÉ DE PRODUCTION",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "MANNEQUIN",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "MANNEQUIN",
-    interest: "SE DÉPLACER SOUVENT, VOYAGER"
-  },
-  {
-    job: "RESPONSABLE MARKETING",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "RESPONSABLE MARKETING",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "RESPONSABLE MARKETING",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "RESPONSABLE MARKETING",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "RESPONSABLE DE COMMUNICATION",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "ENQUÊTEUR / ENQUÊTRICE",
+    job: "DÉTECTIVE PRIVÉ",
     interest: "ENQUÊTER, DÉCOUVRIR"
   },
   {
-    job: "INGÉNIEUR ENVIRONNEMENT",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+    job: "DÉTECTIVE PRIVÉ",
+    interest: "TRAVAILLER SEUL"
   },
   {
-    job: "INGÉNIEUR ENVIRONNEMENT",
-    interest: "PROTÉGER L'ENVIRONNEMENT"
+    job: "DÉTECTIVE PRIVÉ",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "INGÉNIEUR ENVIRONNEMENT",
+    job: "GARDIEN(IENNE) D'IMMEUBLE",
     interest: "ORGANISER, GÉRER"
   },
   {
-    job: "INGÉNIEUR ENVIRONNEMENT",
-    interest: "CONTRÔLER"
+    job: "GARDIEN(IENNE) D'IMMEUBLE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
   },
   {
-    job: "INGÉNIEUR ENVIRONNEMENT",
+    job: "INGÉNIEUR SÉCURITÉ SANITAIRE",
+    interest: "PROTÉGER L'ENVIRONNEMENT"
+  },
+  {
+    job: "INGÉNIEUR SÉCURITÉ SANITAIRE",
     interest: "MANIER LES CHIFFRES"
   },
   {
-    job: "INGÉNIEUR RECHERCHE ET DÉVELOPPEMENT EN AGROALIMENTAIRE",
-    interest: "ÊTRE INNOVANT"
-  },
-  {
-    job: "INGÉNIEUR RECHERCHE ET DÉVELOPPEMENT EN AGROALIMENTAIRE",
+    job: "INGÉNIEUR SÉCURITÉ SANITAIRE",
     interest: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
   },
   {
-    job: "DIRECTEUR ARTISTIQUE 3D",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
+    job: "CONVOYEUR DE FONDS",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
   },
   {
-    job: "DIRECTEUR ARTISTIQUE 3D",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "GRAPHISTE ILLUSTRATEUR 2D/3D",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "GRAPHISTE ILLUSTRATEUR 2D/3D",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "MODELEUR 3D",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "MODELEUR 3D",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "RÉALISATEUR 3D",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "RÉALISATEUR 3D",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "RÉDACTEUR TECHNIQUE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "RÉDACTEUR TECHNIQUE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "JOURNALISTE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "JOURNALISTE",
-    interest: "ECRIRE, DONNER ENVIE DE LIRE"
-  },
-  {
-    job: "JOURNALISTE",
-    interest: "ENQUÊTER, DÉCOUVRIR"
-  },
-  {
-    job: "SOCIOLOGUE",
-    interest: "ENSEIGNER, ÉDUQUER"
-  },
-  {
-    job: "SOCIOLOGUE",
-    interest: "ENQUÊTER, DÉCOUVRIR"
-  },
-  {
-    job: "CONSULTANT EN VALIDATION",
-    interest: "CONTRÔLER"
-  },
-  {
-    job: "CONSULTANT EN VALIDATION",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "CONSULTANT EN VALIDATION",
+    job: "CONVOYEUR DE FONDS",
     interest: "SE DÉPLACER SOUVENT, VOYAGER"
   },
   {
-    job: "DIRECTRICE(TEUR) ARTISTIQUE",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
+    job: "CONVOYEUR DE FONDS",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "DIRECTRICE(TEUR) ARTISTIQUE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+    job: "CONTRÔLEUR DE DÉFENSE AÉRIENNE",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "DIRECTRICE(TEUR) ARTISTIQUE",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PROJET WEB",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PROJET WEB",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CHEF DE PROJET WEB",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "CHEF DE PROJET WEB",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHIEF DATA OFFICER",
-    interest: "ENQUÊTER, DÉCOUVRIR"
-  },
-  {
-    job: "CHIEF DATA OFFICER",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "CHIEF DATA OFFICER",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "CHIEF DATA OFFICER",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PROJET E-CRM",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "CHEF DE PROJET E-CRM",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "CHEF DE PROJET E-CRM",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "RESPONSABLE DE MAGASIN",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "RESPONSABLE DE MAGASIN",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "RESPONSABLE DE MAGASIN",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "RESPONSABLE DE MAGASIN",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "VENDEUSE / VENDEUR EN MAGASIN",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "VENDEUSE / VENDEUR EN MAGASIN",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "VENDEUSE / VENDEUR EN MAGASIN",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "ANIMATEUR MULTIMÉDIA",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "ANIMATEUR MULTIMÉDIA",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "ANIMATEUR MULTIMÉDIA",
-    interest: "ENSEIGNER, ÉDUQUER"
-  },
-  {
-    job: "WEBMARKETER",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "STATISTICIEN",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "STATISTICIEN",
-    interest: "ENQUÊTER, DÉCOUVRIR"
-  },
-  {
-    job: "YIELD MANAGER",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "YIELD MANAGER",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "YIELD MANAGER",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "YIELD MANAGER",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "VENDEUR-CONSEIL EN MATÉRIEL AGRICOLE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "VENDEUR-CONSEIL EN MATÉRIEL AGRICOLE",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "VENDEUR-CONSEIL EN MATÉRIEL AGRICOLE",
-    interest: "SE DÉPLACER SOUVENT, VOYAGER"
-  },
-  {
-    job: "VENDEUR-CONSEIL EN MATÉRIEL AGRICOLE",
-    interest: "TRAVAILLER DANS LA NATURE"
-  },
-  {
-    job: "WEDDING PLANNER",
-    interest: "CONSEILLER, AIDER LES AUTRES"
-  },
-  {
-    job: "WEDDING PLANNER",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "WEDDING PLANNER",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "WEDDING PLANNER",
-    interest: "ÊTRE INNOVANT"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DES RESSOURCES HUMAINES",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DES RESSOURCES HUMAINES",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DES RESSOURCES HUMAINES",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "MARCHANDISEUR",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "MARCHANDISEUR",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "MARCHANDISEUR",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "EXPLOITANT D'ÉQUIPEMENTS DE LOISIRS",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "EXPLOITANT D'ÉQUIPEMENTS DE LOISIRS",
-    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
-  },
-  {
-    job: "EXPLOITANT D'ÉQUIPEMENTS DE LOISIRS",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "RESPONSABLE APPROVISIONNEMENT",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "RESPONSABLE APPROVISIONNEMENT",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
-  },
-  {
-    job: "RESPONSABLE APPROVISIONNEMENT",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "ASSISTANT / ASSISTANTE DE GESTION PME/PMI",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "ASSISTANT / ASSISTANTE DE GESTION PME/PMI",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "ASSISTANTE / ASSISTANT DE RESSOURCES HUMAINES",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "RESPONSABLE D'AGENCE D'INTÉRIM",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "RESPONSABLE D'AGENCE D'INTÉRIM",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "LOUEUR DE VOITURES",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "LOUEUR DE VOITURES",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "REPRÉSENTANT / VENDEUR DE VÉHICULES",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "COACH PROFESSIONNEL",
-    interest: "CONSEILLER, AIDER LES AUTRES"
-  },
-  {
-    job: "COACH PROFESSIONNEL",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "COACH PROFESSIONNEL",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "POISSONNIER",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "POISSONNIER",
-    interest: "TRAVAILLER LE GOÛT"
-  },
-  {
-    job: "POISSONNIER",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "POISSONNIER",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "INGÉNIEUR TECHNICO-COMMERCIAL",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "INGÉNIEUR TECHNICO-COMMERCIAL",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "INGÉNIEUR TECHNICO-COMMERCIAL",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "INGÉNIEUR TECHNICO-COMMERCIAL",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "VENDEUR EN MICRO-INFORMATIQUE ET MULTIMÉDIA",
-    interest: "CONSEILLER, AIDER LES AUTRES"
-  },
-  {
-    job: "VENDEUR EN MICRO-INFORMATIQUE ET MULTIMÉDIA",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "VENDEUR EN MICRO-INFORMATIQUE ET MULTIMÉDIA",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "ASSISTANTE / ASSISTANT DE MANAGER INTERNATIONAL",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "ASSISTANTE / ASSISTANT DE MANAGER INTERNATIONAL",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
-  },
-  {
-    job: "VENDEUR EXPORT",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "VENDEUR EXPORT",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
-  },
-  {
-    job: "VENDEUR EXPORT",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "VENDEUR EXPORT",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "DIRECTEUR DE GRAND MAGASIN",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "DIRECTEUR DE GRAND MAGASIN",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "DIRECTEUR DE GRAND MAGASIN",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "DIRECTEUR DE GRAND MAGASIN",
-    interest: "ÊTRE INNOVANT"
-  },
-  {
-    job: "DIRECTEUR(TRICE) COMMERCIALE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) COMMERCIALE",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) COMMERCIALE",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "DÉLÉGUÉ COMMERCIAL ÉDITION",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "DÉLÉGUÉ COMMERCIAL ÉDITION",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "COMMERCIAL",
-    interest: "SE DÉPLACER SOUVENT, VOYAGER"
-  },
-  {
-    job: "COMMERCIAL",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "CLIENT(E) MYSTÈRE PROFESSIONNEL",
-    interest: "ENQUÊTER, DÉCOUVRIR"
-  },
-  {
-    job: "CLIENT(E) MYSTÈRE PROFESSIONNEL",
-    interest: "CONTRÔLER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DU MARKETING",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DU MARKETING",
-    interest: "MANIER LES CHIFFRES"
-  },
-  {
-    job: "DIRECTEUR(TRICE) DU MARKETING",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "E-MERCHANDISER",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "E-MERCHANDISER",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "CHEF DE RAYON",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "CHEF DE RAYON",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "EMPLOYÉ DE STATION SERVICE",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "EMPLOYÉ DE STATION SERVICE",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "EMPLOYÉ DE STATION SERVICE",
-    interest: "TRAVAILLER LA NUIT"
-  },
-  {
-    job: "COMMERCIAL À BORD DES TRAINS",
-    interest: "CONSEILLER, AIDER LES AUTRES"
-  },
-  {
-    job: "COMMERCIAL À BORD DES TRAINS",
-    interest: "FAIRE RESPECTER LA LOI"
-  },
-  {
-    job: "DÉTAILLANT EN FRUITS ET LÉGUMES",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "DÉTAILLANT EN FRUITS ET LÉGUMES",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "CHEF DE PROJET E-COMMERCE LIVRE",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PROJET E-COMMERCE LIVRE",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "CHEF DE PROJET E-COMMERCE LIVRE",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF DE PROJET E-COMMERCE LIVRE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "DESIGNER PRODUIT",
-    interest: "DESSINER"
-  },
-  {
-    job: "DESIGNER PRODUIT",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "DESIGNER PRODUIT",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "HABILLEUSE",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "HABILLEUSE",
-    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
-  },
-  {
-    job: "ICONOGRAPHE",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "ICONOGRAPHE",
-    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
-  },
-  {
-    job: "TECHNICIEN(NE) LUMIÈRE",
-    interest: "TRAVAILLER DANS LE SPECTACLE, LA TÉLÉ"
-  },
-  {
-    job: "TECHNICIEN(NE) LUMIÈRE",
+    job: "CONTRÔLEUR DE DÉFENSE AÉRIENNE",
     interest: "FAIRE UN TRAVAIL DE PRÉCISION"
   },
   {
-    job: "MUSICIEN INTERVENANT",
-    interest: "ENSEIGNER, ÉDUQUER"
+    job: "CONTRÔLEUR DE DÉFENSE AÉRIENNE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
   },
   {
-    job: "MUSICIEN INTERVENANT",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
+    job: "ÉLECTRONICIEN DE L’ARMÉE DE L’AIR",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
   },
   {
-    job: "MUSICIEN INTERVENANT",
-    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+    job: "ÉLECTRONICIEN DE L’ARMÉE DE L’AIR",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
   },
   {
-    job: "CHARCUTIER-TRAITEUR",
-    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
-  },
-  {
-    job: "CHARCUTIER-TRAITEUR",
-    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
-  },
-  {
-    job: "CHARCUTIER-TRAITEUR",
-    interest: "TRAVAILLER LE GOÛT"
-  },
-  {
-    job: "CHARCUTIER-TRAITEUR",
-    interest: "ORGANISER, GÉRER"
-  },
-  {
-    job: "CHEF DE PRODUIT",
-    interest: "DIRIGER, DÉCIDER"
-  },
-  {
-    job: "CHEF DE PRODUIT",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "CHEF DE PRODUIT",
-    interest: "ÊTRE INNOVANT"
-  },
-  {
-    job: "CHEF DE PRODUIT",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
-  },
-  {
-    job: "CHEF DE PRODUIT",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "STORY-BOARDER",
-    interest: "DESSINER"
-  },
-  {
-    job: "STORY-BOARDER",
-    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
-  },
-  {
-    job: "STORY-BOARDER",
+    job: "ÉLECTRONICIEN DE L’ARMÉE DE L’AIR",
     interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
   },
   {
-    job: "CHEF DE PRODUITS VOYAGES",
-    interest: "DIRIGER, DÉCIDER"
+    job: "FUSILIER COMMANDO DE L’ARMÉE DE L’AIR",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "CHEF DE PRODUITS VOYAGES",
-    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+    job: "FUSILIER COMMANDO DE L’ARMÉE DE L’AIR",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
   },
   {
-    job: "CHEF DE PRODUITS VOYAGES",
-    interest: "PARLER DES LANGUES ÉTRANGÈRES"
+    job: "INTERCEPTEUR TECHNIQUE ET GRAPHIE DE L’ARMÉE DE L’AIR",
+    interest: "AVOIR DES SENSATIONS FORTES"
   },
   {
-    job: "CHEF DE PRODUITS VOYAGES",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "CONSEILLÈRE(ER) DE VENTE BEAUTÉ PARFUMERIE",
-    interest: "CONSEILLER, AIDER LES AUTRES"
-  },
-  {
-    job: "CONSEILLÈRE(ER) DE VENTE BEAUTÉ PARFUMERIE",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "CHARGÉ D'ÉTUDES MARKETING",
-    interest: "CONVAINCRE, COMMUNIQUER"
-  },
-  {
-    job: "CHARGÉ D'ÉTUDES MARKETING",
+    job: "INTERCEPTEUR TECHNIQUE ET GRAPHIE DE L’ARMÉE DE L’AIR",
     interest: "ENQUÊTER, DÉCOUVRIR"
   },
   {
-    job: "CHARGÉ D'ÉTUDES MARKETING",
+    job: "MONITEUR DE SIMULATEUR DE VOL DE L’ARMÉE DE L’AIR",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "MONITEUR DE SIMULATEUR DE VOL DE L’ARMÉE DE L’AIR",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "MONITEUR DE SIMULATEUR DE VOL DE L’ARMÉE DE L’AIR",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "EXPLOITANT RENSEIGNEMENTS DE L’ARMÉE DE L’AIR",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "EXPLOITANT RENSEIGNEMENTS DE L’ARMÉE DE L’AIR",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "GENDARME ADJOINT VOLONTAIRE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "GENDARME ADJOINT VOLONTAIRE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "GENDARME",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "GENDARME",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "GARDIEN(IENNE) DE LA PAIX",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "DOUANIER",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "DOUANIER",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "MONTEUR EN INSTALLATIONS THERMIQUES",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MÉTREUR",
     interest: "MANIER LES CHIFFRES"
   },
   {
-    job: "PEINTRE EN BÂTIMENT",
+    job: "MONTEUR EN INSTALLATIONS SANITAIRES",
     interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "COMMISSAIRE DE POLICE",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "COMMISSAIRE DE POLICE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "POLICIER MUNICIPAL",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "OFFICIER DE POLICE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "LIEUTENANT DE POLICE",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "LIEUTENANT DE POLICE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "OFFICIER DE CARRIÈRE",
+    interest: "DIRIGER, DÉCIDER"
+  },
+  {
+    job: "OFFICIER DE CARRIÈRE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "OFFICIER DE CARRIÈRE",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "MÉCANICIEN D'ENGINS DE CHANTIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "OPÉRATEUR DE DÉMOLITION",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "OPÉRATEUR DE DÉMOLITION",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "OPÉRATEUR DE DÉMOLITION",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "TECHNICIEN DE MAINTENANCE SUR ÉOLIENNE",
+    interest: "PROTÉGER L'ENVIRONNEMENT"
+  },
+  {
+    job: "TECHNICIEN DE MAINTENANCE SUR ÉOLIENNE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "FOREUR",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "GÉOMÈTRE TOPOGRAPHE",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "GÉOMÈTRE TOPOGRAPHE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "GRUTIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "INSTALLATEUR DE PANNEAUX SOLAIRES",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "PLÂTRIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "PLOMBIER / PLOMBIÈRE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "ETANCHÉISTE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "FAÇADIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "PLAQUISTE",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "URBANISTE",
+    interest: "DESSINER"
+  },
+  {
+    job: "URBANISTE",
+    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
+  },
+  {
+    job: "URBANISTE",
+    interest: "PROTÉGER L'ENVIRONNEMENT"
+  },
+  {
+    job: "SERRURIER(ÈRE) METALLIER(ÈRE)",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "SERRURIER(ÈRE) METALLIER(ÈRE)",
+    interest: "TRAVAILLER SEUL"
+  },
+  {
+    job: "TERRASSIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "TERRASSIER",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "DESSINATEUR EN BÂTIMENT",
+    interest: "DESSINER"
+  },
+  {
+    job: "DESSINATEUR EN BÂTIMENT",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "DESSINATEUR / DESIGNEUSE INDUSTRIEL ",
+    interest: "DESSINER"
+  },
+  {
+    job: "DESSINATEUR / DESIGNEUSE INDUSTRIEL ",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "CORDISTE",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "CORDISTE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "DIAGNOSTIQUEUR IMMOBILIER",
+    interest: "FAIRE RESPECTER LA LOI"
+  },
+  {
+    job: "DIAGNOSTIQUEUR IMMOBILIER",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "ELECTRICIEN DU BÂTIMENT",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MAÇON",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "PISCINIER",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "LIVREUR",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "MARINIER",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "MARINIER",
+    interest: "TRAVAILLER DANS LA NATURE"
+  },
+  {
+    job: "OFFICIER DE MARINE MARCHANDE",
+    interest: "DIRIGER, DÉCIDER"
+  },
+  {
+    job: "OFFICIER DE MARINE MARCHANDE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "TRANSITAIRE / AGENT DE TRANSIT",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "DOMOTICIEN",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "DOMOTICIEN",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "DOMOTICIEN",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "MANUTENTIONNAIRE-CARISTE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "MANUTENTIONNAIRE-CARISTE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "COUVREUR",
+    interest: "FABRIQUER, CONSTRUIRE, REPARER"
+  },
+  {
+    job: "MAGASINIER / MAGASINIÈRE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "MAGASINIER / MAGASINIÈRE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "EMPLOYÉ DE GROUPAGE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "LITIGEUR TRANSPORT",
+    interest: "ENQUÊTER, DÉCOUVRIR"
+  },
+  {
+    job: "LITIGEUR TRANSPORT",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "COURSIER",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "DÉMÉNAGEUR / DÉMÉNAGEUSE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "DÉMÉNAGEUR / DÉMÉNAGEUSE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "EMBALLEUR / EMBALLEUSE",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
+  },
+  {
+    job: "CONSEILLER(ÈRE) D'INSERTION ET DE PROBATION",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "CONDUCTEUR(TRICE) DE MÉTRO",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "CONDUCTEUR(TRICE) DE MÉTRO",
+    interest: "TRAVAILLER LA NUIT"
+  },
+  {
+    job: "AVITAILLEUR AVION",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "AVITAILLEUR AVION",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "DISPATCHEUR",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "DOCKER",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "DOCKER",
+    interest: "TRAVAILLER LA NUIT"
+  },
+  {
+    job: "CONDUCTEUR DE TAXI",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "CONDUCTEUR(TRICE) D'AUTOBUS",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "EMPLOYÉ DE MÉNAGE À DOMICILE",
+    interest: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    job: "CONSEILLER(ÈRE) CONJUGAL(E) ET FAMILIALE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ERGONOME",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ERGONOME",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
+  },
+  {
+    job: "HOT LINER",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "OPÉRATEUR DE TÉLÉASSISTANCE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "OPÉRATEUR DE TÉLÉASSISTANCE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "TÉLÉCONSEILLÈRE / TÉLÉCONSEILLER",
+    interest: "CONVAINCRE, COMMUNIQUER"
+  },
+  {
+    job: "TÉLÉCONSEILLÈRE / TÉLÉCONSEILLER",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "TÉLÉVENDEUR / TÉLÉVENDEUSE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "FACTEUR / FACTRICE",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "MÉDIATEUR SOCIAL",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "CONSEILLÈRE(ER) EN ÉCONOMIE SOCIALE ET FAMILIALE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "EDUCATRICE(TEUR) DE LA PROTECTION JUDICIAIRE DE LA JEUNESSE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "EDUCATRICE(TEUR) DE LA PROTECTION JUDICIAIRE DE LA JEUNESSE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "MONITEUR(TRICE) - ÉDUCATEUR(TRICE)",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "MONITEUR(TRICE) - ÉDUCATEUR(TRICE)",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "MONITEUR(TRICE) - ÉDUCATEUR(TRICE)",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "EMPLOYÉ À DOMICILE",
+    interest: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    job: "EMPLOYÉ À DOMICILE",
+    interest: "TRAVAILLER AVEC DES PERSONNES HANDICAPÉES"
+  },
+  {
+    job: "ÉDUCATEUR(TRICE) DE JEUNES ENFANTS",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "ÉDUCATEUR(TRICE) DE JEUNES ENFANTS",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "GARDE D'ENFANT À DOMICILE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "ASSISTANTE MATERNELLE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "ASSISTANTE / ASSISTANT DE SERVICE SOCIAL",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ASSISTANTE / ASSISTANT DE SERVICE SOCIAL",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "AUXILIAIRE DE VIE SOCIALE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "AUXILIAIRE DE VIE SOCIALE",
+    interest: "TRAVAILLER AVEC DES PERSONNES ÂGÉES"
+  },
+  {
+    job: "CONSEILLER(ÈRE) EN INSERTION SOCIALE ET PROFESSIONNELLE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ASSISTANT INFORMATIQUE ET INTERNET À DOMICILE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "ÉDUCATEUR(TRICE) SPÉCIALISÉ(E) ",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "ÉDUCATEUR(TRICE) SPÉCIALISÉ(E) ",
+    interest: "TRAVAILLER AVEC DES PERSONNES HANDICAPÉES"
+  },
+  {
+    job: "PROTHÉSISTE ONGULAIRE",
+    interest: "EXERCER UN MÉTIER ARTISTIQUE OU CRÉATIF"
+  },
+  {
+    job: "PROTHÉSISTE ONGULAIRE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "PROTHÉSISTE ONGULAIRE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "ENTRAÎNEUR(EUSE) SPORTIF(TIVE)",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ENTRAÎNEUR(EUSE) SPORTIF(TIVE)",
+    interest: "DIRIGER, DÉCIDER"
+  },
+  {
+    job: "ENTRAÎNEUR(EUSE) SPORTIF(TIVE)",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "EDUCATEUR(TRICE) SPORTIF(TIVE)",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "EDUCATEUR(TRICE) SPORTIF(TIVE)",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "EDUCATEUR(TRICE) SPORTIF(TIVE)",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "SKIPPER",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "SKIPPER",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "SKIPPER",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "SKIPPER",
+    interest: "TRAVAILLER DANS LA NATURE"
+  },
+  {
+    job: "MONITEUR D'ACTIVITÉS NAUTIQUES",
+    interest: "AVOIR DES SENSATIONS FORTES"
+  },
+  {
+    job: "MONITEUR D'ACTIVITÉS NAUTIQUES",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "MONITEUR D'ACTIVITÉS NAUTIQUES",
+    interest: "TRAVAILLER DANS LA NATURE"
+  },
+  {
+    job: "RADIOLOGUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "RADIOLOGUE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "RADIOLOGUE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "RADIOLOGUE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "MONITEUR DE SKI",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "MONITEUR DE SKI",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "MONITEUR DE SKI",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "CHAUFFEUR DE VTC",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "CHAUFFEUR DE VTC",
+    interest: "SE DÉPLACER SOUVENT, VOYAGER"
+  },
+  {
+    job: "MONITEUR DE VOILE",
+    interest: "ENSEIGNER, ÉDUQUER"
+  },
+  {
+    job: "MONITEUR DE VOILE",
+    interest: "SE DÉPENSER PHYSIQUEMENT"
+  },
+  {
+    job: "PSYCHIATRE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PSYCHIATRE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PSYCHOLOGUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PSYCHOLOGUE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ASSISTANTE / ASSISTANT DENTAIRE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "ASSISTANTE / ASSISTANT DENTAIRE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "CHIRURGIEN(IENNE)-DENTISTE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "CHIRURGIEN(IENNE)-DENTISTE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "CHIRURGIEN(IENNE)-DENTISTE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "CHIRURGIEN(IENNE)-DENTISTE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "PROTHÉSISTE DENTAIRE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PROTHÉSISTE DENTAIRE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "PROTHÉSISTE DENTAIRE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
+  },
+  {
+    job: "PROTHÉSISTE DENTAIRE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "PÉDICURE - PODOLOGUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PÉDICURE - PODOLOGUE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "PÉDICURE - PODOLOGUE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "SECRÉTAIRE MÉDICALE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "SECRÉTAIRE MÉDICALE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "SECRÉTAIRE MÉDICALE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "KINÉSITHÉRAPEUTE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "KINÉSITHÉRAPEUTE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "KINÉSITHÉRAPEUTE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "AUXILIAIRE DE PUÉRICULTURE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "AUXILIAIRE DE PUÉRICULTURE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "AUXILIAIRE DE PUÉRICULTURE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PÉDIATRE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PÉDIATRE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "PÉDIATRE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PUÉRICULTRICE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "PUÉRICULTRICE",
+    interest: "TRAVAILLER AVEC DES ENFANTS OU DES ADOLESCENTS"
+  },
+  {
+    job: "PUÉRICULTRICE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PHARMACIEN / PHARMACIENNE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "PHARMACIEN / PHARMACIENNE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "PHARMACIEN / PHARMACIENNE",
+    interest: "ORGANISER, GÉRER"
+  },
+  {
+    job: "PHARMACIEN / PHARMACIENNE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "PRÉPARATEUR(TRICE) EN PHARMACIE",
+    interest: "FAIRE DU COMMERCE, TRAVAILLER DANS UN MAGASIN"
+  },
+  {
+    job: "PRÉPARATEUR(TRICE) EN PHARMACIE",
+    interest: "SUIVRE DES CONSIGNES PRÉCISES"
+  },
+  {
+    job: "BRANCARDIER / BRANCARDIÈRE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "BRANCARDIER / BRANCARDIÈRE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "CARDIOLOGUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "CARDIOLOGUE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "CARDIOLOGUE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "CARDIOLOGUE",
+    interest: "FAIRE UN TRAVAIL DE PRÉCISION"
+  },
+  {
+    job: "DERMATOLOGUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "DERMATOLOGUE",
+    interest: "TRAVAILLER DANS L'URGENCE"
+  },
+  {
+    job: "DERMATOLOGUE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "DERMATOLOGUE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "ERGOTHÉRAPEUTE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "ERGOTHÉRAPEUTE",
+    interest: "ETRE EN CONTACT AVEC DU PUBLIC, DES CLIENTS"
+  },
+  {
+    job: "ERGOTHÉRAPEUTE",
+    interest: "CONSEILLER, AIDER LES AUTRES"
+  },
+  {
+    job: "INGÉNIEUR EN RECHERCHE CLINIQUE",
+    interest: "EXPÉRIMENTER, FAIRE DE LA RECHERCHE"
+  },
+  {
+    job: "INGÉNIEUR EN RECHERCHE CLINIQUE",
+    interest: "MANIER LES CHIFFRES"
+  },
+  {
+    job: "INGÉNIEUR EN RECHERCHE CLINIQUE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "MANIPULATRICE(TEUR)  D'ÉLECTRORADIOLOGIE MÉDICALE",
+    interest: "SOIGNER, SECOURIR"
+  },
+  {
+    job: "MANIPULATRICE(TEUR)  D'ÉLECTRORADIOLOGIE MÉDICALE",
+    interest: "TRAVAILLER AVEC LES NOUVELLES TECHNOLOGIES"
   }
 ]
 jobinterests.each do |jobinterest|
