@@ -33,6 +33,24 @@
 }
 
 //////////////////////////////
+.filter-box {
+    position: relative;
+    height: 55px;
+}
+
+#filter-title {
+  position: absolute;
+  left: 0;
+  top: 9px;
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 0px 2px;
+}
+.dropdown {
+      position: absolute;
+    left: 86px;
+    top: 0;
+}
 
 /* Dropdown Button */
 .dropbtn {
@@ -81,12 +99,20 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.open > .dropdown-menu {
     display: block;
+        width: 307px;
+    margin-left: -20px;
 }
+
+.dropdown-menu a {
+        display: block;
+        padding: 0px 7px;
+        color: #666666;
+        white-space: nowrap;
+        font-size: 10px;
+        margin: 22px 1px;
+  }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}

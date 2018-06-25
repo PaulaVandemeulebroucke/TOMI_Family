@@ -1,4 +1,10 @@
 class Job < ApplicationRecord
+  include PgSearch
+  pg_search_scope :search_by_name,
+    against: [ :name ],
+    using: {
+      tsearch: { prefix: true } # <-- now `superman batm` will return something!
+    }
   mount_uploader :photo, PhotoUploader
   acts_as_votable
   has_many :job_interests

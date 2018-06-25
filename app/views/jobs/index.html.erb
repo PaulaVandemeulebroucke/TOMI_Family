@@ -12,6 +12,16 @@
 </div>
 <div class="container">
 
+  <!-- [...] -->
+<%= form_tag jobs_path, method: :get do %>
+  <%= text_field_tag :query,
+    params[:query],
+    class: "form-control search",
+    placeholder: "Trouve un métier directement ici..."
+  %>
+<% end %>
+<!-- the list of movies -->
+
 <%= render '/jobs/filter' %>
 
   <div class="cards">
