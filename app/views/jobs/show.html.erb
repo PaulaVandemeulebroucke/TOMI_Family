@@ -4,11 +4,6 @@
    <div class="col-xs-9">
     <h1 class="namejobs"><%= @job.name %></h1>
     <h3 class="shortjobs"><%= @job.short_description %></h3>
-    <h4 class="shortjobs">Secteur:
-      <% @job.sectors.each do |sector| %>
-        <%= sector.name %>
-      <% end %>
-    </h4>
     <div class="sidebar-box">
       <p class="descjobs"><%= @job.description %></p>
 <!--       <p class="read-more"><a href="#" class="button">Voir +</a></p> -->
