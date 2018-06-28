@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" />
-    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Big - Family: tous les secrets de l’orientation et la création de ton propre réseau.</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 
 
     <style>
@@ -82,13 +86,13 @@
     border-radius: 6px;
     text-align: center;
     box-shadow: 0 0 20px rgba(0,0,0,.2);
-    padding:50px;
-    background-color: #fff;
-    width:100%;
-    max-width:525px;
-    position:absolute;
-    left:50%;
-    margin-left:-262px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 525px;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    margin-left: -262px;
   }
 
   .background.error-page-wrapper .content-container.in {
@@ -268,180 +272,34 @@
     }
   }
 </style>
-
     <style>
-
-
     .background-image {
       background-color: #FFFFFF;
-      background-image: url(https://unsplash.com/photos/sLAk1guBG90) !important;
-    }
-
-    .primary-text-color {
-      color: #494949 !important;
-    }
-
-    .secondary-text-color {
-      color: #AAAAAA !important;
-    }
-
-
-
-
-    .border-button {
-      color: #2ECC71 !important;
-      border-color: #2ECC71 !important;
-    }
-    .button {
-      background-color: #2ECC71 !important;
-      color: #FFFFFF !important;
-    }
-
-    .shadow {
-      box-shadow: 0 0 69px #000000;
+      background-image: url(https://images.unsplash.com/photo-1504814532849-cff240bbc503?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c3ba6869e7892d08269bd33c87c7bf0c&auto=format&fit=crop&w=1336&q=80) !important;
     }
 
 </style>
 
   </head>
   <body class="background error-page-wrapper background-color background-image">
-
+<div>
+  <i class="fas fa-chevron-left" style="font-size: 30px !important; color: white; margin-bottom: 32px; margin-left: 2px; margin-top: 11px;" onclick="history.back(-1)"></i>
+</div>
 <div class="content-container shadow">
-  <div class="head-line secondary-text-color">
-    500
-  </div>
   <div class="subheader primary-text-color">
-    Oups, notre expert informatique a du partir en vacances...
+    Oups, petit problème...
   </div>
   <div class="hr"></div>
   <div class="context secondary-text-color">
 
-    <p>
-      Nous essayons de réparer ce petit problème, nous sommes vraiment désolés pour l'attente.
+    <p style="color: #333333; font-size: 15px; font-weight: lighter;">
+      N'hésitez pas à nous envoyer un mail à <strong>paula@big-family.fr</strong> si ce problème persiste.
     </p>
-
-
-  </div>
-  <div class="buttons-container single-button">
-    <a class="button" href="paula@big-family.fr" target="_blank"><span class="fa fa-warning"></span> Signaler ce problème</a>
+    <p style="color: #333333; font-size: 15px; font-weight: lighter;">
+      Nous sommes vraiment désolés pour la gêne occasionnée.
+    </p>
   </div>
 </div>
-
-
-    <script>
-     function ErrorPage(container, pageType, templateName) {
-       this.$container = $(container);
-       this.$contentContainer = this.$container.find(templateName == 'sign' ? '.sign-container' : '.content-container');
-       this.pageType = pageType;
-       this.templateName = templateName;
-     }
-
-     ErrorPage.prototype.centerContent = function () {
-       var containerHeight = this.$container.outerHeight()
-         , contentContainerHeight = this.$contentContainer.outerHeight()
-         , top = (containerHeight - contentContainerHeight) / 2
-         , offset = this.templateName == 'sign' ? -100 : 0;
-
-       this.$contentContainer.css('top', top + offset);
-     };
-
-     ErrorPage.prototype.initialize = function () {
-       var self = this;
-
-       this.centerContent();
-       this.$container.on('resize', function (e) {
-         e.preventDefault();
-         e.stopPropagation();
-         self.centerContent();
-       });
-
-       // fades in content on the plain template
-       if (this.templateName == 'plain') {
-         window.setTimeout(function () {
-           self.$contentContainer.addClass('in');
-         }, 500);
-       }
-
-       // swings sign in on the sign template
-       if (this.templateName == 'sign') {
-         $('.sign-container').animate({textIndent : 0}, {
-           step : function (now) {
-             $(this).css({
-               transform : 'rotate(' + now + 'deg)',
-               'transform-origin' : 'top center'
-             });
-           },
-           duration : 1000,
-           easing : 'easeOutBounce'
-         });
-       }
-     };
-
-
-     ErrorPage.prototype.createTimeRangeTag = function(start, end) {
-       return (
-         '<time utime=' + start + ' simple_format="MMM DD, YYYY HH:mm">' + start + '</time> - <time utime=' + end + ' simple_format="MMM DD, YYYY HH:mm">' + end + '</time>.'
-       )
-     };
-
-
-     ErrorPage.prototype.handleStatusFetchSuccess = function (pageType, data) {
-       if (pageType == '500') {
-         $('#replace-with-fetched-data').html(data.status.description);
-       } else {
-         if (!!data.scheduled_maintenances.length) {
-           var maint = data.scheduled_maintenances[0];
-           $('#replace-with-fetched-data').html(this.createTimeRangeTag(maint.scheduled_for, maint.scheduled_until));
-           $.fn.localizeTime();
-         }
-         else {
-           $('#replace-with-fetched-data').html('<em>(there are no active scheduled maintenances)</em>');
-         }
-       }
-     };
-
-
-     ErrorPage.prototype.handleStatusFetchFail = function (pageType) {
-       $('#replace-with-fetched-data').html('<em>(enter a valid Statuspage url)</em>');
-     };
-
-
-     ErrorPage.prototype.fetchStatus = function (pageUrl, pageType) {
-       //console.log('in app.js fetch');
-       if (!pageUrl || !pageType || pageType == '404') return;
-
-       var url = ''
-         , self = this;
-
-       if (pageType == '500') {
-         url = pageUrl + '/api/v2/status.json';
-       }
-       else {
-         url = pageUrl + '/api/v2/scheduled-maintenances/active.json';
-       }
-
-       $.ajax({
-         type : "GET",
-         url : url,
-       }).success(function (data, status) {
-         //console.log('success');
-         self.handleStatusFetchSuccess(pageType, data);
-       }).fail(function (xhr, msg) {
-         //console.log('fail');
-         self.handleStatusFetchFail(pageType);
-       });
-
-     };
-     var ep = new ErrorPage('body', "500", "background");
-     ep.initialize();
-
-     // hack to make sure content stays centered >_<
-     $(window).on('resize', function() {
-       $('body').trigger('resize')
-     });
-
-    </script>
-
 
   </body>
 </html>
