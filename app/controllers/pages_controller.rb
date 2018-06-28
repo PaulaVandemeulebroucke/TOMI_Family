@@ -23,9 +23,17 @@ class PagesController < ApplicationController
   end
   def ose
   end
+  def temoignage1
+  end
+  def temoignage2
+  end
+  def temoignage3
+  end
+  def temoignage4
+  end
   def CGU
   end
-  def Mentions_legales 
+  def Mentions_legales
   end
   def Contact
   end

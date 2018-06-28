@@ -30,6 +30,14 @@
       color: $red;
     }
   }
+  .card-like-link2 {
+    z-index: 3;
+    position: absolute;
+    bottom: -403px;
+    right: -10px;
+    color: #d53533;
+    font-size: 46px;
+  }
 }
 .card:hover {
   box-shadow: 1px 1px 1px 1px rgba(130, 130, 130,0.8),1px 1px 1px 1px rgba(130, 130, 130,0.8);
@@ -153,6 +161,13 @@
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.6),1px 1px 1px 1px rgba(170, 170, 170,0.6);
   }
+}
+.name {
+  font-size: 10px;
+  color: white;
+  position: relative;
+  top: -31px;
+  right: -33px;
 }
 .card-info1 {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 0%), url("http://res.cloudinary.com/dozkmkl7p/image/upload/v1529914310/meeting.png");

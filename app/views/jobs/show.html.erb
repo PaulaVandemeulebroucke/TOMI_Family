@@ -1,19 +1,44 @@
 <%= render 'shared/navbar' %>
-<div class="show_job_img"><%= cl_image_tag @job.photo, :class => "banner__image" %></div>
+<div class="show_job_img"><%= cl_image_tag @jobb.photo, :class => "banner__image" %></div>
 <div class="container-showjob">
    <div class="col-xs-9">
-    <h1 class="namejobs"><%= @job.name %></h1>
-    <h3 class="shortjobs"><%= @job.short_description %></h3>
+    <h1 class="namejobs"><%= @jobb.name %></h1>
+    <h3 class="shortjobs"><%= @jobb.short_description %></h3>
     <div class="sidebar-box">
-      <p class="descjobs"><%= @job.description %></p>
+      <p class="descjobs"><%= @jobb.description %></p>
 <!--       <p class="read-more"><a href="#" class="button">Voir +</a></p> -->
     </div>
   </div>
 
    <div class="col-xs-2 icon">
-    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.salary %>"><i class="fas fa-euro-sign"></i></a>
-    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.career %>"><i class="fas fa-suitcase"></i></a>
-      <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<%= @job.study %>"><i class="fas fa-graduation-cap"></i></a>
+
+
+  <div class="cards">
+    <div class="row">
+        <div >
+          <div class="card" id= <%= "#{@jobb.id}" %>>
+            <div class="card__content">
+              <div class="card__title">
+                <% if @jobb.get_likes.where(voter_id: current_user).count == 0 %>
+                  <%= link_to like_path(@jobb), remote: true, method: :patch, class: "card-like-link2" do%>
+                    <i class="far fa-heart"></i>
+                  <% end %>
+                <% else %>
+                  <%= link_to dislike_path(@jobb), remote: true, method: :patch, class: "card-like-link2" do %>
+                    <i class="fas fa-heart"></i>
+                  <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Salaire:</strong></h6><%= @jobb.salary %>"><i class="fas fa-euro-sign"></i></a>
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Perspectives d'évolution:</strong></h6><%= @jobb.career %>"><i class="fas fa-suitcase"></i></a>
+      <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Etudes:</strong></h6><%= @jobb.study %>"><i class="fas fa-graduation-cap"></i></a>
   </div>
 </div>
 <%= render '/shared/navigationbar' %>

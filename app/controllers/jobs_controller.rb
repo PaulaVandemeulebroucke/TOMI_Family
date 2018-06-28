@@ -12,7 +12,7 @@ class JobsController < ApplicationController
   end
 
   def show
-    @job = Job.find(params[:id])
+    @jobb = Job.find(params[:id])
   end
 
   def like
