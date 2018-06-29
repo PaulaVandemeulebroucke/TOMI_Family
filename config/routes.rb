@@ -6,6 +6,17 @@ Rails.application.routes.draw do
   resources :jobs, only: [ :index, :show ]
   get 'chooseajob', to: 'jobschoices#index', as: :jobschoices
   get 'chooseastudy', to: 'studieschoices#index', as: :studieschoices
+  get 'autres_etudes', to: 'studieschoices#autres_etudes'
+  get 'etudes_arts_et_design', to: 'studieschoices#etudes_arts_et_design'
+  get 'batiment_et_travaux_publics', to: 'studieschoices#etudes_batiment_et_travaux_publics'
+  get 'etudes_commerce_et_gestion', to: 'studieschoices#etudes_commerce_et_gestion'
+  get 'etudes_droit_banque_et_assurance', to: 'studieschoices#etudes_droit_banque_et_assurance'
+  get 'etudes_environnement', to: 'studieschoices#etudes_environnement'
+  get 'etudes_industrie', to: 'studieschoices#etudes_industrie'
+  get 'etudes_information_et_communication', to: 'studieschoices#etudes_information_et_communication'
+  get 'etudes_informatique_et_electronique', to: 'studieschoices#etudes_informatique_et_electronique'
+  get 'etudes_sante_soins_et_social', to: 'studieschoices#etudes_sante_soins_et_social'
+  get 'etudes_tourisme_hotellerie_et_restauration', to: 'studieschoices#etudes_tourisme_hotellerie_et_restauration'
   patch "jobs/:id/like", to: "jobs#like", as: :like
   patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
   get 'favorites', to: 'pages#favorites'
