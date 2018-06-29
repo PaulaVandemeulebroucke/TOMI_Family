@@ -9,19 +9,26 @@ class StudieschoicesController < ApplicationController
  end
  def etudes_commerce_et_gestion
  end
- def etudes_droit_banque_et_assurance
+ def etudes_droit
+ end
+ def etudes_banque_et_assurance
  end
  def etudes_environnement
  end
  def etudes_industrie
  end
- def etudes_information_et_communication
- end
  def etudes_informatique_et_electronique
  end
- def etudes_sante_soins_et_social
+ def etudes_medical_et_paramedical
  end
  def etudes_tourisme_hotellerie_et_restauration
  end
+ def etudes_communication_et_journalisme
+ end
+ def etudes_specialisees
+ end
+ def etudes_social_et_psychologie
+ end
+ def etudes_ingenieur
+ end
 end
-
