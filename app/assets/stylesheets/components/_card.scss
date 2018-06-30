@@ -570,8 +570,8 @@
 }
 ////////////////////////////////
 .card-study {
-  margin: 20px 5px;
-  height: 255px;
+  margin: 0px 5px;
+  height: 317px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -602,73 +602,27 @@
     padding: 27px;
   }
 }
-
-.card-study-uni {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("http://res.cloudinary.com/dozkmkl7p/image/upload/v1529915500/university.jpg");
+.card-study-formation {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
     font-size: 19px;
-    padding: 50px 10px;
+    padding: 44px 10px;
   }
   p {
-    padding: 22px 16px;
-    margin-top: -61px;
+    padding: 22px 15px;
+    margin-top: -49px;
     color: white;
-    font-size: 13px;
+    font-size: 10px;
+    text-align: justify;
   }
-}
-.card-study-cpge {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("http://res.cloudinary.com/dozkmkl7p/image/upload/v1529915510/cpge.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  h1 {
-    font-size: 19px;
-    padding: 50px 10px;
-  }
-  p {
-    padding: 22px 16px;
-    margin-top: -61px;
-    color: white;
-    font-size: 13px;
-  }
-}
-.card-study-gepb {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("http://res.cloudinary.com/dozkmkl7p/image/upload/v1529915522/gepb.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  h1 {
-    font-size: 19px;
-    padding: 50px 10px;
-  }
-  p {
-    padding: 22px 16px;
-    margin-top: -61px;
-    color: white;
-    font-size: 13px;
-  }
-}
-.card-study-bts {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%), url("http://res.cloudinary.com/dozkmkl7p/image/upload/v1529915533/dut.jpg");
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  h1 {
-    font-size: 19px;
-    padding: 50px 10px;
-  }
-  p {
-    padding: 22px 16px;
-    margin-top: -61px;
-    color: white;
-    font-size: 13px;
+  .card-jobs {
+   background-color: rgba(255, 255, 255, 0.92);
+   padding-top: 6px;
+   margin-top: -17px;
+   color: rgb(0, 0, 0);
   }
 }
 .card-study1 {
@@ -679,6 +633,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study2 {
@@ -699,6 +654,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 50px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study4 {
@@ -709,6 +665,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 50px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study5 {
@@ -719,6 +676,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study6 {
@@ -729,6 +687,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study7 {
@@ -739,6 +698,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 29px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study8 {
@@ -749,6 +709,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study9 {
@@ -759,6 +720,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study10 {
@@ -769,6 +731,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 50px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study11 {
@@ -779,6 +742,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 50px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study12 {
@@ -789,6 +753,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study13 {
@@ -799,6 +764,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 50px 27px;
+    padding-bottom: 70px;
   }
 }
 .card-study14 {
@@ -809,6 +775,7 @@
   background-repeat: no-repeat;
   h1 {
     padding: 39px 27px;
+    padding-bottom: 57px;
   }
 }
 .card-study15 {
