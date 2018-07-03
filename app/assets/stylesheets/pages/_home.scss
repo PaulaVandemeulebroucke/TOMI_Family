@@ -49,18 +49,17 @@
   z-index: 10;
 }
 #app-content {
-
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 #students-content{
   padding: 21px;
-
-  height: 100vh;
+  height: 120vh;
+  margin-bottom: 100px;
 }
 #students-content2{
   padding: 21px;
-
+  margin-bottom: 100px;
 }
 .wrapper {
   width: 100%;
@@ -96,9 +95,6 @@ video {
   object-fit: cover;
 }
 
-// .container-video {
-//   overflow: scroll;
-// }
 .youtube {
   width: 95%;
   margin: 5% 2%;
