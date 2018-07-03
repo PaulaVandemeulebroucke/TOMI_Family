@@ -25,9 +25,29 @@ class JobsController < ApplicationController
     end
   end
 
+  def like2
+    @jobb = Job.find(params[:id])
+    if @jobb.liked_by current_user
+      respond_to do |format|
+        format.html { redirect_to jobs_path }
+        format.js
+      end
+    end
+  end
+
   def dislike
     @job = Job.find(params[:id])
     if @job.disliked_by current_user
+      respond_to do |format|
+        format.html { redirect_to jobs_path }
+        format.js
+      end
+    end
+  end
+
+  def dislike2
+    @jobb = Job.find(params[:id])
+    if @jobb.disliked_by current_user
       respond_to do |format|
         format.html { redirect_to jobs_path }
         format.js

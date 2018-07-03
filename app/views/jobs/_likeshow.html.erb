@@ -1,0 +1,11 @@
+<div id= <%= "#{@jobb.id}" %>>
+  <% if @jobb.get_likes.where(voter_id: current_user).count == 0 %>
+    <%= link_to like_path(@jobb), remote: true, method: :patch, class: "" do%>
+      <i class="far fa-heart"></i>
+    <% end %>
+  <% else %>
+    <%= link_to dislike_path(@jobb), remote: true, method: :patch, class: "" do %>
+      <i class="fas fa-heart"></i>
+    <% end %>
+  <% end %>
+</div>
