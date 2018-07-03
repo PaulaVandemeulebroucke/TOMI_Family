@@ -96,7 +96,7 @@ video {
 
 .youtube {
   width: 95%;
-  margin: 5% 2%;
+  margin: 5% 2.5%;
   min-height: 320px;
   position: relative;
   top: -6px;
@@ -132,12 +132,11 @@ video {
 }
 .footer {
   position: relative;
-  margin: 0;
   background-color: #F4F4F4;
   top: 180px;
   height: 115px;
   padding-top: 10px;
-  margin: 0 -21px;
+  width: 110%;
 }
 .footer_items {
   font-size: 9px;
