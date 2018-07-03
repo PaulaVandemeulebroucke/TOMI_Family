@@ -5,9 +5,3 @@ function refreshCard(outerHTML) {
 
 refreshCard('<%= j render "jobs/card", job:@job %>');
 
-function refreshCard2(outerHTML) {
-  const jobb = document.getElementById(<%= @jobb.id %>);
-  jobb.outerHTML = outerHTML;
-}
-
-refreshCard2('<%= j render "jobs/card2", jobb:@jobb %>');

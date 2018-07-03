@@ -33,10 +33,10 @@
   .card-like-link2 {
     z-index: 3;
     position: absolute;
-    bottom: -403px;
-    right: -10px;
+    bottom: -17%;
+    right: 35%;
     color: #d53533;
-    font-size: 46px;
+    font-size: 38px;
   }
 }
 .card:hover {
@@ -307,7 +307,7 @@
   .card-desc {
     color: $grey;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 12.5px;
     text-align: justify;
   }
   .desc {

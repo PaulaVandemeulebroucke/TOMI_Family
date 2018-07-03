@@ -20,7 +20,7 @@
             <div class="card__content">
               <div class="card__title">
                 <% if @jobb.get_likes.where(voter_id: current_user).count == 0 %>
-                  <%= link_to like_path(@jobb), remote: true, method: :patch, class: "card-like-link2" do%>
+                  <%= link_to like_path(@jobb), remote: true, method: :patch, class: "card-like-link" do%>
                     <i class="far fa-heart"></i>
                   <% end %>
                 <% else %>
