@@ -1,19 +1,32 @@
 
 <ul id=<%= message.id %> >
   <% if message.body %>
-    <div class="col col-xs-11 col-sm-6 col-sm-offset-3">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
       <div class="espace-message">
         <div id=<%= message.id %> >
-          <div class="entete-message">
-            <div class="name-message">
-              <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
+          <% if message.user == current_user %>
+            <div class="entete-message" style="color: blue;">
+              <div class="name-message">
+                <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
+              </div>
+              <div class="time-message">
+                <%= message.message_time %>
+              </div>
             </div>
-            <div class="time-message">
-              <%= message.message_time %>
+          <% else %>
+            <div class="entete-message" style="color: red;">
+              <div class="name-message">
+                <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
+              </div>
+              <div class="time-message">
+                <%= message.message_time %>
+              </div>
             </div>
-          </div>
+          <% end %>
+
+          <% if message.user == current_user %>
           <div class="corps-message">
-            <div class="text-message">
+            <div class="text-message" style="background-color: blue;">
               <%= message.body %>
             </div>
             <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
@@ -21,6 +34,17 @@
               <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
             </div>
           </div>
+          <% else %>
+            <div class="corps-message">
+            <div class="text-message" style="background-color: red;">
+              <%= message.body %>
+            </div>
+            <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
+            <div class="notification-message">
+              <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
+            </div>
+          </div>
+          <% end %>
         </div>
       </div>
     </div>
