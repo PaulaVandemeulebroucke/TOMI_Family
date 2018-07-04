@@ -52,7 +52,7 @@
       <div class="espace-message" style="margin-left: -25px; margin-right: 25px;">
         <div id=<%= message.id %> >
           <% if message.user == current_user %>
-            <div class="entete-message" style="color: blue;">
+            <div class="entete-message" style="color: #2d85f7;">
               <div class="name-message">
                 <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
               </div>
@@ -61,7 +61,7 @@
               </div>
             </div>
           <% else %>
-            <div class="entete-message" style="color: red;">
+            <div class="entete-message">
               <div class="name-message">
                 <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
               </div>
@@ -73,7 +73,7 @@
 
           <% if message.user == current_user %>
           <div class="corps-message">
-            <div class="text-message" style="background-color: blue;">
+            <div class="text-message" style="background-color: #2d85f7; color: white;">
               <%= message.body %>
             </div>
             <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
@@ -83,7 +83,7 @@
           </div>
           <% else %>
             <div class="corps-message">
-            <div class="text-message" style="background-color: red;">
+            <div class="text-message">
               <%= message.body %>
             </div>
             <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
