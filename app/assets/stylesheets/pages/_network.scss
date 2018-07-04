@@ -74,11 +74,11 @@
 }
 .name-user2 {
   position: absolute;
-  top: 18px;
+  top: 13px;
   left: 98px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bolder;
-  color: $grey !important;
+  color: #333333 !important;
 }
 .desc-user {
   position: absolute;
@@ -146,21 +146,21 @@
 .envelope-message {
   position: relative;
   top: 5px;
-  left: -128px;
+  left: -95px;
   color: $red;
   font-size: 30px;
 }
 .supp-friends {
   position: relative;
   top: 5px;
-  left: -69px;
+  left: -50px;
   color: $grey;
   font-size: 30px;
 }
 .block-friends {
   position: relative;
   top: 4px;
-  left: -19px;
+  left: -4px;
   color: $grey;
   font-size: 27px;
 }
