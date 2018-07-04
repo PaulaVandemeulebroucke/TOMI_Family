@@ -141,10 +141,11 @@ SimpleForm.setup do |config|
   # config.custom_inputs_namespaces << "CustomInputs"
 
   # Default priority for time_zone inputs.
-  # config.time_zone_priority = nil
+  # config.time_zone_priority = "Europe/Paris"
+
 
   # Default priority for country inputs.
-  # config.country_priority = nil
+  # config.country_priority = "France"
 
   # When false, do not use translations for labels.
   # config.translate_labels = true
@@ -167,4 +168,5 @@ SimpleForm.setup do |config|
 
   # Defines which i18n scope will be used in Simple Form.
   # config.i18n_scope = 'simple_form'
+
 end
