@@ -2,7 +2,54 @@
 <ul id=<%= message.id %> >
   <% if message.body %>
     <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-      <div class="espace-message">
+      <% if message.user == current_user %>
+        <div class="espace-message" style="margin-left: 25px; margin-right: -25px;">
+          <div id=<%= message.id %> >
+            <% if message.user == current_user %>
+              <div class="entete-message" style="color: #2d85f7;">
+                <div class="name-message">
+                  <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
+                </div>
+                <div class="time-message">
+                  <%= message.message_time %>
+                </div>
+              </div>
+            <% else %>
+              <div class="entete-message">
+                <div class="name-message">
+                  <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
+                </div>
+                <div class="time-message">
+                  <%= message.message_time %>
+                </div>
+              </div>
+            <% end %>
+
+            <% if message.user == current_user %>
+            <div class="corps-message">
+              <div class="text-message" style="background-color: #2d85f7; color: white;">
+                <%= message.body %>
+              </div>
+              <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
+              <div class="notification-message">
+                <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
+              </div>
+            </div>
+            <% else %>
+              <div class="corps-message">
+              <div class="text-message">
+                <%= message.body %>
+              </div>
+              <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
+              <div class="notification-message">
+                <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
+              </div>
+            </div>
+            <% end %>
+          </div>
+        </div>
+      <% else %>
+      <div class="espace-message" style="margin-left: -25px; margin-right: 25px;">
         <div id=<%= message.id %> >
           <% if message.user == current_user %>
             <div class="entete-message" style="color: blue;">
@@ -47,6 +94,7 @@
           <% end %>
         </div>
       </div>
+    <% end %>
     </div>
   <% end %>
 </ul>
