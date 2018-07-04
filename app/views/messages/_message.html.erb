@@ -6,8 +6,8 @@
         <div class="espace-message" style="margin-left: 25px; margin-right: -25px;">
           <div id=<%= message.id %> >
             <% if message.user == current_user %>
-              <div class="entete-message" style="color: #2d85f7;">
-                <div class="name-message">
+              <div class="entete-message">
+                <div class="name-message" style="color: white;">
                   <strong><%= @blocked ? "Un utilisateur" : message.user.first_name %></strong>
                 </div>
                 <div class="time-message">
