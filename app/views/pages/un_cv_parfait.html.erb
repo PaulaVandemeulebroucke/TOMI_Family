@@ -1,5 +1,17 @@
-<%= render 'shared/navbar' %>
+<div class="container-extra">
+<div class="navbar-up">
+  <div class="navbar-up-item">
+    <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+    <a type="student-btn" href="/lettre_de_motivation_qui_cartonne" class="btn btn-primary next-step-btn-medium" style="width: 148px;">Lettre de Motiv' <i class="fas fa-arrow-right arrow-next-step"></i></a>
+  </div>
+</div>
+<div class="container" style="margin-bottom: 5px;">
+  <p style="margin-bottom: 28px; font-weight: lighter; font-size: 30px; margin-top: 20px; text-align: center;">LE CV</p>
+  <p class="title-infos-entretiens" style="margin-bottom: 28px; font-size: 11px;">Le CV est obligatoire, sinon votre candidature risque de ne pas être lue ou étudiée.</p>
+  <p class="desc-infos">Le CV doit être <strong>simple, concis et élégant.</strong> Vous vous démarquerez des autres grâce à un autre moyen, nous vous donnons tous les secrets au fil des étapes.</p>
+  <p class="desc-infos">Envoyez-nous un mail à <strong>paula@big-family.fr</strong> avec comme sujet <em>"File-moi le CV"</em>, et nous vous enverrons la version word de ce document. Ce sera plus facile pour vous pour remplir les champs.</p>
+</div>
   <div class="container-extra">
-    <p>test</p>
+    <div class="show_job_img"><%= cl_image_tag "http://res.cloudinary.com/dozkmkl7p/image/upload/v1530794790/CV_tuto_-_copie.jpg", :class => "image_grand" %></div>
   </div>
 <%= render '/shared/navigationbar' %>

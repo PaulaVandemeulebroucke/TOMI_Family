@@ -1,5 +1,19 @@
-<%= render 'shared/navbar' %>
+<div class="container-extra">
+<div class="navbar-up">
+  <div class="navbar-up-item">
+    <i class=" back fas fa-chevron-left" onclick="history.back(-1)"></i>
+    <a type="student-btn" href="/je_vais_tout_dechirer" class="btn btn-primary next-step-btn-medium" style="width: 127px;">L'entretien <i class="fas fa-arrow-right arrow-next-step"></i></a>
+  </div>
+</div>
+<div class="container" style="margin-bottom: 5px;">
+  <p style="margin-bottom: 28px; font-weight: lighter; font-size: 30px; margin-top: 20px; text-align: center;">LA LETTRE DE MOTIVATION</p>
+  <p class="title-infos-entretiens" style="margin-bottom: 28px; font-size: 11px;"><em>La lettre de motivation, même si c'est un peu vieille école, est quand même obligatoire. Elle montre que vous êtes motivés, que vous vous êtes appliqués et vous mettez toutes les chances de votre côté.</em></p>
+  <p class="desc-infos">Traditionnellement la lettre de motivation doit être écrite en 3 paragraphes (VOUS, MOI, NOUS). C'est-à-dire: "VOUS" l'entreprise, ce que vous faites; "MOI" le candidat, mon parcours; et "NOUS" notre collaboration, ce que je peux vous apporter.</p>
+  <p class="desc-infos"><strong>Je vous propose un tout nouveau modèle pour vous démarquez des autres, sortir des lettres un peu planplan et envoyer une lettre de motivation qui cartonne. La seule règle: faites des phrases courtes et la lettre ne doit pas être trop longue, sinon vous ne serez pas lu.</strong></p>
+  <p class="desc-infos">Envoyez-nous un mail à <strong>paula@big-family.fr</strong> avec comme sujet <em>"File-moi une lettre de motiv"</em>, et nous vous enverrons la version word de ce document. Ce sera plus facile pour vous pour remplir les champs.</p>
+</div>
   <div class="container-extra">
-    <p>test</p>
+    <div class="show_job_img"><%= cl_image_tag "http://res.cloudinary.com/dozkmkl7p/image/upload/v1530854141/Lettre_de_motivation_tuto.jpg", :class => "image_grand" %></div>
   </div>
 <%= render '/shared/navigationbar' %>
+
