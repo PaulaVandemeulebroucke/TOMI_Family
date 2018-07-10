@@ -52,7 +52,7 @@ class UsersController < ApplicationController
     params.require(:user).permit(
       :first_name,
       :last_name,
-      :age,
+      :ageasdate,
       :city,
       :avatar
     )
