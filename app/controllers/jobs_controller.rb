@@ -3,13 +3,14 @@ class JobsController < ApplicationController
 
   def index
     @interests = Interest.all
-    if params[:query].present?
-      @jobs = Job.where("name ILIKE ?", "%#{params[:query]}%")
+    if params[:query]
+      @jobs = Job.search_by_full_name(params[:query]).with_pg_search_highlight
     else
       @jobs = Job.all
       @interests = Interest.all
     end
   end
+
 
   def show
     @jobb = Job.find(params[:id])
@@ -58,5 +59,7 @@ class JobsController < ApplicationController
   def job_params
     params.require(:job).permit(:name)
   end
+
+
 end
 

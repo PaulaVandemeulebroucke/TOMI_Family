@@ -1,16 +1,8 @@
-<div class="search-block">
-  <div class="search-title-text">
-    <p>Trouve un métier ici...</p>
-  </div>
-  <div class="search-div">
-    <%= form_tag jobs_path, method: :get, id: "search-jobs" do %>
-      <%= select_tag :query,
-        options_for_select(Job.pluck(:name), params[:query]),
-        {
-          class: "form-control chosen-select",
-          placeholder: "Trouve un métier ici...",
-        }
-      %>
-    <% end %>
-  </div>
-</div>
+
+
+<%= form_tag jobs_path, method: :get do %>
+  <%= text_field_tag :query, params[:query], class: "form-control search", placeholder: "Trouve un métier ici..." %>
+<% end %>
+
+
+

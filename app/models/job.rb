@@ -8,10 +8,15 @@ class Job < ApplicationRecord
 
     include PgSearch
 
-  pg_search_scope :global_search, {
-    against: [ :name ],
-    associated_against: {
-      jobs: [ :name ]
-    }
-  }
+  pg_search_scope :search_by_full_name, against: [:name],
+    using: {
+      tsearch: {
+            prefix: true,
+            negation: true,
+            highlight: {
+              start_sel: '<b>',
+              stop_sel: '</b>',
+            }
+          }
+        }
 end

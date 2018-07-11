@@ -21,3 +21,5 @@ myFunction();
 import { filterFunction } from '../packs/components/filter';
 filterFunction();
 
+//= require underscore
+//= require select2
