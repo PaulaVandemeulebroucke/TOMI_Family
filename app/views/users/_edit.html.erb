@@ -27,7 +27,7 @@
           <%= f.input :first_name, label: 'Prénom:', required: true %>
           <%= f.input :last_name, label: 'Nom:', required: true %>
           <div class="format">
-            <%= f.input :ageasdate, :as => :date, :start_year => Date.today.year - 80, :end_year => Date.today.year - 10, selected: Date.today.year - 17, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
+            <%= f.input :ageasdate, start_year: Date.today.year - 80, end_year: Date.today.year, :order => [:day, :month, :year], input_html: { class: 'dob' }, label: 'Date de naissance:', required: true %>
           </div>
           <%= f.input :city, label: 'Code Postal:', required: true, autocomplete: "on" %>
           <%= f.input :avatar, label: 'Photo de profil:', input_html: { class: 'btn-simple'} %>
