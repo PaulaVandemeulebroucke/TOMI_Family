@@ -70,16 +70,13 @@
               </div>
             </div>
           <% end %>
-
           <% if message.user == current_user %>
           <div class="corps-message">
             <div class="text-message" style="background-color: #2d85f7; color: white;">
               <%= message.body %>
             </div>
             <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
-            <div class="notification-message">
-              <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
-            </div>
+
           </div>
           <% else %>
             <div class="corps-message">
@@ -87,9 +84,6 @@
               <%= message.body %>
             </div>
             <% message.update(read: true) if !message.read && message.user_id != current_user.id %>
-            <div class="notification-message">
-              <i class="fas fa-check" color=<%= message.read ? "green" : "transparent" %>></i>
-            </div>
           </div>
           <% end %>
         </div>

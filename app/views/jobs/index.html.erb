@@ -17,7 +17,7 @@
 
 <!-- the list of movies -->
 
-<%= render '/jobs/filter' %>
+<%#= render '/jobs/filter' %>
 
   <div class="cards">
     <div class="row">
@@ -56,6 +56,14 @@
       <% end %>
     </div>
   </div>
+  <div class="pagination" style="font-size: 20px;">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1">
+        <%= will_paginate @posts %>
+      </div>
+    </div>
+  </div>
 </div>
+
 
 <%= render '/shared/navigationbar' %>

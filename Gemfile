@@ -11,6 +11,9 @@ gem 'redis'
 gem 'carrierwave', '~> 1.2'
 gem 'cloudinary'
 gem "simple_calendar", "~> 2.0"
+gem 'searchkick', '~> 3.0'
+gem "algoliasearch-rails"
+gem 'will_paginate', '~> 3.1.0'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
