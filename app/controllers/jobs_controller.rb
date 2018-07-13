@@ -4,7 +4,7 @@ class JobsController < ApplicationController
   def index
     @interests = Interest.all
     if params[:query]
-      @jobs = Job.search_by_full_name(params[:query]).with_pg_search_highlight.paginate(:page => params[:page], :per_page => 50)
+      @jobs = Job.search_by_full_name(params[:query]).with_pg_search_highlight.paginate(:page => params[:page], :per_page => 100)
     else
       @jobs = Job.all.paginate(:page => params[:page], :per_page => 100)
       @interests = Interest.all

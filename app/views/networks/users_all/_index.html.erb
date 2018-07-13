@@ -27,7 +27,7 @@
               <% @requested_friends.each do |requested| %>
                 <div class="col-xs-12">
                   <div class="card-network">
-                    <img src=<%= requested.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : requested.avatar_url %>  alt="profile" class="profile img-network">
+                    <img src=<%= requested.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : requested.avatar_url %>  alt="profile" class="profile img-network">
                     <p class="name-user2">
                       <%= "#{requested.first_name} #{requested.last_name}" %>
                       <span><%= "(#{requested.city})" if requested.city %></span>
@@ -56,7 +56,7 @@
             <% @friends.each do |friend| %>
               <div class="col-xs-12">
                 <div class="card-network">
-                  <img src=<%= friend.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : friend.avatar_url %>  alt="profile" class="profile img-network">
+                  <img src=<%= friend.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : friend.avatar_url %>  alt="profile" class="profile img-network">
                   <p class="name-user2">
                     <%= "#{friend.first_name} #{friend.last_name}" %>
                     <span><%= "(#{friend.city})" unless !friend.city %></span>
@@ -88,7 +88,7 @@
               <% @blocked_friends.each do |blocked| %>
                 <div class="col-xs-12">
                   <div class="card-network">
-                    <img src=<%= blocked.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : blocked.avatar_url %>  alt="profile" class="profile img-network">
+                    <img src=<%= blocked.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : blocked.avatar_url %>  alt="profile" class="profile img-network">
                     <p class="name-user"><%= blocked.first_name %></p>
                     <%= link_to unblock_friend_path(friendable: blocked.id), method: :post, remote: true do %>
                       <p>Débloquer</p>
@@ -115,7 +115,7 @@
           <% @pending_friends.each do |pending| %>
             <div class="col-xs-12">
               <div class="card-network">
-                <img src=<%= pending.avatar_url.nil? ? "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=214b5beac96f7d680a19b3836b28ccc3&auto=format&fit=crop&w=668&q=80" : pending.avatar_url %>  alt="profile" class="profile img-network">
+                <img src=<%= pending.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : pending.avatar_url %>  alt="profile" class="profile img-network">
                 <p class="name-user"><%= pending.first_name %></p>
               </div>
             </div>
