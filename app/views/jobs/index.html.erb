@@ -28,13 +28,7 @@
             <div class="card__content">
               <div class="card__title">
                 <li>
-                  <h2>
-                    <% if job.respond_to?(:pg_search_highlight) %>
-                      <%= job.pg_search_highlight.html_safe %>
-                    <% else %>
-                      <%= job.name %>
-                    <% end %>
-                  </h2>
+                  <h2><%= link_to job.name, job_path(job) %></h2>
                 </li>
                 <%= link_to "", job_path(job), class: "card-link"%>
                 <% if job.get_likes.where(voter_id: current_user).count == 0 %>
