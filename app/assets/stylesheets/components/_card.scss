@@ -41,7 +41,40 @@
     font-size: 38px;
   }
 }
-.card:hover {
+
+.card2 {
+  box-shadow: 1px 1px 1px 1px rgba(170, 170, 170,0.2),1px 1px 1px 1px rgba(170, 170, 170,0.2);
+  padding: 0;
+  position: relative;
+  .card__image {
+    width: 100%;
+    height: 138px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+  }
+  .card-like-link {
+    z-index: 3;
+    position: absolute;
+    bottom: 17px;
+    right: 6px;
+    color: #d53533;
+    font-size: 26px;
+    &:hover {
+      color: $red;
+    }
+  }
+  .card-like-link2 {
+    z-index: 3;
+    position: absolute;
+    bottom: -17%;
+    right: 35%;
+    color: #d53533;
+    font-size: 38px;
+  }
+}
+.card2:hover {
   box-shadow: 1px 1px 1px 1px rgba(130, 130, 130,0.8),1px 1px 1px 1px rgba(130, 130, 130,0.8);
 }
 
