@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     if @results
       @results = @results - Array(current_user) - current_user.blocked_friends - current_user.friends
     else
-      @results = User.where(user_category: "student") - Array(current_user.blocked_friends) - Array(current_user) - current_user.friends
+      @results = User.where(user_category: "student") - User.where(first_name: nil) - Array(current_user.blocked_friends) - Array(current_user) - current_user.friends.paginate(:page => params[:page], :per_page => 100)
     end
     job_likes_ids = current_user.job_likes.pluck(:votable_id)
     @commun_jobs_results = []
