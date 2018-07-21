@@ -15,7 +15,7 @@
           <%= render "networks/searchable_users/user_card", user: user[0], work: user[1], number: user[2] %>
 
         <% end %>
-        <div class="center">
+        <div class="center" style="margin-bottom: 100px;">
           <%= link_to search_path(query: params[:query], remote: true, more: true), class: "btn-plus"  do %>
             <%= "Voir plus" %>
           <% end unless params[:more] %>
