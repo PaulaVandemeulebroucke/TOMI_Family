@@ -10,32 +10,21 @@
   </div>
    <div class="col-xs-2 icon">
     <p style='font-size: 10px; margin-left: -45px; margin-right: -37px; font-style: italic; text-align: center; margin-top: 15px;'>Clique sur les icônes <span style="font-size: 20px; font-style: normal; margin-left: 1px;">😎</span></p>
-    <a href="#" id='my_popover' data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
     left: 18px;" data-content="<h6><strong>Salaire:</strong></h6><%= @jobb.salary %>">💶</a>
-    <a href="#" id='my_popover' data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
     left: 18px;" data-content="<h6><strong>Perspectives d'évolution:</strong></h6><%= @jobb.career %>">💼</a>
-      <a href="#" id='my_popover' data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
+      <a href="#" data-container="body" data-toggle="popover" data-placement="left" style="top: 354px;
     left: 18px;" data-content="<h6><strong>Etudes:</strong></h6><%= @jobb.study %>">🎓</i></a>
   </div>
 </div>
 
-<script>
-$('my_popover').popover({
-    "html": true,
-    "content": function(){
-        var div_id =  "tmp-id-" + $.now();
-        return details_in_popup($(this).attr('href'), div_id);
-    }
-});
 
-function details_in_popup(link, div_id){
-    $.ajax({
-        url: link,
-        success: function(response){
-            $('#'+div_id).html(response);
-        }
-    });
-    return '<div id="'+ div_id +'">Loading...</div>';
-}
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
 </script>
+
+
 <%= render '/shared/navigationbar' %>
