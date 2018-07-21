@@ -13,7 +13,8 @@
 <div id="messages">
   <div class="row" >
     <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-
+      <img src=<%= (@friend.avatar_url.nil? ? 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80' : user.avatar_url)%> alt="profile" class="profile img-network" style="width: 37px; border-radius: 50%; height: 37px; object-fit: cover; background-repeat: no-repeat; background-position: 50% 50%; cursor: pointer; margin-bottom: 10px; position: relative; top: 7px; left: 30%;">
+      <p style="text-align: center; margin-left: 51px; position: relative; top: -35px; margin-bottom: -12px;"><%= @friend.first_name %></p>
       <% @messages.each do |message| %>
         <%= render "message", message: message %>
       <% end %>
