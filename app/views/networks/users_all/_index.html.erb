@@ -30,7 +30,7 @@
                     <img src=<%= requested.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : requested.avatar_url %>  alt="profile" class="profile img-network">
                     <p class="name-user2">
                       <%= "#{requested.first_name} #{requested.last_name}" %>
-                      <span style="font-size: 10px;"><%= "(#{requested.city})" if requested.city %></span>
+                      <span style="font-size: 9px; font-style: italic;"><%= "(#{requested.city})" if requested.city %></span>
                     </p>
 
                     <%= link_to accept_friend_path(friendable: requested.id), method: :post, remote: true do %>
@@ -59,7 +59,7 @@
                   <img src=<%= friend.avatar_url.nil? ? "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0ff296c4f785350505c2b5545ae7393&auto=format&fit=crop&w=1650&q=80" : friend.avatar_url %>  alt="profile" class="profile img-network">
                   <p class="name-user2">
                     <%= "#{friend.first_name} #{friend.last_name}" %>
-                    <span><%= "(#{friend.city})" unless !friend.city %></span>
+                    <span style="font-size: 9px; font-style: italic;"><%= "(#{friend.city})" unless !friend.city %></span>
                   </p>
                   <div class="plus-regular">
                     <%= link_to conversations_path(friendable: friend.id), method: :post do %>
