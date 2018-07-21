@@ -9,9 +9,10 @@
     </div>
   </div>
    <div class="col-xs-2 icon">
-    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Salaire:</strong></h6><%= @jobb.salary %>"><i class="fas fa-euro-sign"></i></a>
-    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Perspectives d'évolution:</strong></h6><%= @jobb.career %>"><i class="fas fa-suitcase"></i></a>
-      <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Etudes:</strong></h6><%= @jobb.study %>"><i class="fas fa-graduation-cap"></i></a>
+    <p style='font-size: 10px; margin-left: -45px; margin-right: -37px; font-style: italic; text-align: center; margin-top: 15px;'>Clique sur les icônes <span style="font-size: 20px; font-style: normal;">😎</span></p>
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Salaire:</strong></h6><%= @jobb.salary %>">💶</a>
+    <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Perspectives d'évolution:</strong></h6><%= @jobb.career %>">💼</a>
+      <a href="#" data-container="body" data-toggle="popover" data-placement="left" data-content="<h6><strong>Etudes:</strong></h6><%= @jobb.study %>">🎓</i></a>
   </div>
 </div>
 <%= render '/shared/navigationbar' %>
