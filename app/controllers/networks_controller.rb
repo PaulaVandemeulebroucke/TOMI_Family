@@ -9,7 +9,7 @@ class NetworksController < ApplicationController
     @commun_jobs_results = []
     @results.each_with_index do |result, index|
       array = result.job_likes.pluck(:votable_id)
-      @commun_jobs_results << [result, (job_likes_ids & array).empty? ? nil : Job.find(array[0]).name ,(job_likes_ids & array).size - 1]
+      @commun_jobs_results << [result, (job_likes_ids & array).empty? ? nil : Job.find( (job_likes_ids & array)[0]).name ,(job_likes_ids & array).size - 1]
       break if @commun_jobs_results.size == 10 && !params[:more]
     end
     @results = @commun_jobs_results
