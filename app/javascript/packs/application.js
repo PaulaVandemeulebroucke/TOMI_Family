@@ -23,3 +23,5 @@ filterFunction();
 
 //= require underscore
 //= require select2
+//= require jquery3
+//= require bootstrap

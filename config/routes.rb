@@ -25,6 +25,7 @@ Rails.application.routes.draw do
   patch "jobs/:id/dislike", to: "jobs#dislike", as: :dislike
   get 'favorites', to: 'pages#favorites'
   get 'signupstudents', to: 'pages#signupstudents'
+  get 'test', to: 'pages#test'
   get 'signupparents', to: 'pages#signupparents'
   get 'homepage', to: 'pages#homepage'
   get 'homepage_parents', to: 'pages#homepage_parents'
