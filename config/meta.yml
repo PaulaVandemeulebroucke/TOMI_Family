@@ -1,0 +1,5 @@
+meta_product_name: "Big-Family"
+meta_title: "Big-Family: Découvre un avenir qui t'appartient."
+meta_description: " On te donne tous les secrets de l’orientation et tu pourras te créer ton premier réseau. Rejoins la Big-Family et trouve des études, un métier et des potes. 💪"
+meta_image: "og.png"                       # should exist in `app/assets/images/`
+  # required for Twitter Cards
