@@ -1,4 +1,4 @@
-import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap.bundle';
 import "jquery";
 
 import { loadDynamicBannerText } from '../packs/components/banner';
