@@ -44,7 +44,8 @@
         <%= f.input :password_confirmation, required: true %>
         <%= f.hidden_field :user_category, value: "#{params[:type]}" %>
         <%= simple_fields_for :other do |o| %>
-          <%= o.autocomplete_field :user_first_names, autocomplete_user_name_users_path, :update_elements => {:id => '#id_element', :user_id => '#some_other_element'} %>
+          <%= o.hidden_field :sponsor_id, id: 'sponsor_id' %>
+          <%= o.input :sponsor, url: autocomplete_user_name_users_path, as: :autocomplete, :id_element => '#sponsor_id', required: false %>
         <% end %>
 
         <html>

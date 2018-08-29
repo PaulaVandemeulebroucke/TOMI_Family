@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def autocomplete_user_name
     term = params[:term]
     users = User.search_by_full_name(params[:term])
-    render :json => users.map { |user| {:id => user.id, :label => user.full_name, user_id: user.id, :value => user.full_name } }
+    render :json => users.map { |user| {:id => user.id, :label => user.full_name, sponsor_id: user.id, :value => user.full_name } }
   end
 
   def edit
