@@ -43,6 +43,9 @@
         <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
         <%= f.input :password_confirmation, required: true %>
         <%= f.hidden_field :user_category, value: "#{params[:type]}" %>
+        <%= simple_fields_for :other do |o| %>
+          <%= o.autocomplete_field :user_first_names, autocomplete_user_name_users_path %>
+        <% end %>
 
         <html>
         <head>

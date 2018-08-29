@@ -103,6 +103,10 @@ Rails.application.routes.draw do
   post 'remove_friend', to: 'networks#remove_friend'
   get 'search_friends', to: 'users#search_friends'
 
+  resources :users do
+    get :autocomplete_user_name, :on => :collection
+  end
+
   resources :conversations do
     resources :messages
   end
