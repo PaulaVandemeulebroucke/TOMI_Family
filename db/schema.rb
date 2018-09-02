@@ -74,8 +74,8 @@ ActiveRecord::Schema.define(version: 20180829210456) do
     t.text "study"
     t.string "salary"
     t.text "career"
-    t.text "similar_job", default: [], array: true
-    t.text "interest", default: [], array: true
+    t.text "similar_job"
+    t.text "interest"
     t.string "statut"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
