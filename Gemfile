@@ -33,6 +33,9 @@ gem 'stripe'
 gem 'has_friendship'
 gem 'turbolinks'
 gem 'pundit'
+gem 'jquery-ui-rails'
+gem 'rails-autocomplete'
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'

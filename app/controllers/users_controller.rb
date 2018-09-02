@@ -1,6 +1,14 @@
 class UsersController < ApplicationController
   before_action :set_friends_clusters, only: [:search_friends]
 
+  autocomplete :user, :first_name
+
+  def autocomplete_user_name
+    term = params[:term]
+    users = User.search_by_full_name(params[:term])
+    render :json => users.map { |user| {:id => user.id, :label => user.full_name, sponsor_id: user.id, :value => user.full_name } }
+  end
+
   def edit
     #@user = User.find(current_user.id)
   end

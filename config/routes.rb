@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   mount ForestLiana::Engine => '/forest'
-  devise_for :users
+  devise_for :users, :controllers => {:registrations => "registrations"}
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :jobs, only: [ :index, :show ]
@@ -102,6 +102,10 @@ Rails.application.routes.draw do
   post 'block_friend', to: 'networks#block_friend'
   post 'remove_friend', to: 'networks#remove_friend'
   get 'search_friends', to: 'users#search_friends'
+
+  resources :users do
+    get :autocomplete_user_name, :on => :collection
+  end
 
   resources :conversations do
     resources :messages
