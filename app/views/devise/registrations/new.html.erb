@@ -45,7 +45,7 @@
         <%= f.hidden_field :user_category, value: "#{params[:type]}" %>
         <%= simple_fields_for :other do |o| %>
           <%= o.hidden_field :sponsor_id, id: 'sponsor_id' %>
-          <%= o.input :sponsor, url: autocomplete_user_name_users_path, as: :autocomplete, :id_element => '#sponsor_id', required: false, label: "Sponsor name" %>
+          <%= o.input :sponsor, url: autocomplete_user_name_users_path, as: :autocomplete, :id_element => '#sponsor_id', required: false, label: "Nom de ton ambassadeur/ambassadrice:" %>
         <% end %>
 
         <html>
