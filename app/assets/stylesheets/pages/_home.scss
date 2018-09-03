@@ -175,6 +175,12 @@ video {
   color: #79d4c0;
 }
 
-.ui-autocomplete-input {
+.ui-helper-hidden-accessible {
+  display: none;
+}
 
+.ui-widget {
+  background-color: white;
+  list-style-type: none;
+  padding: 10px;
 }
